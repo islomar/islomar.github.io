@@ -26,6 +26,13 @@ It is configured with hot reload.
 ## Other configuration
 * I'm using Cloudflare to serve SSL and other features.
 * favicon generated with https://realfavicongenerator.net/
+* https://mmistakes.github.io/minimal-mistakes/markup/markup-html-tags-and-formatting/
+
+
+## Icons and demo images
+* [The Noun Project](https://thenounproject.com/)
+* [Font Awesome](https://fontawesome.com/)
+* [Unsplash](https://unsplash.com/)
 
 
 ## TO DO
@@ -34,3 +41,8 @@ It is configured with hot reload.
 * Read about "Incremental build"
 * Add comments provider (e.g. Disqus): https://mmistakes.github.io/minimal-mistakes/docs/configuration/#disqus
 * Include list with talks, workshops, etc.
+* To explore:  
+    * excerpt
+    * Posts with a header video
+    * [Posts with an image header](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#headers)
+    * Enable breadcrumbs
