@@ -16,6 +16,7 @@
 title: Blogueando, que es gerundio
 subtitle: Aventuras y desventuras de un mindundi
 email: islomar@gmail.com
+url: https://islomar.es
 description: >- # this means to ignore newlines until "baseurl:"
   Blog personal donde escribo sobre desarrollo de producto, psicología, antropología, Lean, eXtreme Programming (XP), DevOps, Kanban o lo que me apetezca :-)
 twitter_username: islomar
@@ -60,6 +61,7 @@ plugins:
 author:
   name   : "Isidro López"
   avatar : "/assets/images/bio-photo.jpg"
+  location: "Alicante"
   bio    : "Pastafari. Intento entender por qué hacemos lo que hacemos. <br> Escribo sobre desarrollo de producto, psicología, antropología, Lean, eXtreme Programming, DevOps, Kanban o lo que me apetezca :-)"
   links:
     - label: "LinkedIn"
@@ -109,6 +111,11 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "islomar"
 
 category_archive:
   type: liquid
