@@ -38,7 +38,6 @@ It is configured with hot reload.
 
 
 ## TO DO
-* Donate to Minimal Mistakes
 * https://mmistakes.github.io/minimal-mistakes/docs/layouts/#social-sharing-links
 * Read about "Incremental build"
 * Add comments provider (e.g. Disqus): https://mmistakes.github.io/minimal-mistakes/docs/configuration/#disqus
