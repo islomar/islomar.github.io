@@ -117,6 +117,12 @@ comments:
   disqus:
     shortname: "islomar"
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-171012598-1"
+    anonymize_ip: true # default
+
 category_archive:
   type: liquid
   path: /categories/
