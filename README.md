@@ -26,6 +26,8 @@ It is configured with hot reload.
 ## Other configuration
 * I'm using Cloudflare to serve SSL and other features.
 * favicon generated with https://realfavicongenerator.net/
+* Google Analytics
+* Google Search Console
 * https://mmistakes.github.io/minimal-mistakes/markup/markup-html-tags-and-formatting/
 
 
@@ -49,6 +51,15 @@ It is configured with hot reload.
 * Change the home page to a "splash" layout.
     * Create home.md under _pages
     * https://github.com/mmistakes/minimal-mistakes/blob/776ab26ce11e786bbce5c632e53036e9e670344c/docs/_pages/home.md
+* Link to interesting people
+* Differentiate tags and categories:
+    * https://www.bloggingbasics101.com/what-is-the-difference-between-blog-categories-and-blog-tags/
+    * https://www.elegantthemes.com/blog/tips-tricks/best-practices-for-using-categories-and-tags-in-wordpress
+    * Categories: "Product and software development", "Personal reflections", "Social sciences", etc.
+    * tags: sofware-development, testing, tdd, meditation, english...
+* Google Optimize:
+    * https://www.cross-validated.com/How-to-install-Google-Optimize/
+* SEO
 * To explore:  
     * excerpt
     * Posts with a header video
