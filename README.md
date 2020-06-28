@@ -5,6 +5,8 @@
     * https://islomar.github.io (it should be redirected to https://islomar.es)
     * http://islomar.github.io (it should be redirected to https://islomar.es)
 * Theme: minimal-mistakes.
+    * https://mmistakes.github.io/minimal-mistakes/
+    * https://github.com/mmistakes/minimal-mistakes
 
 
 ## How to run the blog locally
@@ -18,7 +20,7 @@ It is configured with hot reload.
     * You need to have installed the dependencies in your machine, run `make deps`.
 * Then, to start the Jekyll server locally:
     1. `make up`
-    2. http://127.0.0.1:4000/
+    2. [Open in a browser](http://127.0.0.1:4000/)
 
 
 ## Other configuration
@@ -26,4 +28,7 @@ It is configured with hot reload.
 
 
 ## TO DO
-* Donate to Minimal Mistakes.
+* Donate to Minimal Mistakes
+* https://mmistakes.github.io/minimal-mistakes/docs/layouts/#social-sharing-links
+* Read about "Incremental build"
+* Include list with talks, workshops, etc.
