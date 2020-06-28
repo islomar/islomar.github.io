@@ -25,10 +25,12 @@ It is configured with hot reload.
 
 ## Other configuration
 * I'm using Cloudflare to serve SSL and other features.
+* favicon generated with https://realfavicongenerator.net/
 
 
 ## TO DO
 * Donate to Minimal Mistakes
 * https://mmistakes.github.io/minimal-mistakes/docs/layouts/#social-sharing-links
 * Read about "Incremental build"
+* Add comments provider (e.g. Disqus): https://mmistakes.github.io/minimal-mistakes/docs/configuration/#disqus
 * Include list with talks, workshops, etc.
