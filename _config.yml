@@ -61,7 +61,6 @@ plugins:
 author:
   name   : "Isidro López"
   avatar : "/assets/images/bio-photo.jpg"
-  location: "Alicante"
   bio    : "Pastafari. Intento entender por qué hacemos lo que hacemos. <br> Escribo sobre desarrollo de producto, psicología, antropología, Lean, eXtreme Programming, DevOps, Kanban o lo que me apetezca :-)"
   links:
     - label: "LinkedIn"
