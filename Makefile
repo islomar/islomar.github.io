@@ -1,4 +1,4 @@
-.PHONY: deps up
+.PHONY: deps up time
 
 deps:
 	bundle install
@@ -8,3 +8,7 @@ up:
 
 docker-up:
 	docker-compose up
+
+# Get the timestamp to be added to each post header
+time:
+	date --iso-8601=seconds
