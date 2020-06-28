@@ -58,7 +58,8 @@ It is configured with hot reload.
     * tags: sofware-development, testing, tdd, meditation, english...
 * Google Optimize:
     * https://www.cross-validated.com/How-to-install-Google-Optimize/
-* SEO
+* SEO: https://github.com/jekyll/jekyll-seo-tag/
+* "Some rights reserved"?
 * To explore:  
     * excerpt
     * Posts with a header video
