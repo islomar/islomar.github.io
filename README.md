@@ -41,6 +41,11 @@ It is configured with hot reload.
 * Read about "Incremental build"
 * Add comments provider (e.g. Disqus): https://mmistakes.github.io/minimal-mistakes/docs/configuration/#disqus
 * Include list with talks, workshops, etc.
+    * Comunidad CODE
+    * CAS Vitoria
+    * Las de Alicante
+    * Las de Coruña
+    * Speakerdeck y Slideshare
 * Change the home page to a "splash" layout.
     * Create home.md under _pages
     * https://github.com/mmistakes/minimal-mistakes/blob/776ab26ce11e786bbce5c632e53036e9e670344c/docs/_pages/home.md
