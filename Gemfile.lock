@@ -268,8 +268,8 @@ DEPENDENCIES
   jekyll-include-cache
   jekyll-paginate
   jekyll-sitemap
-  jemoji
+  jemoji (>= 0.11.1)
   tzinfo-data
 
 BUNDLED WITH
-   2.1.4
+   1.17.3
