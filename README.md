@@ -40,6 +40,7 @@ It is configured with hot reload.
 ## TO DO
 * https://mmistakes.github.io/minimal-mistakes/docs/layouts/#social-sharing-links
 * Read about "Incremental build"
+* `Error loading credentials from netrc file for https://api.github.com/`
 * Add comments provider (e.g. Disqus): https://mmistakes.github.io/minimal-mistakes/docs/configuration/#disqus
 * Include list with talks, workshops, etc.
     * Comunidad CODE
