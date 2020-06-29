@@ -114,7 +114,7 @@ defaults:
 comments:
   provider: "disqus"
   disqus:
-    shortname: "islomar"
+    shortname: "https-islomar-es"
 
 analytics:
   provider: "google-gtag"
