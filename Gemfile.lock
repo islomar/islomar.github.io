@@ -207,7 +207,7 @@ GEM
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
-    json (2.3.0)
+    json (2.3.1)
     kramdown (1.17.0)
     liquid (4.0.3)
     listen (3.2.1)
@@ -219,9 +219,9 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    multi_json (1.14.1)
+    multi_json (1.15.0)
     multipart-post (2.1.1)
-    nokogiri (1.10.9)
+    nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     octokit (4.18.0)
       faraday (>= 0.9)
@@ -261,15 +261,15 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages
-  jekyll-algolia
-  jekyll-feed
+  github-pages (>= 206)
+  jekyll-algolia (>= 1.6.0)
+  jekyll-feed (>= 0.13.0)
   jekyll-gist
-  jekyll-include-cache
+  jekyll-include-cache (>= 0.2.0)
   jekyll-paginate
-  jekyll-sitemap
-  jemoji
+  jekyll-sitemap (>= 1.4.0)
+  jemoji (>= 0.11.1)
   tzinfo-data
 
 BUNDLED WITH
-   2.1.4
+   1.17.3
