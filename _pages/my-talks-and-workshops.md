@@ -1,6 +1,7 @@
 ---
 permalink: /my-talks-and-workshops/
 title: "My talks and workshops"
+classes: wide
 categories:
   - talks
 ---
