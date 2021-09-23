@@ -80,7 +80,7 @@ footer:
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
-      url: "https://www.linkedin.com/in/islomar/"  
+      url: "https://www.linkedin.com/in/islomar/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/islomar"
@@ -103,6 +103,7 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
