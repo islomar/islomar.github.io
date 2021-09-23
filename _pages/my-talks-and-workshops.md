@@ -36,6 +36,12 @@ Here I gather some of the talks and workshops that I have been facilitating duri
 - [Slides](https://bit.ly/38GJj5H)
 - _Topics_: continuous-delivery, continuous-deployment, trunk-based-development, XP, flow, high-efficient teams, engineering-culture
 
+### **Mutation testing 101** (2019 and 2017)
+
+- _Where_: [Form3](https://www.form3.tech/) and [Alea Soluciones](https://www.alea-soluciones.com/)
+- [Slides](https://speakerdeck.com/islomar/mutation-testing-101)
+- _Topics_: testing, mutation-testing, live-coding
+
 ### **Agile beyond Scrum** (2019)
 
 - _Where_: [Meetup Agile Alicante](https://www.meetup.com/es-ES/AgileAlicante/events/260459256/)
@@ -59,12 +65,6 @@ Here I gather some of the talks and workshops that I have been facilitating duri
 - _Where_: [Adalab](https://adalab.es/)
 - [Slides](https://speakerdeck.com/islomar/introduccion-al-testing-y-tdd)
 - _Topics_: testing, TDD, best-practices
-
-### **Mutation testing 101** (2019 and 2017)
-
-- _Where_: [Form3](https://www.form3.tech/) and [Alea Soluciones](https://www.alea-soluciones.com/)
-- [Slides](https://speakerdeck.com/islomar/mutation-testing-101)
-- _Topics_: testing, mutation-testing, live-coding
 
 ### **Aligning values with technical practices** (2016 and 2017)
 
