@@ -18,6 +18,7 @@ Here I gather some of the talks and workshops that I have been facilitating duri
   - [Introduction to testing and TDD (2018)](#introduction-to-testing-and-tdd-2018)
   - [Property-based testing 101 (2017)](#property-based-testing-101-2017)
   - [Aligning values with technical practices (2016 and 2017)](#aligning-values-with-technical-practices-2016-and-2017)
+  - [Connascence 101](#connascence-101-2016)
 
 - [**Workshops**](#workshops)
   - [Refactoring legacy code using approval testing (2020)](#refactoring-legacy-code-using-approval-testing-2020)
@@ -36,18 +37,19 @@ Here I gather some of the talks and workshops that I have been facilitating duri
 - _Where_: [Meetup Valencia DevOps](https://www.meetup.com/es-ES/Valencia-DevOps/events/276168962/)
 - _Video_ (in Spanish): <https://youtu.be/MXDJba472jE?t=1546>
 - _Slides_: <https://bit.ly/3nYm5BK>
-- _Topics_: continuous delivery, continuous deployment, trunk-based development, XP, flow, high-efficient teams, engineering culture.
+- _Topics_: continuous-delivery, continuous-deployment, trunk-based-development, XP, flow, high-efficient-teams, engineering-culture
 
 ### **Pushing to master like there is no tomorrow** (2020)
 
 - _Where_: [CsTechHub Meetup](https://www.meetup.com/es-ES/CSTechHub/)
 - _Video_ (in Spanish): <https://www.youtube.com/watch?v=UvtaujgCNsI>
 - _Slides_: <https://bit.ly/38GJj5H>
-- _Topics_: continuous delivery, continuous deployment, trunk-based development, XP, flow, high-efficient teams, engineering culture.
+- _Topics_: continuous-delivery, continuous-deployment, trunk-based-development, XP, flow, high-efficient teams, engineering-culture
 
 ### **Hexagonal architecture and DDD 101** (2021)
 
 - _Where_: [Habitissimo](https://www.habitissimo.es/)
+- _Topics_: DDD, hexagonal-architecture
 
 ### **Agile beyond Scrum** (2019)
 
@@ -59,7 +61,7 @@ Here I gather some of the talks and workshops that I have been facilitating duri
 
 - _Where_: [Adalab](https://adalab.es/)
 - _Slides_: <https://speakerdeck.com/islomar/introduccion-al-testing-y-tdd>
-- _Topics_: testing, TDD, software development "best practices"
+- _Topics_: testing, TDD, best-practices
 
 ### **Adventures and misfortunes of a nobody at Spotify** (2019)
 
@@ -90,7 +92,12 @@ Here I gather some of the talks and workshops that I have been facilitating duri
 
 - _Where_: [Spotify](https://spotify.com/)
 - _Slides_: <https://speakerdeck.com/islomar/modern-agile>
-- _Topics_: xxx
+- _Topics_: XP, Lean, DevOps, product-management, continuous-delivery
+
+### **Connascence 101** (2016)
+
+- _Where_: [Alea Soluciones](https://www.alea-soluciones.com/)
+- _Slides_: <https://t.ly/PdVj>
 
 ## WORKSHOPS
 
@@ -98,13 +105,13 @@ Here I gather some of the talks and workshops that I have been facilitating duri
 
 - _Where_: [Meetup Software Crafters Alicante](https://www.meetup.com/es-ES/Software-Crafters-Alicante/events/267849996/)
 - _Slides_: <https://speakerdeck.com/islomar/refactoring-legacy-code-using-approval-testing-meetup-alicante>
-- _Topics_: approval testing, golden master, characterization testing, refactoring, technical debt, legacy code
+- _Topics_: approval-testing, golden-master, characterization-testing, refactoring, technical-debt, legacy-code
 
 ### From legacy code to maintainable code (2019)
 
 - _Where_: [Meetup Software Crafters Alicante](https://www.meetup.com/es-ES/Software-Crafters-Alicante/events/261640799/)
 - _Slides_: <https://www.slideshare.net/alicanteswcraft/de-cdigo-legacy-a-cdigo-limpio-y-mantenible>
-- _Topics_: refactoring, technical debt, legacy code
+- _Topics_: refactoring, technical-debt, legacy-code
 
 ### **TCR workshop (test&&commit||revert)** (2019)
 
@@ -116,7 +123,7 @@ Here I gather some of the talks and workshops that I have been facilitating duri
 
 - _Where_: [Meetup Coruña Agile](https://www.meetup.com/es-ES/Coruna-Agile/events/250099803/)
 - _Slides_: <https://speakerdeck.com/islomar/kata-de-numeros-romanos-y-tpp>
-- _Topics_: TPP (Transformation Priority Premise), TDD, testing, baby-steps
+- _Topics_: transformation-priority-premise, TDD, testing, baby-steps
 
 ### **Introduction to TDD** (2018)
 
@@ -128,4 +135,3 @@ Here I gather some of the talks and workshops that I have been facilitating duri
 
 - _Where_: [Meetup Agile Coruña](https://www.meetup.com/es-ES/Coruna-Agile/events/247120846/)
 - _Topics_: call-for-papers, mentoring
-
