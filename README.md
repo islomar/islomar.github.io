@@ -41,19 +41,22 @@ It is configured with hot reload.
 - https://undraw.co/
 - https://cocomaterial.com/
 
+## References
+
+- [How to create a Jekyll navigation menu](https://www.youtube.com/watch?v=6h8-uPadFug)
+
 ## TO DO
 
+- Poner imagen de fondo para sección de charlas
+  - https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-default-teaser-image
+- [Mostrar breadcrumbs](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#breadcrumb-navigation-beta)
 - https://mmistakes.github.io/minimal-mistakes/docs/layouts/#social-sharing-links
 - Multilingual: https://forestry.io/blog/creating-a-multilingual-blog-with-jekyll/
 - Read about "Incremental build"
 - `Error loading credentials from netrc file for https://api.github.com/`
-- Add comments provider (e.g. Disqus): https://mmistakes.github.io/minimal-mistakes/docs/configuration/#disqus
-- Include list with talks, workshops, etc.
-  - Comunidad CODE
-  - CAS Vitoria
-  - Las de Alicante
-  - Las de Coruña
-  - Speakerdeck y Slideshare
+- Add comments provider (e.g. Disqus):
+  - https://mmistakes.github.io/minimal-mistakes/docs/configuration/#disqus
+  - https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963
 - Change the home page to a "splash" layout.
   - Create home.md under \_pages
   - https://github.com/mmistakes/minimal-mistakes/blob/776ab26ce11e786bbce5c632e53036e9e670344c/docs/_pages/home.md
