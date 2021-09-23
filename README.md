@@ -47,6 +47,7 @@ It is configured with hot reload.
 
 ## TO DO
 
+- Home splash: https://mmistakes.github.io/minimal-mistakes/docs/layouts/#splash-page-layout
 - Poner imagen de fondo para sección de charlas
   - https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-default-teaser-image
 - [Mostrar breadcrumbs](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#breadcrumb-navigation-beta)
