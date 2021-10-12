@@ -1,7 +1,6 @@
 ---
 permalink: /my-talks-and-workshops/
 title: "My talks and workshops"
-classes: wide
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "chalkboard-teacher"
