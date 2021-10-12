@@ -78,6 +78,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:islomar@gmail.com"
+    - label: "Subscribe to this blog"
+      icon: "fas fa-fw fa-bullhorn"
+      url: /subscribe/
 
 footer:
   links:

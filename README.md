@@ -75,6 +75,8 @@ It is configured with hot reload.
   - https://forestry.io/blog/creating-a-multilingual-blog-with-jekyll/
   - https://juan.pallares.me/configure-jekyll-multi-language-without-plugin/
   - https://github.com/mmistakes/minimal-mistakes/discussions/2660
+- Incluir cuando se actualizó por última vez una página:
+  - https://juan.pallares.me/books/el-plan-revolucionario/
 - Read about "Incremental build"
 - `Error loading credentials from netrc file for https://api.github.com/`
 - Add comments provider (e.g. Disqus):
@@ -84,6 +86,7 @@ It is configured with hot reload.
   - Create home.md under \_pages
   - https://github.com/mmistakes/minimal-mistakes/blob/776ab26ce11e786bbce5c632e53036e9e670344c/docs/_pages/home.md
 - Link to interesting people
+- [Parse your Kindle clippings to create a book collection in Jekyll](https://juan.pallares.me/parse-your-kindle-clippings-into-your-jekyll-blog/)
 - Differentiate tags and categories:
   - https://www.bloggingbasics101.com/what-is-the-difference-between-blog-categories-and-blog-tags/
   - https://www.elegantthemes.com/blog/tips-tricks/best-practices-for-using-categories-and-tags-in-wordpress
