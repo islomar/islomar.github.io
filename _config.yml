@@ -75,6 +75,9 @@ author:
     - label: "Goodreads"
       icon: "fas fa-fw fa-book"
       url: "https://www.goodreads.com/islomar"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:islomar@gmail.com"
 
 footer:
   links:
