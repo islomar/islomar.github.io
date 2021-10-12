@@ -47,12 +47,34 @@ It is configured with hot reload.
 
 ## TO DO
 
+- Pedir feedback de nueva sección
+  - Fondo y forma, todo vale. Espanglish. Usado el "toc" auto-generado que ofrece Jekyll. No sé si los topics aporta realmente valor...
+  - Twitter
+  - Edu Ferro
+  - Marcos
+  - Fran
+  - Jordi
+  - Borja
+  - Rubén
+- Tags vs Categories
+  - https://jekyllrb.com/docs/posts/
+  - mirar Juan Pallares cómo lo usa
+- Subscription:
+  - Mirar aquí: https://juan.pallares.me/it-has-never-been-easier-to-have-a-blog/
+  - https://github.com/jpallares/PallaresBlog/blob/6a8765e57e051ef659d8a401b63d563d7c9ef3ce/_layouts/single.html
+  - https://www.youtube.com/watch?v=zhHY4tWpFz4
+    - https://blog.webjeda.com/jekyll-subscribe-form/
+  - https://mailchimp.com/es/help/add-a-signup-form-to-your-website/
+  - Mailchimp: gratis hasta 2000 suscriptores
 - Home splash: https://mmistakes.github.io/minimal-mistakes/docs/layouts/#splash-page-layout
 - Poner imagen de fondo para sección de charlas
   - https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-default-teaser-image
 - [Mostrar breadcrumbs](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#breadcrumb-navigation-beta)
 - https://mmistakes.github.io/minimal-mistakes/docs/layouts/#social-sharing-links
-- Multilingual: https://forestry.io/blog/creating-a-multilingual-blog-with-jekyll/
+- Multilingual:
+  - https://forestry.io/blog/creating-a-multilingual-blog-with-jekyll/
+  - https://juan.pallares.me/configure-jekyll-multi-language-without-plugin/
+  - https://github.com/mmistakes/minimal-mistakes/discussions/2660
 - Read about "Incremental build"
 - `Error loading credentials from netrc file for https://api.github.com/`
 - Add comments provider (e.g. Disqus):
