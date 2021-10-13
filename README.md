@@ -46,7 +46,7 @@ It is configured with hot reload.
 - [How to create a Jekyll navigation menu](https://www.youtube.com/watch?v=6h8-uPadFug)
 
 ## TO DO
-
+- Arreglar la búsqueda: https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-search
 - Pedir feedback de nueva sección
   - Fondo y forma, todo vale. Espanglish. Usado el "toc" auto-generado que ofrece Jekyll. No sé si los topics aporta realmente valor...
   - Twitter
