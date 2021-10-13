@@ -143,3 +143,13 @@ tag_archive:
 
 twitter:
   username: "islomar"
+
+social:
+  type:  Person
+  name:  Isidro López
+  links:
+    - "https://twitter.com/islomar"
+    - "https://www.linkedin.com/in/islomar"
+    - "https://linktr.ee/islomar"
+    - "https://github.com/islomar"
+    - "https://www.goodreads.com/islomar"
