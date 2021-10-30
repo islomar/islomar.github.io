@@ -3,6 +3,10 @@ permalink: /subscribe/
 title: Subscribe to my blog
 ---
 
+You have several options for easily subscribing to this blog:
+
+## Option 1: Subscribe with your email
+
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -23,3 +27,15 @@ title: Subscribe to my blog
 </div>
 
 <!--End mc_embed_signup-->
+
+## Option 2: Subscribe using the Atom/RSS feed
+
+For the next options, you will need the feed URL (you can find it in the footer of this website, probably something like [https://islomar.es/feed.xml](https://islomar.es/feed.xml))
+
+### Subscribe with an external service
+
+There are lots of free services out there which let you receive updates on a web o blog in you inbox, for example [Blogtrottr](https://blogtrottr.com/)
+
+### Subscribe with Zapier (Do It Yourself option)
+
+Follow the instructions described [here](https://zapier.com/apps/email/integrations/rss/1441/send-new-rss-feed-entries-via-email)
