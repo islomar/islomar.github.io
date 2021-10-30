@@ -38,4 +38,5 @@ There are lots of free services out there which let you receive updates on a web
 
 ### Subscribe with Zapier (Do It Yourself option)
 
-Follow the instructions described [here](https://zapier.com/apps/email/integrations/rss/1441/send-new-rss-feed-entries-via-email)
+- Follow the instructions described [here](https://zapier.com/apps/email/integrations/rss/1441/send-new-rss-feed-entries-via-email)
+- Or you can use the Zap that I have already created for this. [Here](https://zapier.com/shared/9703d8065f7c85ad5b25629662759f1ca6776376) you have it!
