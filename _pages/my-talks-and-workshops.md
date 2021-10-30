@@ -103,6 +103,8 @@ Here I gather some of the talks and workshops that I have been facilitating duri
 
 - _Where_: [Meetup Software Crafters Stockholm](https://www.meetup.com/es-ES/Stockholm-Software-Craftsmanship/events/259388924/)
 - [Slides](https://speakerdeck.com/islomar/tcr-workshop)
+- [GitHub Repository](https://github.com/islomar/tcr-workshop)
+- [Article by Kent Beck linking us 💜](https://increment.com/testing/testing-the-boundaries-of-collaboration/)
 - _Topics_: TCR, testing, TDD, baby-steps
 
 ### **Coding dojo: Roman numerals kata and TPP** (2018)

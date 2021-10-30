@@ -5,6 +5,7 @@
   - http://islomar.es (it should be redirected to https)
   - https://islomar.github.io (it should be redirected to https://islomar.es)
   - http://islomar.github.io (it should be redirected to https://islomar.es)
+- Sitemap: https://islomar.es/sitemap.xml
 - Theme: minimal-mistakes.
   - https://mmistakes.github.io/minimal-mistakes/
   - https://github.com/mmistakes/minimal-mistakes
@@ -15,7 +16,7 @@ It is configured with hot reload.
 
 ### With Docker
 
-`docker-compose up`
+Run `make docker-up` or `docker-compose up`
 
 ### Without Docker
 
@@ -45,8 +46,15 @@ It is configured with hot reload.
 
 - [How to create a Jekyll navigation menu](https://www.youtube.com/watch?v=6h8-uPadFug)
 
+## Other blogs with Minimal Mistakes
+- https://philippe.bourgau.net/
+- https://juan.pallares.me/
+
 ## TO DO
 - Arreglar la búsqueda: https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-search
+- Last modified at:
+  - https://github.com/gjtorikian/jekyll-last-modified-at
+  - ¿Ya aparece?
 - Pedir feedback de nueva sección
   - Fondo y forma, todo vale. Espanglish. Usado el "toc" auto-generado que ofrece Jekyll. No sé si los topics aporta realmente valor...
   - Twitter
