@@ -61,7 +61,7 @@ plugins:
 author:
   name   : "Isidro López"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Pastafari. Intento entender por qué hacemos lo que hacemos. <br> Escribo sobre desarrollo de producto, psicología, antropología, Lean, eXtreme Programming, DevOps, Kanban o lo que me apetezca :-)"
+  bio    : "Pastafarian. Trying to understand why we do what we do. <br> I write about product and software development, psychology, anthropology, Lean, eXtreme Programming, DevOps, Kanban or whatever I feel like :-)"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
