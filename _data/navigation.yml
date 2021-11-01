@@ -1,8 +1,10 @@
 main:
   - title: "Posts"
     url: /posts/
-  - title: "My talks and workshops"
+  - title: "Talks and workshops"
     url: /my-talks-and-workshops
+  - title: "Professional services"
+    url: /my-professional-services/
   - title: "About me"
     url: /about/
   - title: "Categories"
