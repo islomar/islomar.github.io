@@ -120,6 +120,7 @@ I love reading and I think it's one of the main ways to open your mind and learn
 - Do you have a structured onboarding plan for me?
 - Who would be my manager? I would like to talk to them and understand their vision and expectations about me.
 - Why did the last 2 people of Engineering left? How did you handle it?
+- How do you take care of people?
 
 ## Final words
 
