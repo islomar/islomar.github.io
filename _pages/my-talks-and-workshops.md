@@ -14,6 +14,8 @@ categories:
 
 Here I gather some of the talks and workshops that I have been facilitating during the last years.
 
+If you're just interested in public videos, [here](https://www.youtube.com/playlist?list=PL2wurDYvQhAginzPg6kM0Aq8mCjR4p_mE) you have them 🙏
+
 ## TALKS
 
 ### **Pushing to master like there is no tomorrow (lightning talk)** (2021)
