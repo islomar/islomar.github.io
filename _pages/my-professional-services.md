@@ -104,7 +104,7 @@ I love reading and I think it's one of the main ways to open your mind and learn
 - What does "technical/engineering excellence" mean to you?
 - Tell me about your infrastructure and platform. What is automated? Can the "external product teams" deploy on their own?
 - Tell me about your observability practices. How do you find out that there is a problem? How do you dig deeper to solve it?
-- What happens one an incident in Production is detected?
+- What happens when an incident in Production is detected?
 - Tell me about your main technical principles and practices.
 - What is approximately your lead time (time from a commit to Production), throughput (deployments/releases to Production) and error rate?
 - Could you tell me which is the whole lifecycle of a user need? Could you describe for me any of your main value streams? From the discovery of the user need until its satisfaction.
