@@ -28,6 +28,7 @@ So... here I share some of the questions that I have asked in the past or I will
 - Why would you fire me?
 - What would be my **boundaries**? What wouldn't I be allowed to do or to step into?
 - What do you **expect** from me?
+- Why don't you cover this position with a current internal employee?
 - Do you have a structured **onboarding** plan for me?
 - Who would be **my manager**? I would like to talk to them and understand their vision and expectations about me.
 - Why did the last 2 people of Engineering left? How did you handle it?
