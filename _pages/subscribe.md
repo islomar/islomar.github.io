@@ -34,7 +34,7 @@ For the next options, you will need the feed URL (you can find it in the footer 
 
 ### Subscribe with an external service
 
-There are lots of free services out there which let you receive updates on a web o blog in you inbox, for example [Blogtrottr](https://blogtrottr.com/)
+There are lots of free services out there which let you receive updates on a web or blog in you inbox, for example [Blogtrottr](https://blogtrottr.com/)
 
 ### Subscribe with Zapier (Do It Yourself option)
 
