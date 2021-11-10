@@ -25,13 +25,14 @@ So... here I share some of the questions that I have asked in the past or I will
 - What do you **enjoy** the most from working there?
 - Tell me something that you don't like here. What would you like to be different, why and how?
 - What are the current main **challenges** for the company? (product and technical challenges)
-- Why would you fire me?
+- Why would you **fire me**?
 - What would be my **boundaries**? What wouldn't I be allowed to do or to step into?
 - What do you **expect** from me?
 - Why don't you cover this position with a current internal employee?
 - Do you have a structured **onboarding** plan for me?
 - Who would be **my manager**? I would like to talk to them and understand their vision and expectations about me.
 - Why did the last 2 people of Engineering left? How did you handle it?
+- Why did the last 2 people of Engineering were fired (or made redundant 😉)? How did you handle it?
 - How do you take **care** of people?
 - Can I talk to any **potential peer**, specially someone already doing the same work? Can I talk with a team?
 - What does a **team** look like there?
@@ -47,3 +48,4 @@ So... here I share some of the questions that I have asked in the past or I will
 - What happens from the moment a developer starts working on something until it is deployed? Could you please describe to me your **delivery pipeline**?
 - Do you decouple "Release" from "Deployment"?
 - What is a **typical day** of a team? (from the very start to the very end)
+- How does the whole **recruitment process** work? Which will be the next steps?
