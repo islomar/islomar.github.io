@@ -63,7 +63,7 @@ I love reading and I think it's one of the main ways to open your mind and learn
   - I can help you introduce Infrastructure as Code; during my time as a Platform Engineer I dealt a lot with Terraform, Docker, AWS, etc. (I'm not an "expert" though)
   - Your commits _should_ experience a smooth and automated flow to Production.
 - Your **issues in Production** are taking "too much time" from thinking and experimenting what to solve and how to solve it. And even worse: they are damaging your users trust! (and probably your developers morale).
-- Your **feedback cycles** are too slow. For example, your lead time from commit to production usually takes days instead of minutes. That is to say you learn very slowly...
+- Your **feedback cycles** are too slow. For example, your lead time from commit to production usually takes days instead of minutes. That is to say you learn very slowly... I would encourage fast feedback cycles through practices like TDD, pair/ensemble programming, trunk-based development, feature flags, robust delivery pipelines and many other things. We would go there in baby steps 😊
 - You don't see how you could improve your **technical skills** to better serve the users/business (and for having a better life).
 - You would like to get rid of those **diabolic long-lived branches** and hellish pull-requests but you don't know how to get the same value without their drawbacks. I can help you to move to a Trunk-Based Development approach in a safe way.
 - You want to start writing **automated tests** (unit, integration, end-to-end, performance) but you don't know how. Or you are already doing it but you want to improve.
