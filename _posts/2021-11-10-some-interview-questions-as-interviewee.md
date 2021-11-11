@@ -46,6 +46,10 @@ So... here I share some of the questions that I have asked in the past or I will
 - What is approximately your **lead time** (time from a commit to Production), **throughput** (deployments/releases to Production) and error rate?
 - Could you tell me which is the whole lifecycle of a user need? Could you describe for me any of your main **value streams**? From the discovery of the user need until its satisfaction.
 - What happens from the moment a developer starts working on something until it is deployed? Could you please describe to me your **delivery pipeline**?
-- Do you decouple "Release" from "Deployment"?
+- Do you decouple **"Release"** from "Deployment"?
 - What is a **typical day** of a team? (from the very start to the very end)
+- Do you support **open source** in any way?
 - How does the whole **recruitment process** work? Which will be the next steps?
+- What is the **salary range**? Social benefits?
+- Is there any **budget** for training or any other concept?
+- Would there be the possibility to work **30 hours per week**, 6 hours per day?
