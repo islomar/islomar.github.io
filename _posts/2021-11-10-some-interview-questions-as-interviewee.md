@@ -20,7 +20,7 @@ So... here I share some of the questions that I have asked in the past or I will
 - How do you **improve**? How do you **learn**?
 - How are you **organised**? (company-wide and engineering)
 - How do you take **decision**s? Who takes which ones and when? What decisions are taken at each "level"?
-- How do you **communicate**?
+- How do you **communicate**? How do you get **feedback** in all the needed directions?
 - How do you keep the whole organisation **aligned**?
 - What do you **enjoy** the most from working there?
 - Tell me something that you don't like here. What would you like to be different, why and how?
@@ -53,3 +53,6 @@ So... here I share some of the questions that I have asked in the past or I will
 - What is the **salary range**? Social benefits?
 - Is there any **budget** for training or any other concept?
 - Would there be the possibility to work **30 hours per week**, 6 hours per day?
+
+## More questions from other people
+- [The Pragmatic Engineer Test: 12 Questions on Engineering Culture](https://blog.pragmaticengineer.com/pragmatic-engineer-test/)
