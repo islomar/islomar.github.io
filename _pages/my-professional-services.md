@@ -69,7 +69,7 @@ I love reading and I think it's one of the main ways to open your mind and learn
 - You want to start writing **automated tests** (unit, integration, end-to-end, performance) but you don't know how. Or you are already doing it but you want to improve.
 - You see value in **TDD** but don't know how to do it.
 - Your design/architecture is getting too difficult to understand and change. I can help with many different "tools", e.g. with Domain-Driven Design principles and practices.
-- Your **engineering culture** is focused on technology and not so much on finding out what is the right problem to solve in small steps (not burning people in the path). I can bring a **socio-technical approach**.
+- Your **engineering culture** is focused on technology and not so much on finding out what is the right problem to solve in small steps (not burning people in the path). I can bring a **socio-technical approach** caring about people at the same time, supporting them to grow as professionals (as a team and as individuals).
 - You would like to start **decoupling "release" from "deployment"**, so that you could get fast feedback from the system (e.g. with feature flags and other parallel changes techniques).
 - You have lots of **blocking dependencies in your Value Stream** but you are not sure about how to reduce them (both human and technological).
 - You don't know how to **simplify and split your "user stories"** (or whatever you call it), you are more focused on getting (better) estimations. I can help you with your product management and focusing on getting a continuous flow of value instead of "wasting efforts" on "traditional" estimations.
