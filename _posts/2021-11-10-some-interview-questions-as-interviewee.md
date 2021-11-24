@@ -1,6 +1,7 @@
 ---
 title: "Some interview questions as an interviewee"
 date: 2021-11-10T13:05:34+01:00
+last_modified_at: 2021-11-24T16:57:31+01:00
 categories:
   - blog
 ---
@@ -56,3 +57,4 @@ So... here I share some of the questions that I have asked in the past or I will
 
 ## More questions from other people
 - [The Pragmatic Engineer Test: 12 Questions on Engineering Culture](https://blog.pragmaticengineer.com/pragmatic-engineer-test/)
+- A [Twitter thread](https://twitter.com/flopezluis/status/1463482536185716738) with some great questions you can ask to identify a toxic culture in an interview, from [Félix López](https://es.linkedin.com/in/flopezluis).
