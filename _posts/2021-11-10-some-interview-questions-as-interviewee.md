@@ -23,6 +23,7 @@ So... here I share some of the questions that I have asked in the past or I will
 - How do you take **decision**s? Who takes which ones and when? What decisions are taken at each "level"?
 - How do you **communicate**? How do you get **feedback** in all the needed directions?
 - How do you keep the whole organisation **aligned**?
+- Do you consider the company a **remote-first** one? E.g. is there any company or team event which does not happen online? Can I enjoy my own local bank holidays? Will you pay for any expense related with an on-site gathering?
 - What do you **enjoy** the most from working there?
 - Tell me something that you don't like here. What would you like to be different, why and how?
 - What are the current main **challenges** for the company? (product and technical challenges)
@@ -57,4 +58,5 @@ So... here I share some of the questions that I have asked in the past or I will
 
 ## More questions from other people
 - [The Pragmatic Engineer Test: 12 Questions on Engineering Culture](https://blog.pragmaticengineer.com/pragmatic-engineer-test/)
-- A [Twitter thread](https://twitter.com/flopezluis/status/1463482536185716738) with some great questions you can ask to identify a toxic culture in an interview, from [Félix López](https://es.linkedin.com/in/flopezluis).
+- [List of questions to identify a toxic culture during the interview](https://flopezluis.medium.com/list-of-questions-to-identify-a-toxic-culture-during-the-interview-ba751cd0bf13)
+  - A [Twitter thread](https://twitter.com/flopezluis/status/1463482536185716738) with some great questions you can ask to identify a toxic culture in an interview, from [Félix López](https://es.linkedin.com/in/flopezluis).
