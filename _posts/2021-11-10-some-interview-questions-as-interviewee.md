@@ -13,7 +13,6 @@ The goal of these questions is to help clarifying my **expectations** and to gen
 
 So... here I share some of the questions that I have asked in the past or I will ask in the future to my interviewers:
 
-
 - What is your **mission** and short-term goals as an organisation? What is your **vision** and long-term goals?
 - What is the **business model** of the company? Who are your customers, users, providers?
 - What **differentiates** you from any other company and from your competitors?
@@ -48,6 +47,7 @@ So... here I share some of the questions that I have asked in the past or I will
 - What is approximately your **lead time** (time from a commit to Production), **throughput** (deployments/releases to Production) and error rate?
 - Could you tell me which is the whole lifecycle of a user need? Could you describe for me any of your main **value streams**? From the discovery of the user need until its satisfaction.
 - What happens from the moment a developer starts working on something until it is deployed? Could you please describe to me your **delivery pipeline**?
+- What is the entire process for a **one line change** in code to make it to production? (by [Jeremy Kahne](https://twitter.com/jeremykahne/status/1469416655168196620))
 - Do you decouple **"Release"** from "Deployment"?
 - What is a **typical day** of a team? (from the very start to the very end)
 - Do you support **open source** in any way?
@@ -57,6 +57,7 @@ So... here I share some of the questions that I have asked in the past or I will
 - Would there be the possibility to work **30 hours per week**, 6 hours per day?
 
 ## More questions from other people
+
 - [The Pragmatic Engineer Test: 12 Questions on Engineering Culture](https://blog.pragmaticengineer.com/pragmatic-engineer-test/)
 - [List of questions to identify a toxic culture during the interview](https://flopezluis.medium.com/list-of-questions-to-identify-a-toxic-culture-during-the-interview-ba751cd0bf13)
   - A [Twitter thread](https://twitter.com/flopezluis/status/1463482536185716738) with some great questions you can ask to identify a toxic culture in an interview, from [Félix López](https://es.linkedin.com/in/flopezluis).
