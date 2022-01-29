@@ -58,6 +58,7 @@ So... here I share some of the questions that I have asked in the past or I will
 
 ## More questions from other people
 
+- [Charity Majors: How can you tell if the company you're interviewing with is rotten on the inside?](https://charity.wtf/2022/01/29/how-can-you-tell-if-the-company-youre-interviewing-with-is-rotten-on-the-inside/)
 - [The Pragmatic Engineer Test: 12 Questions on Engineering Culture](https://blog.pragmaticengineer.com/pragmatic-engineer-test/)
 - [List of questions to identify a toxic culture during the interview](https://flopezluis.medium.com/list-of-questions-to-identify-a-toxic-culture-during-the-interview-ba751cd0bf13)
   - A [Twitter thread](https://twitter.com/flopezluis/status/1463482536185716738) with some great questions you can ask to identify a toxic culture in an interview, from [Félix López](https://es.linkedin.com/in/flopezluis).
