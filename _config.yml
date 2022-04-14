@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Blogueando, que es gerundio
-subtitle: Aventuras y desventuras de un mindundi en el planeta Tierra
+title: Like tears in rain 🤖🚀
+subtitle: Thoughts and experiences of a nobody in the planet Earth
 email: islomar@gmail.com
 url: https://islomar.es
 description: >- # this means to ignore newlines until "baseurl:"
-  Blog personal donde ¿escribo? sobre desarrollo de producto, psicología, antropología, budismo, Lean, eXtreme Programming (XP), DevOps o lo que me apetezca :-)
+  Personal blog where I (have the intention to) write about product/software development, Psychology, Anthropology, Buddhism, Lean, eXtreme Programming (XP), DevOps or whatever I feel like 🙏
 twitter_username: islomar
 github_username: islomar
 minimal_mistakes_skin: default
@@ -61,7 +61,7 @@ plugins:
 author:
   name   : "Isidro López"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Pastafari. Intento entender por qué hacemos lo que hacemos. <br> Escribo sobre desarrollo de producto, psicología, antropología, Lean, eXtreme Programming, DevOps, Kanban o lo que me apetezca :-)"
+  bio    : "Pastafarian. Trying to understand why we do what we do. <br> I write about product and software development, psychology, anthropology, Lean, eXtreme Programming, DevOps, Kanban or whatever I feel like 🙏"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
@@ -72,15 +72,24 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/islomar"
+    - label: "Linktree"
+      icon: "fas fa-fw fa-tree"
+      url: "https://linktr.ee/islomar"
     - label: "Goodreads"
       icon: "fas fa-fw fa-book"
       url: "https://www.goodreads.com/islomar"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:islomar@gmail.com"
+    - label: "Subscribe to this blog"
+      icon: "fas fa-fw fa-bullhorn"
+      url: /subscribe/
 
 footer:
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
-      url: "https://www.linkedin.com/in/islomar/"  
+      url: "https://www.linkedin.com/in/islomar/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/islomar"
@@ -98,17 +107,20 @@ defaults:
       type: posts
     values:
       layout: single
+      classes: wide
       author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
+      classes: wide
       author_profile: true
 
 comments:
@@ -128,3 +140,16 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+twitter:
+  username: "islomar"
+
+social:
+  type:  Person
+  name:  Isidro López
+  links:
+    - "https://twitter.com/islomar"
+    - "https://www.linkedin.com/in/islomar"
+    - "https://linktr.ee/islomar"
+    - "https://github.com/islomar"
+    - "https://www.goodreads.com/islomar"

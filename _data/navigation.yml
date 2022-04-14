@@ -1,9 +1,13 @@
 main:
   - title: "Posts"
     url: /posts/
-  - title: "Categorías"
-    url: /categories/
-  - title: "Etiquetas"
-    url: /tags/
-  - title: "Sobre mí"
+  - title: "Talks and workshops"
+    url: /my-talks-and-workshops
+  - title: "Professional services"
+    url: /my-professional-services/
+  - title: "About me"
     url: /about/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
