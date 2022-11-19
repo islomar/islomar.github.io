@@ -16,11 +16,13 @@ It is configured with hot reload.
 
 ### With Docker
 
-Run `make docker-up` or `docker-compose up`
+Run `make docker-up` or `docker compose up`
 
 ### Without Docker
 
 - **Prerequisites**
+  - `sudo apt-get install ruby ruby-dev`
+  - `sudo gem install bundler`
   - You need to have installed the dependencies in your machine, run `make deps`.
 - Then, to start the Jekyll server locally:
   1. `make up`
