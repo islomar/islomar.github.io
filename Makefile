@@ -11,8 +11,14 @@ deps: ## Install dependencies locally
 up: ## Start locally the jekyll server (it requires deps)
 	bundle exec jekyll serve --livereload
 
+up-with-drafts: ## Start locally the jekyll server (it requires deps)
+	bundle exec jekyll serve --livereload --drafts
+
 docker-up: ## Start locally using Docker
-	docker compose up
+	docker compose run --rm jekyll jekyll serve --livereload
+
+docker-up-drafts: ## Start locally using Docker
+	docker compose run --rm jekyll jekyll serve --livereload --drafts
 
 time: ## Get the timestamp to be added to each post header
 	date --iso-8601=seconds

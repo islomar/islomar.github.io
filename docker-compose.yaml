@@ -1,9 +1,8 @@
 version: '3'
 services:
-  jekyll-serve:
+  jekyll:
     image: jekyll/jekyll:4.1.0
     volumes:
       - ".:/srv/jekyll"
     ports:
       - 4000:4000
-    command: 'jekyll serve --livereload'

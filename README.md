@@ -45,7 +45,7 @@ Run `make docker-up` or `docker compose up`
 - https://cocomaterial.com/
 
 ## References
-
+- [Docker Jekyll](https://github.com/envygeeks/jekyll-docker/blob/master/README.md)
 - [How to create a Jekyll navigation menu](https://www.youtube.com/watch?v=6h8-uPadFug)
 
 ## Other blogs with Minimal Mistakes
