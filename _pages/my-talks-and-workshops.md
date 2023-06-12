@@ -160,6 +160,6 @@ If you're just interested in public videos, [here](https://www.youtube.com/playl
 ### **Introduction to TDD** (2016)
 
 - _Where_: [PyConEs 2016 in Almeria (Spain)](https://2016.es.pycon.org/es.html)
-  - https://2016.es.pycon.org/es/schedule/tdd-basico/index.html
-- _Resources_: https://github.com/aleasoluciones/pycones2016
+  - [Workshop description](https://2016.es.pycon.org/es/schedule/tdd-basico/index.html)
+- [_Resources_](https://github.com/aleasoluciones/pycones2016)
 - _Topics_: TDD, testing
