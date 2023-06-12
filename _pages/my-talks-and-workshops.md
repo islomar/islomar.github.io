@@ -18,6 +18,11 @@ If you're just interested in public videos, [here](https://www.youtube.com/playl
 
 ## TALKS
 
+### **MasterClass about Continuous Deployment** (2022 and 2023)
+- _Where_: Universidad Rey Juan Carlos de Madrid
+  - [Master CloudApps](https://www.codeurjc.es/mastercloudapps/)
+- _Topics_: Product developepment, Trunk-Based Development, Continuous Delivery, Continuous Deployment, Lean, eXtreme Programming, product management
+
 ### **Pushing to master like there is no tomorrow (lightning talk)** (2021)
 
 - _Where_: [Meetup Valencia DevOps](https://www.meetup.com/es-ES/Valencia-DevOps/events/276168962/)
@@ -67,6 +72,12 @@ If you're just interested in public videos, [here](https://www.youtube.com/playl
 - [Slides](https://speakerdeck.com/islomar/introduccion-al-testing-y-tdd)
 - _Topics_: testing, TDD, best-practices
 
+
+### **Property-based testing 101** (2017)
+
+- _Where_: [Alea Soluciones](https://www.alea-soluciones.com/)
+- [Slides](https://speakerdeck.com/islomar/property-based-testing-101)
+
 ### **Aligning values with technical practices** (2016 and 2017)
 
 - _Where_:
@@ -75,19 +86,25 @@ If you're just interested in public videos, [here](https://www.youtube.com/playl
 - [Slides](https://www.slideshare.net/bifer/presentacin-cas-2016-alineando-valores-y-principios-con-prcticas-tcnicas)
 - [Video](https://www.youtube.com/watch?v=Df6Ppv-C4tI) (in Spanish)
 
-### **Property-based testing 101** (2017)
-
-- _Where_: [Alea Soluciones](https://www.alea-soluciones.com/)
-- [Slides](https://speakerdeck.com/islomar/property-based-testing-101)
-
 ### **Connascence 101** (2016)
 
 - _Where_: [Alea Soluciones](https://www.alea-soluciones.com/)
 - [Slides](https://t.ly/PdVj)
 
+
+
 ## WORKSHOPS
 
-### Refactoring legacy code using Approval testing (2020 and 2019)
+### **Lean development: postponing decisions** (2022)
+
+- Workshop co-facilitated with the great [Eduardo Ferro](https://www.eferro.net/)
+- _Where_: [Conference "Software Crafters Barcelona 2022"](https://softwarecrafters.barcelona/2022/index.html#tab-lv21-fourth)
+- [Slides](https://docs.google.com/presentation/d/1IwElIJiTI4Ol_vFx9vq3y4Z2x_06irZ2IzDDYHphnGA/edit)
+  - [More info](https://www.eferro.net/2022/10/scbcn22-taller-desarrollo-lean-posponer.html)
+  - [Lean Software development: The art of postponing decisions](https://www.eferro.net/2022/08/software-development-art-of-postponing.html) by Edu Ferro
+- _Topics_: Product management, Lean software development
+
+### **Refactoring legacy code using Approval testing** (2020 and 2019)
 
 - _Where_:
   - [Meetup Software Crafters Alicante](https://www.meetup.com/es-ES/Software-Crafters-Alicante/events/267849996/)
@@ -95,11 +112,13 @@ If you're just interested in public videos, [here](https://www.youtube.com/playl
 - [Slides](https://speakerdeck.com/islomar/refactoring-legacy-code-using-approval-testing-meetup-alicante)
 - _Topics_: approval-testing, golden-master, characterization-testing, refactoring, technical-debt, legacy-code
 
-### From legacy code to maintainable code (2019)
+
+### **From legacy code to maintainable code** (2019)
 
 - _Where_: [Meetup Software Crafters Alicante](https://www.meetup.com/es-ES/Software-Crafters-Alicante/events/261640799/)
 - [Slides](https://www.slideshare.net/alicanteswcraft/de-cdigo-legacy-a-cdigo-limpio-y-mantenible)
 - _Topics_: refactoring, technical-debt, legacy-code
+
 
 ### **TCR workshop (test&&commit||revert)** (2019)
 
@@ -109,11 +128,13 @@ If you're just interested in public videos, [here](https://www.youtube.com/playl
 - [Article by Kent Beck linking us 💜](https://increment.com/testing/testing-the-boundaries-of-collaboration/)
 - _Topics_: TCR, testing, TDD, baby-steps
 
+
 ### **Coding dojo: Roman numerals kata and TPP** (2018)
 
 - _Where_: [Meetup Coruña Agile](https://www.meetup.com/es-ES/Coruna-Agile/events/250099803/)
 - [Slides](https://speakerdeck.com/islomar/kata-de-numeros-romanos-y-tpp)
 - _Topics_: transformation-priority-premise, TDD, testing, baby-steps
+
 
 ### **Introduction to TDD** (2018)
 
@@ -121,7 +142,24 @@ If you're just interested in public videos, [here](https://www.youtube.com/playl
 - [Slides](https://speakerdeck.com/islomar/introduccion-a-tdd-agile-coruna)
 - _Topics_: TDD, testing
 
+
 ### **Global diversity CFP Day** (2018)
 
 - _Where_: [Meetup Agile Coruña](https://www.meetup.com/es-ES/Coruna-Agile/events/247120846/)
 - _Topics_: call-for-papers, mentoring
+
+
+### **MasterClass speaker (Introduction to testing and TDD)** (2017)
+
+- _Where_: [Adalab](https://adalab.es/)
+- [Resources: examples and code](https://github.com/islomar/adalab-intro-testing-tdd)
+- _Description_: I shared a talk and workshop in order to introduce the students to the automated testing in software development, specially the TDD practice.
+- _Topics_: testing, TDD, eXtreme Programming
+
+
+### **Introduction to TDD** (2016)
+
+- _Where_: [PyConEs 2016 in Almeria (Spain)](https://2016.es.pycon.org/es.html)
+  - https://2016.es.pycon.org/es/schedule/tdd-basico/index.html
+- _Resources_: https://github.com/aleasoluciones/pycones2016
+- _Topics_: TDD, testing
