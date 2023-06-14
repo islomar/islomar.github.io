@@ -36,6 +36,12 @@ If you're just interested in public videos, [here](https://www.youtube.com/playl
 - [Slides](https://bit.ly/3nYm5BK)
 - _Topics_: continuous-delivery, continuous-deployment, trunk-based-development, XP, flow, high-efficient-teams, engineering-culture
 
+### **Lean Coffee: Lean software development - Slicing** (2021)
+- [Online meetup](https://www.meetup.com/es-ES/agile-delivery-es/events/275643577/) with a ["Lean Coffee"](https://agilecoffee.com/leancoffee/) format where I participated
+  - [Post by Dani Latorre (in Spanish)](https://danilat.com/weblog/2021/01/27/product-slicing-lean-coffee)
+- [Video](https://www.youtube.com/watch?v=R_JQGXmrkyY) 
+- _Topics_: Vertical slicing, product management, Lean software development, continuous delivery, iterative and incremental development, product engineering culture, etc.
+
 ### **Hexagonal architecture and DDD 101** (2021)
 
 - _Where_: [Habitissimo](https://www.habitissimo.es/)
