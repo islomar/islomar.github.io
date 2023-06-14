@@ -19,7 +19,7 @@ If you're just interested in public videos, [here](https://www.youtube.com/playl
 ## TALKS
 
 ### **Lean Coffee: Lean software development - Defer commitment** (2023)
-- Online meetup with "Lean Coffee" format where I participated: https://www.meetup.com/es-ES/software-craftsmanship-murcia/events/292848976/
+- [Online meetup](https://www.meetup.com/es-ES/software-craftsmanship-murcia/events/292848976/) with "Lean Coffee" format where I participated
   - [Post by Edu Ferro](https://www.eferro.net/2023/05/lean-coffee-defer-commitment-postponer.html)
 - [Video](https://www.youtube.com/watch?v=OmQ8zoQvn8I)
 - _Topics_: Lean software development, continuous delivery, defer commitment, real options, engineering culture, etc.
