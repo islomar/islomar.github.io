@@ -29,6 +29,10 @@ If you're just interested in public videos, [here](https://www.youtube.com/playl
   - [Master CloudApps](https://www.codeurjc.es/mastercloudapps/)
 - _Topics_: Product developepment, Trunk-Based Development, Continuous Delivery, Continuous Deployment, Lean, eXtreme Programming, product management
 
+### Interview in podcast "Web Reactiva" (2022)
+- [WR 228: Desarrollo de producto y eterna curiosidad con Isidro López (Spanish only)](https://open.spotify.com/episode/2YZZVaO9SCGvJu1kP597G9)
+- "Isidro López answers to our questions about product development, time estimations, remote work, methods and methodologies and technology stacks."
+
 ### **Pushing to master like there is no tomorrow (lightning talk)** (2021)
 
 - _Where_: [Meetup Valencia DevOps](https://www.meetup.com/es-ES/Valencia-DevOps/events/276168962/)
