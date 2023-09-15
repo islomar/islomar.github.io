@@ -44,9 +44,10 @@ So... here I share some of the questions that I have asked in the past or I will
 - Tell me about your **observability** practices. How do you find out that there is a problem? How do you dig deeper to solve it?
 - What happens when an incident in Production is detected?
 - Tell me about your main **technical principles and practices**.
-- What is approximately your **lead time** (time from a commit to Production), **throughput** (deployments/releases to Production) and error rate?
+- What is approximately your **lead time** (time from a commit to Production), **throughput** (deployments/releases to Production) and **error rate**?
 - Could you tell me which is the whole lifecycle of a user need? Could you describe for me any of your main **value streams**? From the discovery of the user need until its satisfaction.
 - What happens from the moment a developer starts working on something until it is deployed? Could you please describe to me your **delivery pipeline**?
+- How many teams does a team depend on to get a small change into production?
 - What is the entire process for a **one line change** in code to make it to production? (by [Jeremy Kahne](https://twitter.com/jeremykahne/status/1469416655168196620))
 - Do you decouple **"Release"** from "Deployment"?
 - What is a **typical day** of a team? (from the very start to the very end)
