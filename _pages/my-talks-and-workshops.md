@@ -10,6 +10,8 @@ categories:
   - tdd
   - xp
   - lean
+  - testing
+  - design
 ---
 
 Here I gather some of the talks and workshops that I have been facilitating during the last years.
@@ -17,6 +19,12 @@ Here I gather some of the talks and workshops that I have been facilitating duri
 If you're just interested in public videos, [here](https://www.youtube.com/playlist?list=PL2wurDYvQhAginzPg6kM0Aq8mCjR4p_mE) you have them 🙏
 
 ## TALKS
+
+### **Connascence 101** (2023)
+- _Where_: Internal talk in [Clarity AI](https://clarity.ai/) for the whole Engineering
+
+### **Approval testing 101** (2023)
+- _Where_: Internal talk in [Clarity AI](https://clarity.ai/) for the whole Engineering
 
 ### **Lean Coffee: Lean software development - Defer commitment** (2023)
 - [Online meetup](https://www.meetup.com/es-ES/software-craftsmanship-murcia/events/292848976/) with "Lean Coffee" format where I participated
@@ -28,6 +36,12 @@ If you're just interested in public videos, [here](https://www.youtube.com/playl
 - _Where_: Universidad Rey Juan Carlos de Madrid
   - [Master CloudApps](https://www.codeurjc.es/mastercloudapps/)
 - _Topics_: Product developepment, Trunk-Based Development, Continuous Delivery, Continuous Deployment, Lean, eXtreme Programming, product management
+
+### **Pushing to master (Trunk-Based Development 101)** (2022)
+- _Where_: Internal talk in [Clarity AI](https://clarity.ai/) for the whole Engineering
+
+### **Introduction to Hexagonal Architecture and Domain-Driven Design** (2022)
+- _Where_: Internal talk in [Clarity AI](https://clarity.ai/) for the whole Engineering
 
 ### Interview in podcast "Web Reactiva" (2022)
 - [WR 228: Desarrollo de producto y eterna curiosidad con Isidro López (Spanish only)](https://open.spotify.com/episode/2YZZVaO9SCGvJu1kP597G9)
