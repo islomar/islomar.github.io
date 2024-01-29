@@ -2,21 +2,24 @@
 title: "Slides and resources from my talk at BilboStack 2024"
 date: 2024-01-29T13:26:27+01:00
 last_modified_at: 2024-01-29T13:26:27+01:00
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "chalkboard-teacher"
 categories:
   - blog
   - talks
 ---
 
-Some months ago, the organization of the amazin conference [BilboStack](https://bilbostack.com/) made the mistake of inviting me to talk to the 2024 edition 😆
+Some months ago, the organization of the amazing conference [BilboStack](https://bilbostack.com/) made the mistake of inviting me to talk to the 2024 edition 😆
 
-I decided to talk about Continuous Deployment... as a Trojan horse in order to talk about many other topics related with software and product development (probably too many indeed! 😅)
+I decided to talk about **Continuous Deployment**... as a Trojan horse in order to talk about many other topics related with software and product development (probably too many indeed! 😅)
 
-Last Saturday, 27th January 2024, I finally delivered it: ["Valor por encima de código: el poder del Despliegue Continuo"](https://bilbostack.com/isidro-lopez), which might be translated to English as "Value over Code: the power of Continuous Deployment
+Last Saturday, 27th January 2024, I finally gave it: ["Valor por encima de código: el poder del Despliegue Continuo"](https://bilbostack.com/isidro-lopez), which might be translated to English as "Value over Code: the power of Continuous Deployment".
 
 Here I would like to share the slides and some of the people and resources included in the talk 🙏
 
 ## Slides
-- [In SpeakerDeck](https://speakerdeck.com/islomar/valor-por-encima-de-codigo-el-poder-del-despliegue-continuo)
+- [In Speaker Deck](https://speakerdeck.com/islomar/valor-por-encima-de-codigo-el-poder-del-despliegue-continuo)
 - [In Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vQjRyNPunwWLBRP-gEEVnMMVLq0373KDyT1IpqJXwato2jtTRtdjqecHNtQrJBiVzZ4j-WAc6J5py6c/pub?start=false&loop=false&delayms=3000)
 
 <style>
