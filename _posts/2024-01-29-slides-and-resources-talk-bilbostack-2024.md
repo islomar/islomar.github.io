@@ -97,7 +97,11 @@ I've been "lucky" enough to experience several teams and companies where we grew
 
 ## Other resources
 ### General
-- TBD
+- <https://wiki.c2.com/?SoftwareAsLiability>
+- [What is Value? by Jez Humble](https://www.youtube.com/watch?v=ESOaDiv3lXA) (video)
+- [Estimar es timar: Example Mapping](https://medium.com/coding-stones/estimar-es-timar-example-mapping-e9dbad471ced)
+- [Evolutionary Database Design](https://martinfowler.com/articles/evodb.html)
+- <https://twitter.com/tottinge/status/1748277312200540523>
 
 ### Continuous Integration, Delivery and Deployment
 - [A major revision of Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html) (by Martin Fowler)
@@ -123,10 +127,19 @@ I've been "lucky" enough to experience several teams and companies where we grew
 - [Henrik Kniberg : Multiple WIP vs One Piece Flow Example](https://www.youtube.com/watch?v=Yqi9Gwt-OEA) (video)
 
 ### Parallel changes
-- TBD
+
+- <https://martinfowler.com/bliki/ParallelChange.html>
+- [Feature toggles (aka “feature flags”)](https://martinfowler.com/articles/feature-toggles.html)
+- [Branch by abstraction](https://martinfowler.com/bliki/BranchByAbstraction.html)
+- [Strangler Fig pattern](https://paulhammant.com/2013/07/14/legacy-application-strangulation-case-studies/)
+    - [Strangler Fig Application](https://martinfowler.com/bliki/StranglerFigApplication.html)
+    - [Refactoring Legacy Code with the Strangler Fig Pattern](https://shopify.engineering/refactoring-legacy-code-strangler-fig-pattern)
+- [Anti-Corruption Layer](https://docs.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer)
+- [The Limited Red Society](https://www.infoq.com/presentations/The-Limited-Red-Society/)
 
 ### Workshops about parallel changes
-- TBD
+- [Small Safe Steps 3s workshop - Agile (slides)](https://www.eferro.net/p/small-safe-steps-3s-workshop.html), by Eduardo Ferro
+- <https://paucls.wordpress.com/2020/02/26/ci-cd-non-breaking-changes-exercise>
 
 ### Canary releases and Blue-green deployment
 - TBD
