@@ -50,6 +50,18 @@ Oh, and one last thing: I have included 3 extra slides that didn't appear during
 - ["Agile Technical practices distilled"](https://leanpub.com/agiletechnicalpracticesdistilled){:target="_blank"}{:rel="noopener noreferrer"}, by Pedro M. Santos, Marco Consolaro & Alessandro Di Gioia
 
 
+## Real life examples of Continuous Deployment pipelines
+I've been "lucky" enough to experience several teams and companies where we grew Continuous Delivery and Continuous Deployment pipelines. Here I would like to share two specific examples:
+
+<p align="center">
+    <img src="/assets/images/Continuous_Deployment_pipeline_with_Codium.png" alt="Diagram with a Continuous Deployment pipeline" title="Continuous Deployment pipeline with Codium" />
+</p>
+
+<p align="center">
+    <img src="/assets/images/Continuous_Deployment_pipeline_within_Clarity_AI.png" alt="Diagram with a Continuous Deployment pipeline" title="Continuous Deployment pipeline within Clarity AI" />
+</p>
+
+
 ## Some recommended people
 - Eduardo Ferro
   - [https://twitter.com/eferro](https://twitter.com/eferro){:target="_blank"}{:rel="noopener noreferrer"}
@@ -84,6 +96,9 @@ Oh, and one last thing: I have included 3 extra slides that didn't appear during
 
 
 ## Other resources
+### General
+- TBD
+
 ### Continuous Integration, Delivery and Deployment
 - [A major revision of Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html) (by Martin Fowler)
 - [Continuous Integration: That’s Not What They Meant • Clare Sudbery • YOW! 2023](https://www.youtube.com/watch?v=97qyNQz7fxY) (video)
@@ -122,20 +137,5 @@ Oh, and one last thing: I have included 3 extra slides that didn't appear during
 ### Branching, Pull requests and async code reviews
 - TBD
 
-### General
-- TBD
-
 ### (Vertical) Slicing
 - TBD
-
-
-## Real life examples of Continuous Deployment pipelines
-I've been "lucky" enough to experience several teams and companies where we grew Continuous Delivery and Continuous Deployment pipelines. Here I would like to share two specific examples:
-
-<p align="center">
-    <img src="/assets/images/Continuous_Deployment_pipeline_with_Codium.png" alt="Diagram with a Continuous Deployment pipeline" title="Continuous Deployment pipeline with Codium" />
-</p>
-
-<p align="center">
-    <img src="/assets/images/Continuous_Deployment_pipeline_within_Clarity_AI.png" alt="Diagram with a Continuous Deployment pipeline" title="Continuous Deployment pipeline within Clarity AI" />
-</p>
