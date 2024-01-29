@@ -84,7 +84,49 @@ Oh, and one last thing: I have included 3 extra slides that didn't appear during
 
 
 ## Other resources
-(To be filled soon)
+### Continuous Integration, Delivery and Deployment
+- [A major revision of Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html) (by Martin Fowler)
+- [Continuous Integration: That’s Not What They Meant • Clare Sudbery • YOW! 2023](https://www.youtube.com/watch?v=97qyNQz7fxY) (video)
+- [Minimum Viable Continuous Delivery](https://minimumcd.org)
+- [CI/CD: the what, why and how]()
+- [Continuous Delivery vs Continuous Deployment](https://resources.github.com/ci-cd/) (video by Dave Farley)
+- <https://martinfowler.com/articles/continuousIntegration.html>
+- <https://www.infoq.com/articles/continuous-delivery-teamplay/>
+- <https://martinfowler.com/bliki/ContinuousDelivery.html>
+- [Card game to design Continuous Delivery pipelines](https://www.eficode.com/blog/pipeline-card-game) (by Emily Bache)
+- [Continuous integration vs. delivery vs. deployment](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
+- <https://charity.wtf/2021/08/27/software-deploys-and-cognitive-biases>
+- <https://martinfowler.com/bliki/FrequencyReducesDifficulty.html>
+
+### Lean and Flow
+- <https://abrahamvallez.medium.com/one-piece-flow-7d5ade46d203>
+- <https://jessitron.com/2021/01/18/when-costs-are-nonlinear-keep-it-small>
+- <https://www.geepawhill.org/2021/05/18/big-batch-releases>
+- <https://www.eferro.net/2021/01/small-batches-for-win-continuous.html>
+- <https://refactoring.fm/p/how-shipping-fast-changes-your-life>
+- <https://innolution.com/blog/limiting-work-in-process-wip-and-having-small-batches-is-antifragile>
+- [Henrik Kniberg : Multiple WIP vs One Piece Flow Example](https://www.youtube.com/watch?v=Yqi9Gwt-OEA) (video)
+
+### Parallel changes
+- TBD
+
+### Workshops about parallel changes
+- TBD
+
+### Canary releases and Blue-green deployment
+- TBD
+
+### Trunk-Based Development
+- TBD
+
+### Branching, Pull requests and async code reviews
+- TBD
+
+### General
+- TBD
+
+### (Vertical) Slicing
+- TBD
 
 
 ## Real life examples of Continuous Deployment pipelines
