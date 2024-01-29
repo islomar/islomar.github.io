@@ -10,7 +10,7 @@ categories:
   - talks
 ---
 
-Some months ago, the organization of the amazing conference [BilboStack](https://bilbostack.com/) made the mistake of inviting me to talk to the 2024 edition 😆
+Some months ago, the organization of the amazing conference [BilboStack](https://bilbostack.com/){:target="_blank"}{:rel="noopener noreferrer"} made the mistake of inviting me to talk to the 2024 edition 😆
 
 I decided to talk about **Continuous Deployment**... as a Trojan horse in order to talk about many other topics related with software and product development (probably too many indeed! 😅)
 
@@ -88,4 +88,13 @@ Oh, and one last thing: I have included 3 extra slides that didn't appear during
 
 
 ## Real life examples of Continuous Deployment pipelines
-(To be filled soon)
+I've been "lucky" enough to experience several teams and companies where we grew Continuous Delivery and Continuous Deployment pipelines. Here I would like to share two specific examples:
+
+
+<p align="center">
+    <img src="../assets/images/Continuous_Deployment_pipeline_with_Codium.png" alt="Diagram with a Continuous Deployment pipeline" title="Continuous Deployment pipeline with Codium" />
+</p>
+
+<p align="center">
+    <img src="../assets/images/Continuous_Deployment_pipeline_within_Clarity_AI.png" alt="Diagram with a Continuous Deployment pipeline" title="Continuous Deployment pipeline within Clarity AI" />
+</p>
