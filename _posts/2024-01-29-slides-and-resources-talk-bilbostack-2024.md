@@ -14,13 +14,13 @@ Some months ago, the organization of the amazing conference [BilboStack](https:/
 
 I decided to talk about **Continuous Deployment**... as a Trojan horse in order to talk about many other topics related with software and product development (probably too many indeed! 😅)
 
-Last Saturday, 27th January 2024, I finally gave it: ["Valor por encima de código: el poder del Despliegue Continuo"](https://bilbostack.com/isidro-lopez), which might be translated to English as "Value over Code: the power of Continuous Deployment".
+Last Saturday, 27th January 2024, I finally gave it: ["Valor por encima de código: el poder del Despliegue Continuo"](https://bilbostack.com/isidro-lopez){:target="_blank"}{:rel="noopener noreferrer"}, which might be translated to English as "Value over Code: the power of Continuous Deployment".
 
 Here I would like to share the slides and some of the people and resources included in the talk 🙏
 
 ## Slides
-- [In Speaker Deck](https://speakerdeck.com/islomar/valor-por-encima-de-codigo-el-poder-del-despliegue-continuo)
-- [In Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vQjRyNPunwWLBRP-gEEVnMMVLq0373KDyT1IpqJXwato2jtTRtdjqecHNtQrJBiVzZ4j-WAc6J5py6c/pub?start=false&loop=false&delayms=3000)
+- [In Speaker Deck](https://speakerdeck.com/islomar/valor-por-encima-de-codigo-el-poder-del-despliegue-continuo){:target="_blank"}{:rel="noopener noreferrer"}
+- [In Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vQjRyNPunwWLBRP-gEEVnMMVLq0373KDyT1IpqJXwato2jtTRtdjqecHNtQrJBiVzZ4j-WAc6J5py6c/pub?start=false&loop=false&delayms=3000){:target="_blank"}{:rel="noopener noreferrer"}
 
 <style>
 .responsive-wrap iframe{ max-width: 100%;}
@@ -32,52 +32,52 @@ Here I would like to share the slides and some of the people and resources inclu
 </div>
 
 ## Recommended books
-- ["This is Lean"](https://thisislean.com/), by Niklas Modig & Pär Åhlström
-- ["Fifty quick ideas to improve your User Stories"](https://fiftyquickideas.com/fifty-quick-ideas-to-improve-your-user-stories/), by Gojko Adzic & David Evans
+- ["This is Lean"](https://thisislean.com/){:target="_blank"}{:rel="noopener noreferrer"}, by Niklas Modig & Pär Åhlström
+- ["Fifty quick ideas to improve your User Stories"](https://fiftyquickideas.com/fifty-quick-ideas-to-improve-your-user-stories/){:target="_blank"}{:rel="noopener noreferrer"}, by Gojko Adzic & David Evans
 - "Continuous Delivery", by Jez Humble and David Farley
 - "Extreme Programming Explained", by Kent Beck
 - "Building evolutionary architectures", by Neal Ford, Rebecca Parsons & Patrick Kua
 - "Continuous Delivery Pipelines: how to build better software faster", by Dave Farley
 - "Release it!", by Michael T. Nygard
 - "Accelerate: ", by Nicole Forsgreen, Jez Humble & Gene Kim
-- ["Thinking in systems: a primer"](https://donellameadows.org/systems-thinking-book-sale/), by Donella H. Meadows
+- ["Thinking in systems: a primer"](https://donellameadows.org/systems-thinking-book-sale/){:target="_blank"}{:rel="noopener noreferrer"}, by Donella H. Meadows
 - "Stop starting, start finishing!", by Arne Roock
 - "Slack: getting past burnout, busywork, and the myth of total efficiency", by Tom DeMarco
-- ["Technical Agile Coaching with the Samman method"](https://sammancoaching.org/), by Emily Bache
-- ["Agile Technical practices distilled"](https://leanpub.com/agiletechnicalpracticesdistilled), by Pedro M. Santos, Marco Consolaro & Alessandro Di Gioia
+- ["Technical Agile Coaching with the Samman method"](https://sammancoaching.org/){:target="_blank"}{:rel="noopener noreferrer"}, by Emily Bache
+- ["Agile Technical practices distilled"](https://leanpub.com/agiletechnicalpracticesdistilled){:target="_blank"}{:rel="noopener noreferrer"}, by Pedro M. Santos, Marco Consolaro & Alessandro Di Gioia
 
 
 ## Some recommended people
 - Eduardo Ferro
-  - https://twitter.com/eferro 
-  - https://www.eferro.net/ 
+  - [https://twitter.com/eferro](https://twitter.com/eferro) 
+  - [https://www.eferro.net/](https://www.eferro.net/)
 - Jessica Kerr
-  - https://twitter.com/jessitron 
-  - https://jessitron.com/ 
+  - [https://twitter.com/jessitron](https://twitter.com/jessitron)
+  - [https://jessitron.com/](https://jessitron.com/) 
 - Dave Farley
-  - https://twitter.com/davefarley77
-  - https://www.youtube.com/c/ContinuousDelivery 
+  - [https://twitter.com/davefarley77](https://twitter.com/davefarley77)
+  - [https://www.youtube.com/c/ContinuousDelivery](https://www.youtube.com/c/ContinuousDelivery)
 - Charity Majors
-  - https://twitter.com/mipsytipsy
-  - https://charity.wtf/ 
+  - [https://twitter.com/mipsytipsy](https://twitter.com/mipsytipsy)
+  - [https://charity.wtf/](https://charity.wtf/)
 - Jez Humble
-  - https://twitter.com/jezhumble
-  - https://continuousdelivery.com/ 
+  - [https://twitter.com/jezhumble](https://twitter.com/jezhumble)
+  - [https://continuousdelivery.com/](https://continuousdelivery.com/)
 - Geepaw Hill
-  - https://mastodon.social/@GeePawHill 
-  - https://www.geepawhill.org/ 
+  - [https://mastodon.social/@GeePawHill](https://mastodon.social/@GeePawHill)
+  - [https://www.geepawhill.org/](https://www.geepawhill.org/)
 - Clare Sudbery
-  - https://twitter.com/ClareSudbery 
-  - https://insimpleterms.blog/ 
+  - [https://twitter.com/ClareSudbery](https://twitter.com/ClareSudbery)
+  - [https://insimpleterms.blog/](https://insimpleterms.blog/)
 - Kent Beck
-  - https://twitter.com/KentBeck 
-  - https://www.kentbeck.com/ 
+  - [https://twitter.com/KentBeck](https://twitter.com/KentBeck)
+  - [https://www.kentbeck.com/](https://www.kentbeck.com/)
 - Emily Bache
-  - https://twitter.com/emilybache 
-  - https://www.youtube.com/@EmilyBache-tech-coach 
+  - [https://twitter.com/emilybache](https://twitter.com/emilybache)
+  - [https://www.youtube.com/@EmilyBache-tech-coach](https://www.youtube.com/@EmilyBache-tech-coach)
 - Martin Fowler
-  - https://twitter.com/martinfowler 
-  - https://martinfowler.com/ 
+  - [https://twitter.com/martinfowler](https://twitter.com/martinfowler)
+  - [https://martinfowler.com/](https://martinfowler.com/)
 
 
 
