@@ -20,6 +20,8 @@ Here I would like to share the slides and some of the people and resources inclu
 
 Oh, and one last thing: I have included 3 extra slides that didn't appear during the talk... if you attended, you can try to spot them! 😜
 
+[Spanish] Si quienes asististeis a la charla me pudierais dar feedback (de mejora y positivo, cuanto más concreto mejor), os agradecería ENORMEMENTE si pudierais invertir 2 minutos (de reloj) en rellenar este formulario https://forms.gle/4omyq7PWoVbkWEJr5 ¡¡GRACIAS!! 🙏🙏🙏
+
 
 ## Slides
 - [In Speaker Deck](https://speakerdeck.com/islomar/valor-por-encima-de-codigo-el-poder-del-despliegue-continuo){:target="_blank"}{:rel="noopener noreferrer"}
