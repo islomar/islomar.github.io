@@ -142,13 +142,33 @@ I've been "lucky" enough to experience several teams and companies where we grew
 - <https://paucls.wordpress.com/2020/02/26/ci-cd-non-breaking-changes-exercise>
 
 ### Canary releases and Blue-green deployment
-- TBD
+- <https://martinfowler.com/bliki/CanaryRelease.html>
+- <https://martinfowler.com/bliki/BlueGreenDeployment.html>
+- <https://www.redhat.com/en/topics/devops/what-is-blue-green-deployment>
+- <https://learn.hashicorp.com/tutorials/terraform/blue-green-canary-tests-deployments>
+- <https://aws.amazon.com/es/blogs/compute/bluegreen-deployments-with-amazon-ecs>
 
 ### Trunk-Based Development
-- TBD
+- [Lightning talk: “Pusheando a master, que es gerundio”](https://youtu.be/MXDJba472jE?t=1522) (video, in Spanish)
+- [Why I prefer trunk-based development](https://trishagee.com/2023/05/29/why-i-prefer-trunk-based-development/) (Trisha Gee)
+- [Perceived Barriers to Trunk-Based Development](https://www.davefarley.net/?p=269) (Dave Farley)
+- [Neil Crawdford - Trunk based development, continuous deployment and why you should adopt them](https://www.youtube.com/watch?v=aNgWjSAjjtg) (video)
+- [Of Death and Dying: A Journey to Trunk Based Development](https://www.youtube.com/watch?v=qJhmqIv6SJk) (video)
+- [What is Trunk-Based Development?](https://learning.oreilly.com/library/view/what-is-trunk-based/9781098146658/) (Clare Sudbery)
+- <https://nelis.boucke.be/post/trunk-based-development> 
 
-### Branching, Pull requests and async code reviews
-- TBD
+### Branching, Pull requests and blocking code reviews
+- [How to stop branching](https://elimydlarz.com/2021/08/09/how-to-stop-branching/)
+- <https://thinkinglabs.io/articles/2022/05/30/on-the-evilness-of-feature-branching-the-problems.html>
+- [Async Code Reviews Are Killing Your Company's Throughput](https://www.youtube.com/watch?v=LVr-SMLrfgg) [Video]
+- <https://martinfowler.com/articles/branching-patterns.html>
+- Other experiences:
+    - <https://twitter.com/jlangr/status/1487135760012627973>
+    - <https://twitter.com/aahoogendoorn/status/1531709454701453312>
 
 ### (Vertical) Slicing
-- TBD
+- [Agile Delivery - Lean Coffee - Slicing](https://www.youtube.com/watch?v=R_JQGXmrkyY) (video, in Spanish)
+- <https://gojko.net/2012/01/23/splitting-user-stories-the-hamburger-method>
+- <https://xp123.com/articles/slicing-functionality-alternate-paths>
+- [How to split a user story?](https://www.humanizingwork.com/wp-content/uploads/2020/10/HW-Story-Splitting-Flowchart.pdf) (PDF flowchart)
+- [Elephant Carpaccio facilitation guide](https://docs.google.com/document/d/1TCuuu-8Mm14oxsOnlk8DqfZAA1cvtYu9WGv67Yj_sSk/pub)
