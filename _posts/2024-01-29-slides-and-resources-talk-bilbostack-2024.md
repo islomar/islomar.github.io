@@ -94,6 +94,8 @@ I've been "lucky" enough to experience several teams and companies where we grew
     <img src="../assets/images/TCR_workshop_crafters_Stockholm.png" alt="During a workshop about TCR (Test&&Commit||Revert) at the Stockholm Crafters in 2019" title="During a workshop about TCR (Test&&Commit||Revert) at the Stockholm Crafters in 2019" />
 </p>
 
+![Continuous Deployment pipeline with Codium](assets/images/Continuous_Deployment_pipeline_with_Codium.png){:class="img-responsive"}
+
 <p align="center">
     <img src="../assets/images/Continuous_Deployment_pipeline_with_Codium.png" alt="Diagram with a Continuous Deployment pipeline" title="Continuous Deployment pipeline with Codium" />
 </p>
