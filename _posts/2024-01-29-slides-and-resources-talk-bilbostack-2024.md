@@ -107,8 +107,8 @@ I've been "lucky" enough to experience several teams and companies where we grew
 - [A major revision of Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html) (by Martin Fowler)
 - [Continuous Integration: That’s Not What They Meant • Clare Sudbery • YOW! 2023](https://www.youtube.com/watch?v=97qyNQz7fxY) (video)
 - [Minimum Viable Continuous Delivery](https://minimumcd.org)
-- [CI/CD: the what, why and how]()
-- [Continuous Delivery vs Continuous Deployment](https://resources.github.com/ci-cd/) (video by Dave Farley)
+- [CI/CD: the what, why and how](https://resources.github.com/ci-cd/)
+- [Continuous Delivery vs Continuous Deployment](https://www.youtube.com/watch?v=7SNbDWob6cI) (video by Dave Farley)
 - <https://martinfowler.com/articles/continuousIntegration.html>
 - <https://www.infoq.com/articles/continuous-delivery-teamplay/>
 - <https://martinfowler.com/bliki/ContinuousDelivery.html>
@@ -160,7 +160,7 @@ I've been "lucky" enough to experience several teams and companies where we grew
 ### Branching, Pull requests and blocking code reviews
 - [How to stop branching](https://elimydlarz.com/2021/08/09/how-to-stop-branching/)
 - <https://thinkinglabs.io/articles/2022/05/30/on-the-evilness-of-feature-branching-the-problems.html>
-- [Async Code Reviews Are Killing Your Company's Throughput](https://www.youtube.com/watch?v=LVr-SMLrfgg) [Video]
+- [Async Code Reviews Are Killing Your Company's Throughput](https://www.youtube.com/watch?v=LVr-SMLrfgg) (video)
 - <https://martinfowler.com/articles/branching-patterns.html>
 - Other experiences:
     - <https://twitter.com/jlangr/status/1487135760012627973>
