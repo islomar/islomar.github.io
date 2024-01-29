@@ -37,15 +37,15 @@ Oh, and one last thing: I have included 3 extra slides that didn't appear during
 ## Recommended books
 - ["This is Lean"](https://thisislean.com/){:target="_blank"}{:rel="noopener noreferrer"}, by Niklas Modig & Pär Åhlström
 - ["Fifty quick ideas to improve your User Stories"](https://fiftyquickideas.com/fifty-quick-ideas-to-improve-your-user-stories/){:target="_blank"}{:rel="noopener noreferrer"}, by Gojko Adzic & David Evans
-- "Continuous Delivery", by Jez Humble and David Farley
-- "Extreme Programming Explained", by Kent Beck
-- "Building evolutionary architectures", by Neal Ford, Rebecca Parsons & Patrick Kua
-- "Continuous Delivery Pipelines: how to build better software faster", by Dave Farley
-- "Release it!", by Michael T. Nygard
-- "Accelerate: ", by Nicole Forsgreen, Jez Humble & Gene Kim
+- ["Continuous Delivery"](https://continuousdelivery.com/){:target="_blank"}{:rel="noopener noreferrer"}, by Jez Humble and David Farley
+- ["Extreme Programming Explained"](https://www.goodreads.com/book/show/67833.Extreme_Programming_Explained){:target="_blank"}{:rel="noopener noreferrer"}, by Kent Beck
+- ["Building evolutionary architectures"](https://www.oreilly.com/library/view/building-evolutionary-architectures/9781491986356/){:target="_blank"}{:rel="noopener noreferrer"}, by Neal Ford, Rebecca Parsons & Patrick Kua
+- ["Continuous Delivery Pipelines: how to build better software faster"](https://leanpub.com/cd-pipelines){:target="_blank"}{:rel="noopener noreferrer"}, by Dave Farley
+- ["Release it! - Design and deploy production-ready software"](https://pragprog.com/titles/mnee2/release-it-second-edition/){:target="_blank"}{:rel="noopener noreferrer"}, by Michael T. Nygard
+- ["Accelerate - The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations"](https://itrevolution.com/product/accelerate/){:target="_blank"}{:rel="noopener noreferrer"}, by Nicole Forsgreen, Jez Humble & Gene Kim
 - ["Thinking in systems: a primer"](https://donellameadows.org/systems-thinking-book-sale/){:target="_blank"}{:rel="noopener noreferrer"}, by Donella H. Meadows
-- "Stop starting, start finishing!", by Arne Roock
-- "Slack: getting past burnout, busywork, and the myth of total efficiency", by Tom DeMarco
+- ["Stop starting, start finishing!"](https://shop.leankanban.com/products/stop-starting-start-finishing-arne-roock-english-kindle-mobi-ebook-digital-edition){:target="_blank"}{:rel="noopener noreferrer"}, by Arne Roock
+- ["Slack: getting past burnout, busywork, and the myth of total efficiency"](https://www.goodreads.com/book/show/123715.Slack){:target="_blank"}{:rel="noopener noreferrer"}, by Tom DeMarco
 - ["Technical Agile Coaching with the Samman method"](https://sammancoaching.org/){:target="_blank"}{:rel="noopener noreferrer"}, by Emily Bache
 - ["Agile Technical practices distilled"](https://leanpub.com/agiletechnicalpracticesdistilled){:target="_blank"}{:rel="noopener noreferrer"}, by Pedro M. Santos, Marco Consolaro & Alessandro Di Gioia
 
