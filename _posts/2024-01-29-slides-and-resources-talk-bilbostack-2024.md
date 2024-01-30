@@ -8,6 +8,10 @@ toc_icon: "chalkboard-teacher"
 categories:
   - blog
   - talks
+  - bilbostack-2024
+  - lean
+  - continuous-integration
+  - continuous-deployment
 ---
 
 Some months ago, the organization of the amazing conference [BilboStack](https://bilbostack.com/){:target="_blank"}{:rel="noopener noreferrer"} made the mistake of inviting me to talk to the 2024 edition 😆
@@ -20,7 +24,7 @@ Here I would like to share the slides and some of the people and resources inclu
 
 Oh, and one last thing: I have included 3 extra slides that didn't appear during the talk... if you attended, you can try to spot them! 😜
 
-[Spanish] Si quienes asististeis a la charla me pudierais dar feedback (de mejora y positivo, cuanto más concreto mejor), os agradecería ENORMEMENTE si pudierais invertir 2 minutos (de reloj) en rellenar este formulario https://forms.gle/4omyq7PWoVbkWEJr5 ¡¡GRACIAS!! 🙏🙏🙏
+[Spanish] Si quienes asististeis a la charla me pudierais dar feedback (de mejora y positivo, cuanto más concreto mejor), os agradecería ENORMEMENTE si pudierais invertir 2 minutos (de reloj) en rellenar [este formulario](https://forms.gle/4omyq7PWoVbkWEJr5) ¡¡GRACIAS!! 🙏🙏🙏
 
 
 ## Slides
