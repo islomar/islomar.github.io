@@ -82,7 +82,7 @@ Yo como mejor lo he visto hacer es liderando con el ejemplo (lo cual requiere ex
 - Depende de lo que se entienda por "ensuciar". Lo que siempre es importante es tener commits con buenos mensajes, describiendo muy bien "el porqué"; y por supuesto ningún commit debe romper los tests. 
 - Dicho esto, creo que es más importante dar pasitos pequeños y el feedback y flow continuo que una supuesta historia de commits "ideal".
 
-1. **Generalmente lo que se pide es que la feature este completa antes de subir y no quieren ver nada hasta que no esté, ¿ Sería aplicable trunk-based ?**
+1. **Generalmente lo que se pide es que la feature este completa antes de subir y no quieren ver nada hasta que no esté, ¿Sería aplicable trunk-based?**  
 Absolutamente. Para resolver el problema que describes, que efectivamente es muy habitual, existen múltiples técnicas de cambios paralelos ([incluí información al respecto](https://islomar.es/blog/talks/slides-and-resources-talk-bilbostack-2024/#parallel-changes)) y sobre todo el uso de [feature flags/toggles](https://martinfowler.com/articles/feature-toggles.html). Está relacionado con el desacoplamiento que mencionaba durante la charla entre "Deployment" (decisión técnica) y "Release" (decisión de negocio).
 
 1. **Para usar CD con trunk-based development, a la hora de hacer commits y pushearlos, teniais algun tipo de configuracion para prevenir commit que no pasasen los tests?**
