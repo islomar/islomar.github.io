@@ -15,7 +15,7 @@ categories:
 Cuando en la pasada y maravillosa [BilboStack](https://bilbostack.com/){:target="_blank"}{:rel="noopener noreferrer"} finalicé [mi charla sobre Continuous Deployment](./2024-01-29-slides-and-resources-talk-bilbostack-2024.md) (no me cansaré de repetir que como excusa para hablar de "lo importante"), me hicieron saber que no había ninguna pregunta 😱
  En mi experiencia, cuando eso pasa, es que el nivel de turra ha sido astronómico y el mensaje no ha llegado de ninguna manera 😅
 
-Por suerte, parece ser que la explicación era menos dramática: hubo algún problema con la aplicación que recogía las preguntas (¿faltaría algún test? 😜). La organización tuvo el detallazo de enviármelas _a posteriori_, así que intentaré contestarlas en este post.
+Por suerte, parece ser que la explicación era menos dramática: hubo algún problema con la aplicación que recogía las preguntas (¿faltaría algún test? 😜). La organización ha tenido el detallazo de enviármelas _a posteriori_, así que intentaré contestarlas en este post.
 
 **Aclaración importante**: me falta muchísimo contexto en casi todas las preguntas; necesitaría entender mejor muchísimas cosas antes de dar una respuesta "razonable". Lo haré explícito en las respuestas de algunas pero lo inferiré en otras 🙏
 
@@ -70,10 +70,21 @@ Por suerte, parece ser que la explicación era menos dramática: hubo algún pro
 1. **Como se puede poner en valor el aporte de CI/CD y hacer perder el miedo a desarrolladorxs de desplegar pronto cosas?**
 Yo como mejor lo he visto hacer es liderando con el ejemplo (lo cual requiere experiencia haciéndolo), haciendo al mismo tiempo mucha pedagogía al respecto (sobre el valor que aporta a todes, tanto negocio como ingeniería). No creo que haya atajos ni fórmulas mágicas... 😕 Por supuesto, ese "desplegar pronto cosas" debe ir acompañado de una red de seguridad potente, si no será peor el remedio que la enfermedad y la gente, con razón, no querrá hacerlo.
 
-1. **Para usar CD con trunk-based development, a la hora de hacer commits y pushearlos, teniais algun tipo de configuracion para prevenir commit que no pasasen los tests?**
-[Pendiente de responder]
+1. **¿Utilizas estrategias de pairing como el ping-pong? En estos casos, ¿no sería molesto el uso de Git Hooks?**
+- En el pasado sí he hecho pairing con TDD en ping-pong (diría que he hecho pairing en todas o casi todas las modalidades posibles 🤣)
+- Cuando he hecho ping-pong (la persona A escribe el test, B lo pasa, refactor, B escribe el siguiente test, etc.) lo hacía compartiendo el terminal (es decir, ambas personas trabajábamos realmente en la misma máquina). Eso implica que no hacíamos commit hasta que el test no estuviera en verde (y por tanto los Git hooks no eran un problema).
+- Algo que no haría, independientemente de los Git Hooks, es subir código a la rama principal sin tests.
+- Hay gente que usa [esta herramienta](https://github.com/remotemobprogramming/mob), podría cubrir según qué casos de uso (personalmente prefiero no hacer ping-pong y ya está, rotamos por pomodoro y ya es suficiente).
+- Sobre pairing, este post es realmente bueno: [On Pair Programming](https://martinfowler.com/articles/on-pair-programming.html)
 
-1. **¿Utilizas estrategias de paring como el ping-pong? En estos casos, ¿no sería molesto el uso de Git Hooks?**
+1. **Tener muchos micro commits no puede ensuciar la rama main?**
+- Depende de lo que se entienda por "ensuciar". Lo que siempre es importante es tener commits con buenos mensajes, describiendo muy bien "el porqué"; y por supuesto ningún commit debe romper los tests. 
+- Dicho esto, creo que es más importante dar pasitos pequeños y el feedback y flow continuo que una supuesta historia de commits "ideal".
+
+1. **Generalmente lo que se pide es que la feature este completa antes de subir y no quieren ver nada hasta que no esté, ¿ Sería aplicable trunk-based ?**
+Absolutamente. Para resolver el problema que describes, que efectivamente es muy habitual, existen múltiples técnicas de cambios paralelos ([incluí información al respecto](https://islomar.es/blog/talks/slides-and-resources-talk-bilbostack-2024/#parallel-changes)) y sobre todo el uso de [feature flags/toggles](https://martinfowler.com/articles/feature-toggles.html). Está relacionado con el desacoplamiento que mencionaba durante la charla entre "Deployment" (decisión técnica) y "Release" (decisión de negocio).
+
+1. **Para usar CD con trunk-based development, a la hora de hacer commits y pushearlos, teniais algun tipo de configuracion para prevenir commit que no pasasen los tests?**
 [Pendiente de responder]
 
 1. **Gracias por la charla crack ! Me encanta tu punto sobre la disciplina y sobre todo el cuello de botella enfocado en el conocimiento ! . Tengo una duda , este mundo ha ido evolucionando con términos como CI\CD y otros como DevOps , DevSecOps . Que opinas sobre esto ? Quien debería tener esta responsabilidad , una persona , un equipo ? Me encantaría saber tu punto de vista**
@@ -98,12 +109,6 @@ Yo como mejor lo he visto hacer es liderando con el ejemplo (lo cual requiere ex
 [Pendiente de responder]
 
 1. **De primeras, muy interesante. Como pregunta ¿no notaste que los hooks pre-commit y pre-push podian añadir friccion y latencia en el proceso de commit, llevando al equipo a hacer commits mas grandes para evitar hacer menos commits por pasar menos procesos ?**
-[Pendiente de responder]
-
-1. **Tener muchos micro commits no puede ensuciar la rama main?**
-[Pendiente de responder]
-
-1. **Generalmente lo que se pide es que la feature este completa antes de subir y no quieren ver nada hasta que no esté, ¿ Sería aplicable trunk-based ?**
 [Pendiente de responder]
 
 1. **¿Cómo se puede balancear baterías de test enormes que hacen que las pipelines tarden, con la rapidez que se necesita en trunk based?**
