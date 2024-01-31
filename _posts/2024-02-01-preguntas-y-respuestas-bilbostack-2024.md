@@ -68,7 +68,7 @@ Voy a hacer un **"Continuous Answering"**, y en lugar de publicar de golpe todas
 - Si se cumple todo lo anterior: ir poquito a poco. Identificar primero los "quick wins" que puedan existir (bajo coste y alto beneficio). Mejorar el testing automatizado. Ir disminuyendo todo lo posible los tiempos de nuestras ramas/PRs. Adoptar estrategias de branching que disminuya el tiempo que tardamos en integrar en la rama principal. Aumentar y mejorar la colaboración (e.g. a través del pairing). Aprender técnicas de cambios paralelos y empezar a usar "feature flags".
 - Y creo que el mejor consejo: buscad y contratad a alguien con experiencia en todo lo anterior, es extramadamente difícil si no (no digo que no sea posible, pero sí muy complicado).
 
-1. **Como se puede poner en valor el aporte de CI/CD y hacer perder el miedo a desarrolladorxs de desplegar pronto cosas?**
+1. **Como se puede poner en valor el aporte de CI/CD y hacer perder el miedo a desarrolladorxs de desplegar pronto cosas?**  
 Yo como mejor lo he visto hacer es liderando con el ejemplo (lo cual requiere experiencia haciéndolo), haciendo al mismo tiempo mucha pedagogía al respecto (sobre el valor que aporta a todes, tanto negocio como ingeniería). No creo que haya atajos ni fórmulas mágicas... 😕 Por supuesto, ese "desplegar pronto cosas" debe ir acompañado de una red de seguridad potente, si no será peor el remedio que la enfermedad y la gente, con razón, no querrá hacerlo.
 
 1. **¿Utilizas estrategias de pairing como el ping-pong? En estos casos, ¿no sería molesto el uso de Git Hooks?**
