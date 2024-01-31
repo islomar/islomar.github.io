@@ -15,10 +15,13 @@ up-with-drafts: ## Start locally the jekyll server (it requires deps)
 	bundle exec jekyll serve --livereload --drafts
 
 docker-up: ## Start locally using Docker
-	docker compose run --rm jekyll jekyll serve --livereload
+	docker compose run jekyll jekyll serve --watch --force_polling --verbose --livereload
 
-docker-up-drafts: ## Start locally using Docker
+docker-up-drafts: ## Start locally using Docker including drafts
 	docker compose run --rm jekyll jekyll serve --livereload --drafts
+
+docker-down: ## Stop local Docker containers
+	docker compose down
 
 time: ## Get the timestamp to be added to each post header
 	date --iso-8601=seconds
