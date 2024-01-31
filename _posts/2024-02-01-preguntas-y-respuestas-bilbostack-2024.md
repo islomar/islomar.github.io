@@ -2,9 +2,6 @@
 title: "Preguntas y respuestas de mi charla en la BilboStack 2024"
 date: 2024-01-31T16:26:27+01:00
 last_modified_at: 2024-01-29T13:26:27+01:00
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "chalkboard-teacher"
 categories:
   - blog
   - talks
@@ -21,6 +18,7 @@ Voy a hacer un **"Continuous Answering"**, y en lugar de publicar de golpe todas
 
 **Aclaración importante**: me falta muchísimo contexto en casi todas las preguntas; necesitaría entender mejor muchísimas cosas antes de dar una respuesta "razonable". Lo haré explícito en las respuestas de algunas pero lo inferiré en otras 🙏
 
+## Preguntas y respuestas
 
 1. **¿Puedes explicar cómo conseguir la ISO 27001/SOC2 trabajando en continuos delivery?**
 - Resumen: realmente no 🤣 Pero puedo compartir algunas cosillas que tal vez ayude en algo...
@@ -107,7 +105,7 @@ Absolutamente. Para resolver el problema que describes, que efectivamente es muy
 1. **¿Tienes alguna sugerencia o técnica para ejecutar E2E tests en producción? ¿Tráfico sintético, mirroring de tráfico, etc. ?**
 [Pendiente de responder]
 
-**Cuando haces TDD outside-in haces primero los tests desde el punto de vista del usuario pero, continuas con tests más internos?**
+1. **Cuando haces TDD outside-in haces primero los tests desde el punto de vista del usuario pero, continuas con tests más internos?**
 [Pendiente de responder]
 
 1. **De primeras, muy interesante. Como pregunta ¿no notaste que los hooks pre-commit y pre-push podian añadir friccion y latencia en el proceso de commit, llevando al equipo a hacer commits mas grandes para evitar hacer menos commits por pasar menos procesos ?**
