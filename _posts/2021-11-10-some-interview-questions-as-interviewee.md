@@ -4,6 +4,8 @@ date: 2021-11-10T13:05:34+01:00
 last_modified_at: 2022-01-29T16:57:31+01:00
 categories:
   - blog
+tags:
+  - english
 ---
 
 This post is the extraction of a section at my page [My professional services](../../my-professional-services).
