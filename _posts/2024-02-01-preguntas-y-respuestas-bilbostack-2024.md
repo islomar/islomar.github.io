@@ -57,6 +57,9 @@ Voy a hacer un **"Continuous Answering"**, y en lugar de publicar de golpe todas
 - _Ventajas_: tener feedback mucho más rápido si fallan los tests (no tener que esperar a que fallen en la pipeline, cuando ya hemos cambiado el foco y estamos a medias de otra cosa). Por supuesto no incluiría los tests más "lentos", pero sí los "rápidos" (en mi opinión todos los unitarios deberían serlo, así como algunos de integración - qué considero "unitario" o "integración" da para otro post). 
 - _Inconvenientes_: el inconveniente surge si su ejecución es "demasiado lenta"; lo que acabará pasando es que los saltaremos o acumularemos demasiados cambios. La solución pasa por tener en los Git hooks únicamente los tests más rápidos o que no provoquen demasiada sensación de ralentización. Paralelizar todo lo posible su ejecución es importante para disminuir los tiempos.
 
+1. **De primeras, muy interesante. Como pregunta ¿no notaste que los hooks pre-commit y pre-push podian añadir friccion y latencia en el proceso de commit, llevando al equipo a hacer commits mas grandes para evitar hacer menos commits por pasar menos procesos ?**  
+Muy buena pregunta, y por desgracia no es difícil que ocurra, hay que estar muy pendiente de ello. Lo he intentado contestar en la pregunta anterior 🙏
+
 1. **Validaciones sincronas o PR en asincrono?**
 - No sé si entiendo esta pregunta, lo siento. ¿Qué quieren decir "validaciones"? ¿Hablamos de los tests? ¿De linters? ¿O de la revisión de código?
 - En la línea de lo que comenté en la charla: debemos intentar tener feedback los más rápido y frecuente posible de todo. En la medida de lo posible, priorizaría las revisiones de código síncronas; y aún mejor: hacer pairing/ensemble todo lo "posible".
@@ -86,7 +89,11 @@ Yo como mejor lo he visto hacer es liderando con el ejemplo (lo cual requiere ex
 Absolutamente. Para resolver el problema que describes, que efectivamente es muy habitual, existen múltiples técnicas de cambios paralelos ([incluí información al respecto](https://islomar.es/blog/talks/slides-and-resources-talk-bilbostack-2024/#parallel-changes)) y sobre todo el uso de [feature flags/toggles](https://martinfowler.com/articles/feature-toggles.html). Está relacionado con el desacoplamiento que mencionaba durante la charla entre "Deployment" (decisión técnica) y "Release" (decisión de negocio).
 
 1. **Para usar CD con trunk-based development, a la hora de hacer commits y pushearlos, teniais algun tipo de configuracion para prevenir commit que no pasasen los tests?**  
-[Pendiente de responder]
+Sí, teníamos configurados Git hooks tanto de pre-commit como de pre-push. En los [diagramas de los slides de la charla](/blog/talks/slides-and-resources-talk-bilbostack-2024) puedes ver qué incluíamos en cada uno de ellos.
+
+1. **A la pregunta que ha hecho "Es para cambiar el Mundo, porque en mayor o menos medida cuando subimos un cambio, estos cambian la vida de algunas personas (para bien o para mal) nuestros usuarios o cliebtes, porque tienen herramientas para hacer mejor su trabajo"**  
+- Entiendo que esto es la respuesta a la pregunta que lancé: "¿Para qué desarrollamos software profesionalmente?"
+- En relación con el matiz que mencionaba en mi respuesta y que era lo que quería resaltar, te diría: ¿y si pudieras cambiar/mejorar el mundo de manera más óptima/eficiente **SIN** software, no lo harías? 😉
 
 1. **Gracias por la charla crack ! Me encanta tu punto sobre la disciplina y sobre todo el cuello de botella enfocado en el conocimiento ! . Tengo una duda , este mundo ha ido evolucionando con términos como CI\CD y otros como DevOps , DevSecOps . Que opinas sobre esto ? Quien debería tener esta responsabilidad , una persona , un equipo ? Me encantaría saber tu punto de vista**  
 [Pendiente de responder]
@@ -109,9 +116,6 @@ Absolutamente. Para resolver el problema que describes, que efectivamente es muy
 1. **Cuando haces TDD outside-in haces primero los tests desde el punto de vista del usuario pero, continuas con tests más internos?**  
 [Pendiente de responder]
 
-1. **De primeras, muy interesante. Como pregunta ¿no notaste que los hooks pre-commit y pre-push podian añadir friccion y latencia en el proceso de commit, llevando al equipo a hacer commits mas grandes para evitar hacer menos commits por pasar menos procesos ?**  
-[Pendiente de responder]
-
 1. **¿Cómo se puede balancear baterías de test enormes que hacen que las pipelines tarden, con la rapidez que se necesita en trunk based?**  
 [Pendiente de responder]
 
@@ -122,9 +126,6 @@ Absolutamente. Para resolver el problema que describes, que efectivamente es muy
 [Pendiente de responder]
 
 1. **¿Consideras indispensable que el continous delivery llegue siempre hasta producción? ¿No sería suficiente con un entorno de Test que sea una replica de Producción para evitar riesgos?**  
-[Pendiente de responder]
-
-1. **A la pregunta que ha hecho "Es para cambiar el Mundo, porque en mayor o menos medida cuando subimos un cambio, estos cambian la vida de algunas personas (para bien o para mal) nuestros usuarios o cliebtes, porque tienen herramientas para hacer mejor su trabajo"**  
 [Pendiente de responder]
 
 1. **Entendiendo que una release es un concepto de negocio y no tecnológico, porque tomar el product delivery lead time es importante como métrica? No es algo fuera del control de tecnología?**  
