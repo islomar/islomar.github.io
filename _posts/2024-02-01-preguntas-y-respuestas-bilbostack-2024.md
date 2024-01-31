@@ -1,6 +1,6 @@
 ---
 title: "Preguntas y respuestas de mi charla en la BilboStack 2024"
-date: 2024-02-01T13:26:27+01:00
+date: 2024-01-31T16:26:27+01:00
 last_modified_at: 2024-01-29T13:26:27+01:00
 toc: true
 toc_label: "Table of Contents"
@@ -16,6 +16,8 @@ Cuando en la pasada y maravillosa [BilboStack](https://bilbostack.com/){:target=
  En mi experiencia, cuando eso pasa, es que el nivel de turra ha sido astronómico y el mensaje no ha llegado de ninguna manera 😅
 
 Por suerte, parece ser que la explicación era menos dramática: hubo algún problema con la aplicación que recogía las preguntas (¿faltaría algún test? 😜). La organización ha tenido el detallazo de enviármelas _a posteriori_, así que intentaré contestarlas en este post.
+
+Voy a hacer un **"Continuous Answering"**, y en lugar de publicar de golpe todas las respuestas pasados varios días o semanas o meses, voy a ir actualizándolas poco a poco, según vaya respondiéndolas 😉
 
 **Aclaración importante**: me falta muchísimo contexto en casi todas las preguntas; necesitaría entender mejor muchísimas cosas antes de dar una respuesta "razonable". Lo haré explícito en las respuestas de algunas pero lo inferiré en otras 🙏
 
