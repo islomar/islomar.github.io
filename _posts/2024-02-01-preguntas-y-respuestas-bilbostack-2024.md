@@ -27,11 +27,11 @@ Voy a hacer un **"Continuous Answering"**, y en lugar de publicar de golpe todas
 - Dicho esto: tengo claro que el auditor que te toque puede influir muchísimo.
 - A mucho más alto nivel, Clarity publicó un post al respecto: ["ISO27001 and SOC2 Type II from Greenfield to Success"](https://medium.com/clarityai-engineering/iso27001-and-soc2-type-ii-from-greenfield-to-success-24ca99decb26)
 - En mi equipo hacíamos de hecho "Continuous Deployment" y en nuestro caso era suficiente con seguir los siguientes requisitos:
-  1. Cada commit incluía el **issue de Jira** que lo originaba: se generaba una traza inequívoca con la necesidad de la que surgía ese código.
-  2. Puesto que trabajábamos en pairing o ensemble por defecto, en cada commit incluíamos a todas las personas involucradas usando el **["Co-authored-by" de Git](https://docs.github.com/es/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors)**
+  * Cada commit incluía el **issue de Jira** que lo originaba: se generaba una traza inequívoca con la necesidad de la que surgía ese código.
+  * Puesto que trabajábamos en pairing o ensemble por defecto, en cada commit incluíamos a todas las personas involucradas usando el **["Co-authored-by" de Git](https://docs.github.com/es/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors)**
     - Para reducir la fricción, todos teníamos un **template del [git message](https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733)** con el resto de compañeras del equipo, no teníamos que estar escribiéndolo conitnuamente.
     - Hasta donde sé, y simplificando mucho, una de las cosas que se requieren es **evidencia** de que una persona diferente a quien escribió el código, lo ha revisado. Esta práctica satisfacía esa necesidad.
-  3. Si el cambio a realizar era "muy trivial" (lo cual siempre es abstracto, pero teníamos un documento definiéndolo), se permitía que no hubiera un revisor (e.g. cambio en documentación). En estos casos, era suficiente con incluir en el mensaje del commit cierta palabra clave (en nuestro caso concreto, `[trivial-small-change]`)
+  * Si el cambio a realizar era "muy trivial" (lo cual siempre es abstracto, pero teníamos un documento definiéndolo), se permitía que no hubiera un revisor (e.g. cambio en documentación). En estos casos, era suficiente con incluir en el mensaje del commit cierta palabra clave (en nuestro caso concreto, `[trivial-small-change]`)
 - Para la gente que trabajaba con ramas y PRs, la persona que validaba la PR debía ser diferente a la persona que la había abierto.
 - Si necesitas más detalle, probablemente [Edu Ferro](https://twitter.com/eferro) pueda contarte más cosas 🙏
 
