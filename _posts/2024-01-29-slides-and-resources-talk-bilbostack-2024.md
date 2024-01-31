@@ -12,6 +12,9 @@ tags:
   - bilbostack24
   - lean
   - english
+  - continuous-integration
+  - continuous-deployment
+  - systems-thinking
 ---
 
 Some months ago, the organization of the amazing conference [BilboStack](https://bilbostack.com/){:target="_blank"}{:rel="noopener noreferrer"} made the mistake of inviting me to talk to the 2024 edition 😆

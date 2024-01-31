@@ -3,6 +3,8 @@ title: "YAHWP (Yet Another Hello World Post)"
 date: 2020-06-29T21:22:00+02:00
 categories:
   - blog
+tags:
+  - spanish
 ---
 
 Reintento número 459347 de escribir un blog de manera sostenida en el tiempo: ¡¡aaaaaacción!!
