@@ -8,10 +8,6 @@ toc_icon: "chalkboard-teacher"
 categories:
   - blog
   - talks
-  - bilbostack-2024
-  - lean
-  - continuous-integration
-  - continuous-deployment
 ---
 
 Some months ago, the organization of the amazing conference [BilboStack](https://bilbostack.com/){:target="_blank"}{:rel="noopener noreferrer"} made the mistake of inviting me to talk to the 2024 edition 😆
