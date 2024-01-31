@@ -5,6 +5,7 @@ last_modified_at: 2024-01-29T13:26:27+01:00
 categories:
   - blog
   - talks
+tags:
   - bilbostack24
   - spanish
 ---
