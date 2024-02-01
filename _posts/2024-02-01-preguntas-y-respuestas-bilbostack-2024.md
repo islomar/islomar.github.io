@@ -63,7 +63,7 @@ Voy a hacer un **"Continuous Answering"**, y en lugar de publicar de golpe todas
 - _Inconvenientes_: el inconveniente surge si su ejecución es "demasiado lenta"; lo que acabará pasando es que los saltaremos o acumularemos demasiados cambios. La solución pasa por tener en los Git hooks únicamente los tests más rápidos o que no provoquen demasiada sensación de ralentización. Paralelizar todo lo posible su ejecución es importante para disminuir los tiempos.
 
 1. **De primeras, muy interesante. Como pregunta ¿no notaste que los hooks pre-commit y pre-push podian añadir friccion y latencia en el proceso de commit, llevando al equipo a hacer commits mas grandes para evitar hacer menos commits por pasar menos procesos ?**  
-Muy buena pregunta, y por desgracia no es difícil que ocurra, hay que estar muy pendiente de ello. Lo he intentado contestar en la pregunta anterior 🙏
+Muy buena pregunta, y por desgracia no es difícil que ocurra, hay que estar muy pendiente de ello. Lo he intentado contestar en la pregunta anterior ☝️🙏
 
 1. **Validaciones sincronas o PR en asincrono?**
 - No sé si entiendo esta pregunta, lo siento. ¿Qué quieren decir "validaciones"? ¿Hablamos de los tests? ¿De linters? ¿O de la revisión de código?
@@ -88,16 +88,17 @@ Yo como mejor lo he visto hacer es liderando con el ejemplo (lo cual requiere ex
 
 1. **Tener muchos micro commits no puede ensuciar la rama main?**
 - Depende de lo que se entienda por "ensuciar". Lo que siempre es importante es tener commits con buenos mensajes, describiendo muy bien "el porqué"; y por supuesto ningún commit debe romper los tests. 
-- Dicho esto, creo que es más importante dar pasitos pequeños y el feedback y flow continuo que una supuesta historia de commits "ideal".
+- Dicho esto, creo que es más importante dar pasitos pequeños y el feedback y flow muy continuos que una supuesta historia de commits "ideal".
 
 1. **Generalmente lo que se pide es que la feature este completa antes de subir y no quieren ver nada hasta que no esté, ¿Sería aplicable trunk-based?**  
-Absolutamente. Para resolver el problema que describes, que efectivamente es muy habitual, existen múltiples técnicas de cambios paralelos ([incluí información al respecto](https://islomar.es/blog/talks/slides-and-resources-talk-bilbostack-2024/#parallel-changes)) y sobre todo el uso de [feature flags/toggles](https://martinfowler.com/articles/feature-toggles.html). Está relacionado con el desacoplamiento que mencionaba durante la charla entre "Deployment" (decisión técnica) y "Release" (decisión de negocio).
+- Absolutamente. Para resolver el problema que describes, que efectivamente es muy habitual, existen múltiples técnicas de cambios paralelos ([incluí información al respecto](https://islomar.es/blog/talks/slides-and-resources-talk-bilbostack-2024/#parallel-changes)) y sobre todo el uso de [feature flags/toggles](https://martinfowler.com/articles/feature-toggles.html). 
+- Esto está relacionado con el desacoplamiento que mencionaba durante la charla entre "Deployment" (decisión técnica) y "Release" (decisión de negocio).
 
 1. **Para usar CD con trunk-based development, a la hora de hacer commits y pushearlos, teniais algun tipo de configuracion para prevenir commit que no pasasen los tests?**  
-Sí, teníamos configurados Git hooks tanto de pre-commit como de pre-push. En los [diagramas de los slides de la charla](/blog/talks/slides-and-resources-talk-bilbostack-2024) puedes ver qué incluíamos en cada uno de ellos.
+Sí, teníamos configurados Git hooks tanto de pre-commit como de pre-push. En los [diagramas de los slides de la charla](/blog/talks/slides-and-resources-talk-bilbostack-2024) puedes ver qué incluíamos en cada uno de ellos. Por la forma en que funcionan los Git hooks, si el pre-commit no pasa (i.e. si estado de salida es distinto de cero), no se realiza el commit (idem para el pre-push).
 
 1. **A la pregunta que ha hecho "Es para cambiar el Mundo, porque en mayor o menos medida cuando subimos un cambio, estos cambian la vida de algunas personas (para bien o para mal) nuestros usuarios o cliebtes, porque tienen herramientas para hacer mejor su trabajo"**  
-- Entiendo que esto es la respuesta a la pregunta que lancé: "¿Para qué desarrollamos software profesionalmente?"
+- Entiendo que esto es la respuesta a la pregunta que lancé: "¿Para qué desarrollamos software profesionalmente?". Me parece una perspectiva maravillosa, la verdad, me siento muy alineado con la idea que subyace a ella.
 - En relación con el matiz que mencionaba en mi respuesta y que era lo que quería resaltar, te diría: ¿y si pudieras cambiar/mejorar el mundo de manera más óptima/eficiente **SIN** software, no lo harías? 😉
 
 1. **¿Tendría sentido ejecutar varios procesos de CI en paralelo? Por ejemplo los unit tests, construir la build y los e2e tests a la vez.**  
@@ -107,7 +108,7 @@ Sí, teníamos configurados Git hooks tanto de pre-commit como de pre-push. En l
   - No queríamos invertir tiempo en el build de la imagen de Docker (y el posterior push a un ECR) si los tests no pasaban antes.
   - Los tests unitarios son los más rápidos, por lo que son los más bloqueantes: no queremos hacer nada más si eso falla (otro motivo por el que no paralelizarlos con según qué). Sí los podemos paralelizar con otras tareas también rápidas, como linters y otras validaciones estáticas.
   - En cuanto a los tests e2e: en nuestra taxonomía de testing, esos son tests que lanzamos contra la nueva versión del sistema ya desplegado en alguna parte (staging o production), por lo que no podríamos paralelizarlo tampoco con la build o tests unitarios.
-  - Los tests que sí paralelizamos como primer paso de la pipeline son los **unitarios** (cumplen [los principios FIRST](https://github.com/tekguard/Principles-of-Unit-Testing)), **☝️integración** (en nuestro caso son tests para los adaptadores secundarios de [nuestra arquitectura hexagonal](https://herbertograca.com/2017/09/14/ports-adapters-architecture/)) y tests de aceptación (que son tests "desde fuera" y los lanzamos contra el sistema que incluye las actualizaciones, levantado "en local", antes de ser deplegado).
+  - Los tests que sí paralelizamos como primer paso de la pipeline son los **unitarios** (cumplen [los principios FIRST](https://github.com/tekguard/Principles-of-Unit-Testing)), **integración** (en nuestro caso son tests para los adaptadores secundarios de [nuestra arquitectura hexagonal](https://herbertograca.com/2017/09/14/ports-adapters-architecture/)) y tests de aceptación (que son tests "desde fuera" y los lanzamos contra el sistema que incluye las actualizaciones, levantado "en local", antes de ser deplegado).
 
 1. **Cuando haces TDD outside-in haces primero los tests desde el punto de vista del usuario pero, continuas con tests más internos?**  
 - Exactamente, ésa es la idea. Similar a [Acceptance TDD](https://www.agilealliance.org/glossary/atdd/), [Specification by Example](https://gojko.net/books/specification-by-example/) o [Behaviour-Driven Development (BDD)](https://dannorth.net/introducing-bdd/) (existen matices de diferencias entre los tres, pero en los tres casos buscamos testear el comportamiento del sistema desde el punto de vista de su usuario externo)
