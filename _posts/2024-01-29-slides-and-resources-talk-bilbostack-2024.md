@@ -9,6 +9,7 @@ categories:
   - blog
   - talks
 tags:
+  - talks
   - bilbostack24
   - lean
   - english

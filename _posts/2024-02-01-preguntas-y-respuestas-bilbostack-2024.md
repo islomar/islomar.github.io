@@ -6,9 +6,14 @@ categories:
   - blog
   - talks
 tags:
+  - talks
   - bilbostack24
   - spanish
 ---
+
+**Actualizaciones**
+- 31.01.2024: respuesta a preguntas 1-10
+
 
 Cuando en la pasada y maravillosa [BilboStack](https://bilbostack.com/){:target="_blank"}{:rel="noopener noreferrer"} finalicé [mi charla sobre Continuous Deployment](/blog/talks/slides-and-resources-talk-bilbostack-2024) (no me cansaré de repetir que como excusa para hablar de "lo importante"), me hicieron saber que no había ninguna pregunta 😱
  En mi experiencia, cuando eso pasa, es que el nivel de turra ha sido astronómico y el mensaje no ha llegado de ninguna manera 😅
