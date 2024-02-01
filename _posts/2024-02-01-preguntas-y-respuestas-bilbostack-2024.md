@@ -1,7 +1,7 @@
 ---
 title: "Preguntas y respuestas de mi charla en la BilboStack 2024"
 date: 2024-01-31T16:26:27+01:00
-last_modified_at: 2024-01-29T13:26:27+01:00
+last_modified_at: 2024-02-01T11:26:27+01:00
 categories:
   - blog
   - talks
@@ -13,7 +13,7 @@ tags:
 
 **Actualizaciones**
 - 31.01.2024: respuesta a preguntas 1-10
-
+- 01.02.2024: respuesta a preguntas 11-15
 
 Cuando en la pasada y maravillosa [BilboStack](https://bilbostack.com/){:target="_blank"}{:rel="noopener noreferrer"} finalicé [mi charla sobre Continuous Deployment](/blog/talks/slides-and-resources-talk-bilbostack-2024) (no me cansaré de repetir que como excusa para hablar de "lo importante"), me hicieron saber que no había ninguna pregunta 😱
  En mi experiencia, cuando eso pasa, es que el nivel de turra ha sido astronómico y el mensaje no ha llegado de ninguna manera 😅
@@ -100,25 +100,52 @@ Sí, teníamos configurados Git hooks tanto de pre-commit como de pre-push. En l
 - Entiendo que esto es la respuesta a la pregunta que lancé: "¿Para qué desarrollamos software profesionalmente?"
 - En relación con el matiz que mencionaba en mi respuesta y que era lo que quería resaltar, te diría: ¿y si pudieras cambiar/mejorar el mundo de manera más óptima/eficiente **SIN** software, no lo harías? 😉
 
+1. **¿Tendría sentido ejecutar varios procesos de CI en paralelo? Por ejemplo los unit tests, construir la build y los e2e tests a la vez.**  
+- Sí, pero depende de cuales. Sin duda **debemos paralelizar todo lo posible**, comenzando por los propios tests (casi todas las librerías de testing permiten la ejecución en paralelo); además, así nos forzamos a escribir tests "autocontenidos", cuya entrada o salida no dependa de otros tests ni los contamine (lo cual es por defecto lo más recomendable). Con los tests unitarios y de integración no debería haber problema. Con los tests e2e/acceptance tal vez sí (merece la pena diferenciar cuáles se puden paralelizar y hacerlo).
+- En los [dos ejemplos reales que incluí](https://speakerdeck.com/islomar/valor-por-encima-de-codigo-el-poder-del-despliegue-continuo?slide=44), puedes ver qué paralelizamos y qué no, diría que casi todo con mucha consciencia (y siempre mejorable) 😊
+- Si por ejemplo miramos la segunda pipeline, te puedo contar por qué no paralelizamos en concreto las tres tareas que comentas:
+  - No queríamos invertir tiempo en el build de la imagen de Docker (y el posterior push a un ECR) si los tests no pasaban antes.
+  - Los tests unitarios son los más rápidos, por lo que son los más bloqueantes: no queremos hacer nada más si eso falla (otro motivo por el que no paralelizarlos con según qué). Sí los podemos paralelizar con otras tareas también rápidas, como linters y otras validaciones estáticas.
+  - En cuanto a los tests e2e: en nuestra taxonomía de testing, esos son tests que lanzamos contra la nueva versión del sistema ya desplegado en alguna parte (staging o production), por lo que no podríamos paralelizarlo tampoco con la build o tests unitarios.
+  - Los tests que sí paralelizamos como primer paso de la pipeline son los **unitarios** (cumplen [los principios FIRST](https://github.com/tekguard/Principles-of-Unit-Testing)), **☝️integración** (en nuestro caso son tests para los adaptadores secundarios de [nuestra arquitectura hexagonal](https://herbertograca.com/2017/09/14/ports-adapters-architecture/)) y tests de aceptación (que son tests "desde fuera" y los lanzamos contra el sistema que incluye las actualizaciones, levantado "en local", antes de ser deplegado).
+
+1. **Cuando haces TDD outside-in haces primero los tests desde el punto de vista del usuario pero, continuas con tests más internos?**  
+- Exactamente, ésa es la idea. Similar a [Acceptance TDD](https://www.agilealliance.org/glossary/atdd/), [Specification by Example](https://gojko.net/books/specification-by-example/) o [Behaviour-Driven Development (BDD)](https://dannorth.net/introducing-bdd/) (existen matices de diferencias entre los tres, pero en los tres casos buscamos testear el comportamiento del sistema desde el punto de vista de su usuario externo)
+- Decir que tal vez no siempre sea posible (yo no siempre lo consigo), pero sí debería ser el primer enfoque: cuando se hace así, la experiencia de desarrollo es fantástica (y por supuesto también revierte en la de usuario) 😍
+
+1. **¿Consideras indispensable que el continous delivery llegue siempre hasta producción? ¿No sería suficiente con un entorno de Test que sea una replica de Producción para evitar riesgos?**  
+- No debemos confundir "Continuous Delivery" y "Continuous Deployment". En la primera parte de mi charla intenté explicar [las diferencias](https://speakerdeck.com/islomar/valor-por-encima-de-codigo-el-poder-del-despliegue-continuo?slide=16).
+- Con **"Continuous Delivery"**, efectivamente la pipeline no llega a desplegar en Producción. Puede, por ejemplo, quedarse en un enterno previo (e.g. Staging). Lo importante es que una vez nuestro código se integra en la rama principal y se ejecuta la build y tests automatizados, queda en un "estado desplegable": cuando lo deseemos, a voluntad, podríamos desplegarlo a Producción (ese despliegue debería ser sencillo y repetible).
+- Con **"Continuous Deployment"**, ahí ya sí, toda la pipeline está completamente automatizada, incluido el paso de despliegue a Producción.
+- En la primera pipeline de ejemplo que mencioné, teníamos Continuous Deployment pero sí se desplegaba previamente a un entorno de Staging: tras desplegar ahí, se ejecutaban automáticamente varios tests e2e y smoke (lo más crítico) y si todo funcionaba correctamente, automáticamente se desplegaba a Producción.
+
+1. **Entendiendo que una release es un concepto de negocio y no tecnológico, porque tomar el product delivery lead time es importante como métrica? No es algo fuera del control de tecnología?**  
+- Buena pregunta. Mi respuesta: porque es fundamental verlo como un "todo". Desde "ingeniería/tecnología" tenemos que entender que la tecnología es un medio para un fin. 
+- Para mí es una de las claves de la evolución hacia "product engineering": entender que TODOS somos producto y negocio, que lo que hacemos debe responder a necesidades de usuarios.
+- En realidad desde "ingenería" podemos y debemos influir mucho más de lo que creemos en el "product delivery lead time". Muy a menudo he visto cómo la visión de los _product managers_ cambia (para bien) cuando los desarrolladores ponemos sobre la mesa formas más sencillas de empezar a satisfacer la necesidad del usuario.
+- Evidentemente, es necesaria la cultura adecuada en la empresa para que lo anterior ocurra y no nos encontremos con reinos de taifas y compartimentos estancos donde diferenciemos por completo "negocio" y "tecnología": debemos ir hacia entender que **todos somos PRODUCTO** y necesitamos colaborar de forma continua e intensa.
+- Por último: como yo lo veo, un "product team" está compuesto de perfiles varios, todos con igual importancia. El "product manager/owner" debe ser un miembro más del equipo, con horizontalidad respecto a los demás.
+
+1. **Al trabajar siempre en la misma rama, si se hace push al server y algo falla. Como parte de ese rollback se auto generaría un commit con revert? O tendríamos bloqueado la rama principal?**  
+- Lo primero: hagamos en cada contexto lo que mejor que podamos y sepamos, que ya es mucho 😄
+- En el [segundo ejemplo del mundo real](https://speakerdeck.com/islomar/valor-por-encima-de-codigo-el-poder-del-despliegue-continuo?slide=45) que incluí en la charla, era un rollback muy rápido del despliegue, por lo que no se generaba ningún commit. Por dar más detalles técnicos, hacíamos el [rollback con helm](https://helm.sh/docs/helm/helm_rollback/) (que era lo que también usábamos para el despliegue).
+- Cuando eso ocurría, recibíamos un mensaje en el canal de Slack de equipo que teníamos para cuestiones importantes (e.g. cualquier fallo en la pipeline). 
+- El rollback automático en Producción nos daba la tranquilidad de saber que se quedaba en un estado estable, que seguía funcionando lo anterior.
+- En cuanto como equipo en ensemble acabábamos el pomodoro que estaba en curso, priorizábamos inmediatamente ver qué había fallado y lo resolvíamos. No había ningún "bloqueo" de la rama principal porque trabajábamos en _ensemble_. Pero si no fuera así, como comenté en la charla arreglar una pipeline rota debe ser **PRIORITARIO**, por lo que no es que se quede bloqueada, sino que hay que arreglara _ipso facto_, y además todos a una en el equipo, da igual quién hizo el commit que lo rompió (creo que el cambio de mentalidad es importante, y el trabajar de forma aislada y muy individualista no ayuda).
+- Trabajando en rama única con lead time de minutos, no teníamos necesidad del concepto de "hot fix": tras el rollback automático, en cuanto podíamos lo arregláblamos (pocos minutos) y comiteábamos el arreglo que fuera (con un test automático incluído para evitar que se repitiera, de ser posible) y p'arriba 😉
+- Parte de la filosofía aquí es que cuando hay un incidente en Producción, lo primero y más importante es que Producción deje de fallar cuanto antes: puede ser porque volvemos a la versión anterior o porque comiteamos muy rápidamente una solución.
+- A lo largo de 2 años, son muy pocas las ocasiones en las que ese rollback nos ocurrió (teníamos una red de seguridad previa bastante potente). No debemos acostumbrarnos a que esté ocurriendo cada dos por tres, sería síntoma de que tenemos que invertir en mejorar la red de seguridad previa.
+
 1. **Gracias por la charla crack ! Me encanta tu punto sobre la disciplina y sobre todo el cuello de botella enfocado en el conocimiento ! . Tengo una duda , este mundo ha ido evolucionando con términos como CI\CD y otros como DevOps , DevSecOps . Que opinas sobre esto ? Quien debería tener esta responsabilidad , una persona , un equipo ? Me encantaría saber tu punto de vista**  
 [Pendiente de responder]
 
 1. **Crees que el approach trunk/CI es válido para resolución de deuda técnica o sustaining como incremento de versiones de frameworks o librerías? O es algo exclusivo de delivery de producto?**  
 [Pendiente de responder]
 
-1. **Al trabajar siempre en la misma rama, si se hace push al server y algo falla. Como parte de ese rollback se auto generaría un commit con revert? O tendríamos bloqueado la rama principal?**  
-[Pendiente de responder]
-
 1. **¿Como sería el proceso de desplegar funcionalidades del front que dependen de cambios del back con TBD?**  
 [Pendiente de responder]
 
-1. **¿Tendría sentido ejecutar varios procesos de CI en paralelo? Por ejemplo los unit tests, construir la build y los e2e tests a la vez.**  
-[Pendiente de responder]
-
 1. **¿Tienes alguna sugerencia o técnica para ejecutar E2E tests en producción? ¿Tráfico sintético, mirroring de tráfico, etc. ?**  
-[Pendiente de responder]
-
-1. **Cuando haces TDD outside-in haces primero los tests desde el punto de vista del usuario pero, continuas con tests más internos?**  
 [Pendiente de responder]
 
 1. **¿Cómo se puede balancear baterías de test enormes que hacen que las pipelines tarden, con la rapidez que se necesita en trunk based?**  
@@ -128,12 +155,6 @@ Sí, teníamos configurados Git hooks tanto de pre-commit como de pre-push. En l
 [Pendiente de responder]
 
 1. **La posibilidad de hacer Continuous Deployment ¿no va muy ligado a la criticidad de los posibles errores de la aplicación? Es decir, no es lo mismo introducir un bug en, por ejemplo, una plataforma para escuchar música que en una app de transacciones económicas o que maneje datos muy sensibles.**  
-[Pendiente de responder]
-
-1. **¿Consideras indispensable que el continous delivery llegue siempre hasta producción? ¿No sería suficiente con un entorno de Test que sea una replica de Producción para evitar riesgos?**  
-[Pendiente de responder]
-
-1. **Entendiendo que una release es un concepto de negocio y no tecnológico, porque tomar el product delivery lead time es importante como métrica? No es algo fuera del control de tecnología?**  
 [Pendiente de responder]
 
 1. **Cuando por el contexto de las iniciativas, por ejemplo, cambios muy complejos, no se puede mergear diariamente, no se puede considerar integración continua?**  

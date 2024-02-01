@@ -25,7 +25,7 @@ If you're just interested in public videos, [here](https://www.youtube.com/playl
 - _Where_: [Conference BilboStack 2024](https://bilbostack.com/){:target="_blank"}{:rel="noopener noreferrer"}
 - [Abstract (in Spanish)](https://bilbostack.com/isidro-lopez/){:target="_blank"}{:rel="noopener noreferrer"}
 - [Slides and resources](../_posts/2024-01-29-slides-and-resources-talk-bilbostack-2024.md){:target="_blank"}{:rel="noopener noreferrer"}
-- _Topics_: continuous-integration, continuous-deployment, flow-efficiency, feedback-loops, friction, lean-software-development, trunk-based-development, XP, flow-efficiency, high-efficient-teams, product-development, engineering-culture
+- _Topics_: continuous-integration, continuous-deployment, flow-efficiency, feedback-loops, friction, lean-software-development, trunk-based-development, XP, high-efficient-teams, product-development, engineering-culture
 
 ### **Connascence 101** (2023)
 - _Where_: Internal talk in [Clarity AI](https://clarity.ai/){:target="_blank"}{:rel="noopener noreferrer"} for the whole Engineering
