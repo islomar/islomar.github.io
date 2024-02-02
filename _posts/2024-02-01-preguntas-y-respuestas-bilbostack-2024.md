@@ -1,7 +1,7 @@
 ---
 title: "Preguntas y respuestas de mi charla en la BilboStack 2024"
 date: 2024-01-31T16:26:27+01:00
-last_modified_at: 2024-02-01T11:26:27+01:00
+last_modified_at: 2024-02-02T20:26:27+01:00
 categories:
   - blog
   - talks
@@ -148,7 +148,7 @@ Sí, teníamos configurados Git hooks tanto de pre-commit como de pre-push. En l
 - De hecho creo que la mejor manera de abordar la **[deuda técnica](https://martinfowler.com/bliki/TechnicalDebt.html){:target="_blank"}{:rel="noopener noreferrer"}** (que por cierto, tendríamos que estar seguros de que hablamos de lo mismo 😄) es poco a poco. Hacer "sprints de deuda técnica" suele ser síntoma de falta de "slack/holgura" en el equipo (entre otras cosas).
 - En cuanto a la **actualización de frameworks/librerías**: aquí ya te diría que "depende". 
   - Para actualizaciones de librerías, te diría que sí (en mi equipo teníamos un [renovatebot](https://github.com/renovatebot/renovate){:target="_blank"}{:rel="noopener noreferrer"} actualizando automáticamente a diario todas las librerías y desplegando al final igualmente la pipeline). Pero de nuevo, lo que repito todo el tiempo: necesitas una red de seguridad potente, sobre todo muy buenos tests automatizados.
-  - En cuanto a actualizaciones de frameworks: depende de las implicaciones del cambio. Normalmente sí, pero cuando son versiones _major_ no es improbable que el impacto sea suficientemente grande como para requerir hacerlo en una rama que viva más de 24 horas y poder probar ahí todo tranquilamente.
+  - En cuanto a actualizaciones de frameworks: depende de las implicaciones del cambio. Normalmente sí, pero cuando son versiones _major_ no es improbable que el impacto sea suficientemente grande como para requerir hacerlo en una rama que viva más de 24 horas y poder cambiar y probar ahí todo tranquilamente.
 
 1. **¿Tienes alguna sugerencia o técnica para ejecutar E2E tests en producción? ¿Tráfico sintético, mirroring de tráfico, etc. ?**  
 Interesante pregunta 😄 La respuesta: "depende del contexto" (sorry, not sorry). Por si te aporta, puedo contarte dos casuísticas muy diferentes que me he encontrado (entre otras muchas):
