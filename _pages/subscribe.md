@@ -19,11 +19,7 @@ You have several options for easily subscribing to this blog:
     <form action="https://islomar.us21.list-manage.com/subscribe/post?u=498bbe56908bb42e275e4e641&amp;id=d939f21f34&amp;f_id=00c0fbe6f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
         <div id="mc_embed_signup_scroll"><h2>Don't miss my next post, get it in your inbox! (No spam, ever. Promised. 🤞)</h2>
             <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-            <div class="mc-field-group">
-                <label for="mce-EMAIL">Email <span class="asterisk">*</span></label>
-                <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value="">
-                <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
-            </div>
+            <div class="mc-field-group"><label for="mce-EMAIL">Dirección de correo electrónico <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""><span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span></div>
         <div id="mce-responses" class="clear foot">
             <div class="response" id="mce-error-response" style="display: none;"></div>
             <div class="response" id="mce-success-response" style="display: none;"></div>
