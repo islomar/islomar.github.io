@@ -16,7 +16,8 @@ It is configured with hot reload.
 
 ### With Docker
 
-Run `make docker-up` or `docker compose up`
+1. Run `make up` or `up-with-drafts`
+2. [Open in a browser](http://127.0.0.1:4000/)
 
 ### Without Docker
 
