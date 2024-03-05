@@ -1,7 +1,7 @@
 ---
 title: "Some interview questions as an interviewee"
 date: 2021-11-10T13:05:34+01:00
-last_modified_at: 2022-01-29T16:57:31+01:00
+last_modified_at: 2024-03-05T16:31:31+01:00
 categories:
   - blog
 tags:
@@ -26,6 +26,7 @@ So... here I share some of the questions that I have asked in the past or I will
 - How do you **communicate**? How do you get **feedback** in all the needed directions?
 - How do you keep the whole organisation **aligned**?
 - Do you consider the company a **remote-first** one? E.g. is there any company or team event which does not happen online? Can I enjoy my own local bank holidays? Will you pay for any expense related with an on-site gathering?
+- Are there explicit actions in place to take care about **Diversity, Equity and Inclusion (DE&I)**? E.g. do you have numbers about gender diversity? About age diversity? What about diversity in leadership and management positions (C-level included)?
 - What do you **enjoy** the most from working there?
 - Tell me something that you don't like here. What would you like to be different, why and how?
 - What are the current main **challenges** for the company? (product and technical challenges)
@@ -58,7 +59,7 @@ So... here I share some of the questions that I have asked in the past or I will
 - How does the whole **recruitment process** work? Which will be the next steps?
 - What is the **salary range**? Social benefits?
 - Is there any **budget** for training or any other concept?
-- Would there be the possibility to work **30 hours per week**, 6 hours per day?
+- Would there be the possibility to work **30-32 hours per week** (6 hours per day or 4 days per week)?
 
 ## More questions from other people
 
