@@ -17,7 +17,7 @@ run-without-docker: ## Run blog locally without Docker
 up: down ## Start locally using Docker
 	$(DOCKER_RUN_BLOG)
 
-up-with-drafts: ## Start locally using Docker including drafts
+up-with-drafts: down ## Start locally using Docker including drafts
 	$(DOCKER_RUN_BLOG) --drafts
 
 down: ## Stop and remove local Docker blog
