@@ -30,6 +30,7 @@ For different reasons (i.e. there are higher and lower levels of "criticality" i
 - Casinos, gambling and bets ("been there, done that")
 - Any green-washing, or generally speaking, “ethical-washing” activity
 - Crypto businesses and alike
+- Activities where people can quickly lose a lot of money
 - Delivery riders business models where they get abused, usually as "false freelances"
 - Business models whose main goal is encouraging wild consumerism of any kind
 - Highly polluting activities
