@@ -11,7 +11,7 @@ Being **full-remote** is a MUST (no problem to move for on-sites every quarter o
 
 **Doing what?** Basically, I can help your organisation and teams in the continuous and sustainable delivery of value for your users/customers/business through **software and product development**, with a diverse set of values, principles and practices (both social and technical, mostly grown around Lean Software Development, eXtreme Programming, DevOps culture, NVC, etc.), lowering the pain at the same time. We would do it together (I don't want to feel alone, I want peers). Let's grow **TOGETHER**.
 
-**For what position?** Well... it depends (sorry not sorry). Labels are too contextual and subjective and I don't care much about them; some might be "Technical Agile Coach", "Senior/Staff/Whatever Software Engineer", "Product Developer", "Enabler", "Tech Lead" or "Minion" (it really depends on the context and conditions).
+**For what position?** Well... it depends (sorry not sorry). Labels are too contextual and subjective and I don't care much about them; some might be "Product Developer", "Enabler", "Technical Agile Coach", "Senior/Staff/Whatever Software Engineer", "Tech Lead" or "Minion" (it really depends on the context and conditions).
 
 Having said that, my preference is a position with serious leverage, where I could feel that I have a positive impact in a broad scope.
 
