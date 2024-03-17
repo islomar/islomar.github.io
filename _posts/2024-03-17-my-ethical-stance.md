@@ -1,6 +1,6 @@
 ---
 title: "My ethical stance"
-date: 2024-03-17T12:35:00+02:00
+date: 2024-03-17T12:35:00+01:00
 categories:
   - blog
 tags:
