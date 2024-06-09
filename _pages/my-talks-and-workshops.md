@@ -22,8 +22,8 @@ If you're just interested in public videos, [here](https://www.youtube.com/playl
 
 ### **Value over Code: the power of Continuous Deployment** (2024)
 
-- _Where_: [Conference BilboStack 2024](https://bilbostack.com/){:target="_blank"}{:rel="noopener noreferrer"}
-- [Abstract (in Spanish)](https://bilbostack.com/isidro-lopez/){:target="_blank"}{:rel="noopener noreferrer"}
+- _Where_: [Conference BilboStack 2024](https://2024.bilbostack.com/){:target="_blank"}{:rel="noopener noreferrer"}
+- [Abstract (in Spanish)](https://2024.bilbostack.com/isidro-lopez){:target="_blank"}{:rel="noopener noreferrer"}
 - [Slides and resources](../_posts/2024-01-29-slides-and-resources-talk-bilbostack-2024.md){:target="_blank"}{:rel="noopener noreferrer"}
 - _Topics_: continuous-integration, continuous-deployment, flow-efficiency, feedback-loops, friction, lean-software-development, trunk-based-development, XP, high-efficient-teams, product-development, engineering-culture
 

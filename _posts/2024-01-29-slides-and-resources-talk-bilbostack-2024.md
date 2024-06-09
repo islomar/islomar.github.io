@@ -22,7 +22,7 @@ Some months ago, the organization of the amazing conference [BilboStack](https:/
 
 I decided to talk about **Continuous Deployment**... as a Trojan horse in order to talk about many other topics related with software and product development (probably too many indeed! 😅)
 
-Last Saturday, 27th January 2024, I finally gave it: ["Valor por encima de código: el poder del Despliegue Continuo"](https://bilbostack.com/isidro-lopez){:target="_blank"}{:rel="noopener noreferrer"}, which might be translated to English as "Value over Code: the power of Continuous Deployment".
+Last Saturday, 27th January 2024, I finally gave it: ["Valor por encima de código: el poder del Despliegue Continuo"](https://2024.bilbostack.com/isidro-lopez){:target="_blank"}{:rel="noopener noreferrer"}, which might be translated to English as "Value over Code: the power of Continuous Deployment".
 
 Here I would like to share the slides and some of the people and resources included in the talk (and if you spot any link not working properly, please tell me 🙏). 
 
