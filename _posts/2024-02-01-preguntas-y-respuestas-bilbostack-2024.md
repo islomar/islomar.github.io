@@ -56,7 +56,7 @@ Por suerte, parece ser que la explicación era menos dramática: hubo algún pro
 - _Ventajas_: tener feedback mucho más rápido si fallan los tests (no tener que esperar a que fallen en la pipeline, cuando ya hemos cambiado el foco y estamos a medias de otra cosa). Por supuesto no incluiría los tests más "lentos", pero sí los "rápidos" (en mi opinión todos los unitarios deberían serlo, así como algunos de integración - qué considero "unitario" o "integración" da para otro post). 
 - _Inconvenientes_: el inconveniente surge si su ejecución es "demasiado lenta"; lo que acabará pasando es que los saltaremos o acumularemos demasiados cambios. La solución pasa por tener en los Git hooks únicamente los tests más rápidos o que no provoquen demasiada sensación de ralentización. Paralelizar todo lo posible su ejecución es importante para disminuir los tiempos.
 
-1. **De primeras, muy interesante. Como pregunta ¿no notaste que los hooks pre-commit y pre-push podian añadir friccion y latencia en el proceso de commit, llevando al equipo a hacer commits mas grandes para evitar hacer menos commits por pasar menos procesos ?**  
+1. **De primeras, muy interesante. Como pregunta ¿no notaste que los hooks pre-commit y pre-push podian añadir friccion y latencia en el proceso de commit, llevando al equipo a hacer commits mas grandes para evitar hacer menos commits por pasar menos procesos?**  
 Muy buena pregunta, y por desgracia no es difícil que ocurra, hay que estar muy pendiente de ello. Lo he intentado contestar en la pregunta anterior ☝️🙏
 
 1. **¿Validaciones sincronas o PR en asincrono?**
