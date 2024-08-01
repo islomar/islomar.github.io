@@ -1,7 +1,7 @@
 ---
 title: "Some interview questions as an interviewee"
 date: 2021-11-10T13:05:34+01:00
-last_modified_at: 2024-03-05T16:31:31+01:00
+last_modified_at: 2024-08-01T16:31:31+01:00
 categories:
   - blog
 tags:
@@ -31,6 +31,8 @@ So... here I share some of the questions that I have asked in the past or I will
 - Tell me something that you don't like here. What would you like to be different, why and how?
 - What are the current main **challenges** for the company? (product and technical challenges)
 - Why would you **fire me**?
+- **Psychological safety** is extremely important to me, so please be honest with me: are there verbally aggressive people, especially in positions with power?
+- Is there **micromanagement** from any position with power (e.g CTO/VP/Head/Managers)? How do they intervene in team's decisions if they don't agree?
 - What would be my **boundaries**? What wouldn't I be allowed to do or to step into?
 - What do you **expect** from me?
 - Why don't you cover this position with a current internal employee?
