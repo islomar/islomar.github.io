@@ -20,6 +20,11 @@ If you're just interested in public videos, [here](https://www.youtube.com/playl
 
 ## TALKS
 
+### **Thinking about value** (2024)
+- _Where_: Internal talk in [Qatium](https://qatium.app/){:target="_blank"}{:rel="noopener noreferrer"} for the whole Product area
+- _Topics_: Product developepment
+- _Description_: "Value" is one of the most repeated words in our context and industry. “Delivering value” is a classic mantra. I would like to go beyond the most traditional and simplistic way of thinking about how to bring “value” to the table… and explore the “value” concept from every possible perspective.
+
 ### **Value over Code: the power of Continuous Deployment** (2024)
 
 - _Where_: [Conference BilboStack 2024](https://2024.bilbostack.com/){:target="_blank"}{:rel="noopener noreferrer"}
