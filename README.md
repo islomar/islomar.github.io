@@ -83,9 +83,14 @@ It is configured with hot reload.
 - [Mostrar breadcrumbs](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#breadcrumb-navigation-beta)
 - https://mmistakes.github.io/minimal-mistakes/docs/layouts/#social-sharing-links
 - Multilingual:
+  - https://sylvaindurand.org/making-jekyll-multilingual/
   - https://forestry.io/blog/creating-a-multilingual-blog-with-jekyll/
   - https://juan.pallares.me/configure-jekyll-multi-language-without-plugin/
+    - https://github.com/jpallares/PallaresBlog/blob/main/_posts/2020-06-28-configure-jekyll-multi-language-without-plugin.md
+    - https://github.com/jpallares/PallaresBlog/blob/main/_data/i18n.yml
+    - https://github.com/jpallares/PallaresBlog/blob/main/_layouts/home.html
   - https://github.com/mmistakes/minimal-mistakes/discussions/2660
+  - https://www.usecue.com/blog/multilingual-jekyll-websites/
 - Incluir cuando se actualizó por última vez una página:
   - https://juan.pallares.me/books/el-plan-revolucionario/
 - Read about "Incremental build"
@@ -115,3 +120,9 @@ It is configured with hot reload.
   - Twitter Cards:
     - https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/player-card
   - More examples: https://mmistakes.github.io/minimal-mistakes/tags/
+- Fix permalinks
+  - https://islomar.es/blog/some-interview-questions-as-interviewee/
+  - https://islomar.es/blog/my-ethical-stance/
+  - https://islomar.es/blog/talks/preguntas-y-respuestas-bilbostack-2024/
+  - https://islomar.es/blog/talks/slides-and-resources-talk-bilbostack-2024/
+  - https://islomar.es/blog/yet-another-hello-world-post/

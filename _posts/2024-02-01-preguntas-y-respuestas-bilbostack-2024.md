@@ -1,7 +1,10 @@
 ---
 title: "Preguntas y respuestas de mi charla en la BilboStack 2024"
+lang: es
 date: 2024-01-31T16:26:27+01:00
 last_modified_at: 2024-02-04T08:26:27+01:00
+redirect_from:
+  - /blog/talks/preguntas-y-respuestas-bilbostack-2024/
 categories:
   - blog
   - talks

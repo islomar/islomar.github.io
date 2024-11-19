@@ -15,4 +15,5 @@ group :jekyll_plugins do
   gem "jekyll-include-cache", ">= 0.2.0"
   gem "jekyll-algolia", ">= 1.6.0"
   gem "webrick", ">= 1.8.2"
+  gem 'jekyll-redirect-from'
 end
