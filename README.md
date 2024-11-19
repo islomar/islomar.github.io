@@ -10,6 +10,7 @@
   - https://mmistakes.github.io/minimal-mistakes/
   - https://github.com/mmistakes/minimal-mistakes
 - There are some URL redirects in place: https://islomar.es/redirects.json  
+  - https://github.com/jekyll/jekyll-redirect-from
 
 ## How to run the blog locally
 
@@ -49,6 +50,7 @@ It is configured with hot reload.
 ## References
 - [Docker Jekyll](https://github.com/envygeeks/jekyll-docker/blob/master/README.md)
 - [How to create a Jekyll navigation menu](https://www.youtube.com/watch?v=6h8-uPadFug)
+- [Default search engine in the blog](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#lunr-default)
 
 ## Other blogs with Minimal Mistakes
 - https://philippe.bourgau.net/
@@ -92,11 +94,13 @@ It is configured with hot reload.
     - https://github.com/jpallares/PallaresBlog/blob/main/_layouts/home.html
   - https://github.com/mmistakes/minimal-mistakes/discussions/2660
   - https://www.usecue.com/blog/multilingual-jekyll-websites/
+  - https://frozenfractal.com/blog/2016/5/13/building-a-multilingual-website-in-jekyll/
 - Incluir cuando se actualizó por última vez una página:
   - https://juan.pallares.me/books/el-plan-revolucionario/
 - Read about "Incremental build"
 - `Error loading credentials from netrc file for https://api.github.com/`
 - Add comments provider (e.g. Disqus):
+  - Check if it works. Otherwise, try [utterances comments](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#utterances-comments)
   - https://mmistakes.github.io/minimal-mistakes/docs/configuration/#disqus
   - https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963
 - Change the home page to a "splash" layout.
@@ -121,9 +125,6 @@ It is configured with hot reload.
   - Twitter Cards:
     - https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/player-card
   - More examples: https://mmistakes.github.io/minimal-mistakes/tags/
-- Fix permalinks
-  - https://islomar.es/blog/some-interview-questions-as-interviewee/
-  - https://islomar.es/blog/my-ethical-stance/
-  - https://islomar.es/blog/talks/preguntas-y-respuestas-bilbostack-2024/
-  - https://islomar.es/blog/talks/slides-and-resources-talk-bilbostack-2024/
-  - https://islomar.es/blog/yet-another-hello-world-post/
+- Update pagination dependency
+  - https://mmistakes.github.io/minimal-mistakes/docs/configuration/#paginate-v2
+  - https://github.com/sverrirs/jekyll-paginate-v2
