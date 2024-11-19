@@ -1,6 +1,5 @@
 ---
 title: "Preguntas y respuestas de mi charla en la BilboStack 2024"
-lang: es
 date: 2024-01-31T16:26:27+01:00
 last_modified_at: 2024-02-04T08:26:27+01:00
 lang: es
@@ -16,7 +15,7 @@ tags:
   - spanish
 ---
 
-Cuando en la pasada y maravillosa [BilboStack](https://bilbostack.com/){:target="_blank"}{:rel="noopener noreferrer"} finalicé [mi charla sobre Continuous Deployment](/blog/talks/slides-and-resources-talk-bilbostack-2024) (no me cansaré de repetir que como excusa para hablar de "lo importante"), me hicieron saber que no había ninguna pregunta 😱
+Cuando en la pasada y maravillosa [BilboStack](https://bilbostack.com/){:target="_blank"}{:rel="noopener noreferrer"} finalicé [mi charla sobre Continuous Deployment](/slides-and-resources-talk-bilbostack-2024) (no me cansaré de repetir que como excusa para hablar de "lo importante"), me hicieron saber que no había ninguna pregunta 😱
  En mi experiencia, cuando eso pasa, es que el nivel de turra ha sido astronómico y el mensaje no ha llegado de ninguna manera 😅
 
 Por suerte, parece ser que la explicación era menos dramática: hubo algún problema con la aplicación que recogía las preguntas (¿faltaría algún test? 😜). La organización ha tenido el detallazo de enviármelas _a posteriori_, así que intentaré contestarlas en este post.
@@ -94,7 +93,7 @@ Yo como mejor lo he visto hacer es liderando con el ejemplo (lo cual requiere ex
 - Esto está relacionado con el desacoplamiento que mencionaba durante la charla entre "Deployment" (decisión técnica) y "Release" (decisión de negocio).
 
 1. **Para usar CD con trunk-based development, a la hora de hacer commits y pushearlos, ¿teniais algun tipo de configuracion para prevenir commit que no pasasen los tests?**  
-Sí, teníamos configurados Git hooks tanto de pre-commit como de pre-push. En los [diagramas de los slides de la charla](/blog/talks/slides-and-resources-talk-bilbostack-2024) puedes ver qué incluíamos en cada uno de ellos. Por la forma en que funcionan los Git hooks, si el pre-commit no pasa (i.e. si estado de salida es distinto de cero), no se realiza el commit (idem para el pre-push).
+Sí, teníamos configurados Git hooks tanto de pre-commit como de pre-push. En los [diagramas de los slides de la charla](/slides-and-resources-talk-bilbostack-2024) puedes ver qué incluíamos en cada uno de ellos. Por la forma en que funcionan los Git hooks, si el pre-commit no pasa (i.e. si estado de salida es distinto de cero), no se realiza el commit (idem para el pre-push).
 
 1. **A la pregunta que ha hecho: "Es para cambiar el Mundo, porque en mayor o menos medida cuando subimos un cambio, estos cambian la vida de algunas personas (para bien o para mal) nuestros usuarios o cliebtes, porque tienen herramientas para hacer mejor su trabajo"**  
 - Entiendo que esto es la respuesta a la pregunta que lancé: "¿Para qué desarrollamos software profesionalmente?". Me parece una perspectiva maravillosa, la verdad, me siento muy alineado con la idea que subyace a ella.
