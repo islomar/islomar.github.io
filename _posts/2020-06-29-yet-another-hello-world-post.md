@@ -1,6 +1,10 @@
 ---
 title: "YAHWP (Yet Another Hello World Post)"
 date: 2020-06-29T21:22:00+02:00
+lang: en
+ref: hello-world
+redirect_from:
+  - /blog/yet-another-hello-world-post/
 categories:
   - blog
 tags:

@@ -2,6 +2,10 @@
 title: "My ethical stance"
 date: 2024-03-17T12:35:00+01:00
 last_modified_at: 2024-03-20T21:16:27+01:00
+lang: en
+ref: my-ethical-stance
+redirect_from:
+  - /blog/my-ethical-stance/
 categories:
   - blog
 tags:

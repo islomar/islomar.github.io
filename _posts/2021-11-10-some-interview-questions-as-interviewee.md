@@ -2,6 +2,10 @@
 title: "Some interview questions as an interviewee"
 date: 2021-11-10T13:05:34+01:00
 last_modified_at: 2024-08-01T16:31:31+01:00
+lang: en
+ref: interview-questions-as-interviewee
+redirect_from:
+  - /blog/some-interview-questions-as-interviewee/
 categories:
   - blog
 tags:

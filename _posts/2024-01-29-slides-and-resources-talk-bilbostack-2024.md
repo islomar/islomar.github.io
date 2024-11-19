@@ -5,6 +5,10 @@ last_modified_at: 2024-01-29T13:26:27+01:00
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "chalkboard-teacher"
+lang: en
+ref: slides-bilbostack-2024
+redirect_from:
+  - /blog/talks/slides-and-resources-talk-bilbostack-2024/
 categories:
   - blog
   - talks

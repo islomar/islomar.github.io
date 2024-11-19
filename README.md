@@ -9,6 +9,7 @@
 - Theme: minimal-mistakes.
   - https://mmistakes.github.io/minimal-mistakes/
   - https://github.com/mmistakes/minimal-mistakes
+- There are some URL redirects in place: https://islomar.es/redirects.json  
 
 ## How to run the blog locally
 
