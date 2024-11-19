@@ -14,5 +14,5 @@ group :jekyll_plugins do
   gem "jemoji", ">= 0.13.0"
   gem "jekyll-include-cache", ">= 0.2.0"
   gem "jekyll-algolia", ">= 1.6.0"
-  gem "webrick"
+  gem "webrick", ">= 1.8.2"
 end
