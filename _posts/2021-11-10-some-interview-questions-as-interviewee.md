@@ -1,7 +1,7 @@
 ---
 title: "Some interview questions as an interviewee"
 date: 2021-11-10T13:05:34+01:00
-last_modified_at: 2024-08-01T16:31:31+01:00
+last_modified_at: 2025-01-10T22:01:31+01:00
 lang: en
 ref: interview-questions-as-interviewee
 redirect_from:
@@ -24,7 +24,7 @@ So... here I share some of the questions that I have asked in the past or I will
 - What is the **business model** of the company? Who are your customers, users, providers?
 - What **differentiates** you from any other company and from your competitors?
 - How do you earn money, what are your **revenue streams**? Did you surpass the break-even?
-- How do you **improve**? How do you **learn**?
+- How do you **improve** as a company or team? How do you **learn**?
 - How are you **organised**? (company-wide and engineering)
 - How do you take **decision**s? Who takes which ones and when? What decisions are taken at each "level"?
 - How do you **communicate**? How do you get **feedback** in all the needed directions?
@@ -32,7 +32,7 @@ So... here I share some of the questions that I have asked in the past or I will
 - Do you consider the company a **remote-first** one? E.g. is there any company or team event which does not happen online? Can I enjoy my own local bank holidays? Will you pay for any expense related with an on-site gathering?
 - Are there explicit actions in place to take care about **Diversity, Equity and Inclusion (DE&I)**? E.g. do you have numbers about gender diversity? About age diversity? What about diversity in leadership and management positions (C-level included)?
 - What do you **enjoy** the most from working there?
-- Tell me something that you don't like here. What would you like to be different, why and how?
+- Tell me something that you don't like here. What room for improvement exists? What would you like to be different, why and how?
 - What are the current main **challenges** for the company? (product and technical challenges)
 - Why would you **fire me**?
 - **Psychological safety** is extremely important to me, so please be honest with me: are there verbally aggressive people, especially in positions with power?
@@ -55,8 +55,10 @@ So... here I share some of the questions that I have asked in the past or I will
 - What happens when an incident in Production is detected?
 - Tell me about your main **technical principles and practices**.
 - What is approximately your **lead time** (time from a commit to Production), **throughput** (deployments/releases to Production) and **error rate**?
-- Could you tell me which is the whole lifecycle of a user need? Could you describe for me any of your main **value streams**? From the discovery of the user need until its satisfaction.
-- What happens from the moment a developer starts working on something until it is deployed? Could you please describe to me your **delivery pipeline**?
+- Could you tell me which is the whole lifecycle of a **user need**? Could you describe for me any of your main **value streams**? From the discovery of the user need until its satisfaction.
+- How and when is the **priorization** done? Who does it? Based on what?
+- How do you optimize the **business and technical alignment of the teams**?
+- What happens from the moment a developer starts working on something until it is deployed? Could you please describe to me your **delivery pipeline**? What's the full **journey of a commit**?
 - How many teams does a team depend on to get a small change into production?
 - What is the entire process for a **one line change** in code to make it to production? (by [Jeremy Kahne](https://twitter.com/jeremykahne/status/1469416655168196620))
 - Do you decouple **"Release"** from "Deployment"?
