@@ -16,14 +16,14 @@ tags:
 This post is the extraction of a section at my page [My professional services](../../my-professional-services).
 Some people enjoyed this part especially, so I thought it might be a good idea to extract it as an independent post that I might update from time to time.
 
-The goal of these questions is to help clarifying my **expectations** and to generate the clearest and broadest possible idea about the company, the role, the day-to-day work, etc. To better grab the "lights" and the "darkness". Another outcome is to **reduce the probability of a misalignment and big surprises** during the first weeks of work 😊
+The goal of these questions is to help clarifying my **expectations** and to generate the clearest and broadest possible idea about the company, the business, the culture, the role, the day-to-day work, etc. To better grab the "lights" and the "darkness". Another outcome is to **reduce the probability of a misalignment and big surprises** during the first weeks of work 😊
 
 So... here I share some of the questions that I have asked in the past or I will ask in the future to my interviewers:
 
 - What is your **mission** and short-term goals as an organisation? What is your **vision** and long-term goals?
 - What is the **business model** of the company? Who are your customers, users, providers?
 - What **differentiates** you from any other company and from your competitors?
-- How do you earn money, what are your **revenue streams**? Did you surpass the break-even?
+- **How do you earn money**, what are your **revenue streams**? Did you surpass the break-even?
 - How do you **improve** as a company or team? How do you **learn**?
 - How are you **organised**? (company-wide and engineering)
 - How do you take **decision**s? Who takes which ones and when? What decisions are taken at each "level"?
