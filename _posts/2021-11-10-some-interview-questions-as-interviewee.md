@@ -18,7 +18,9 @@ Some people enjoyed this part especially, so I thought it might be a good idea t
 
 The goal of these questions is to help clarifying my **expectations** and to generate the clearest and broadest possible idea about the company, the business, the culture, the role, the day-to-day work, etc. To better grab the "lights" and the "darkness". Another outcome is to **reduce the probability of a misalignment and big surprises** during the first weeks of work 😊
 
-So... here I share some of the questions that I have asked in the past or I will ask in the future to my interviewers:
+And always remember that **an interview is (or should be) a 2-ways conversation**, a 2-ways discovering process.
+
+So... here I share some of the questions that I have asked in the past or I will ask in the future to my interviewers; I would recommend you to select only a few and prioritize them according to the time that you have available, and taking into account the different stages during the recruitment process.
 
 - What is your **mission** and short-term goals as an organisation? What is your **vision** and long-term goals?
 - What is the **business model** of the company? Who are your customers, users, providers?
@@ -31,6 +33,7 @@ So... here I share some of the questions that I have asked in the past or I will
 - How do you keep the whole organisation **aligned**?
 - Do you consider the company a **remote-first** one? E.g. is there any company or team event which does not happen online? Can I enjoy my own local bank holidays? Will you pay for any expense related with an on-site gathering?
 - Are there explicit actions in place to take care about **Diversity, Equity and Inclusion (DE&I)**? E.g. do you have numbers about gender diversity? About age diversity? What about diversity in leadership and management positions (C-level included)?
+- What opportunities exist for **mentorship**?
 - What do you **enjoy** the most from working there?
 - Tell me something that you don't like here. What room for improvement exists? What would you like to be different, why and how?
 - What are the current main **challenges** for the company? (product and technical challenges)
@@ -54,10 +57,11 @@ So... here I share some of the questions that I have asked in the past or I will
 - Tell me about your **observability** practices. How do you find out that there is a problem? How do you dig deeper to solve it?
 - What happens when an incident in Production is detected?
 - Tell me about your main **technical principles and practices**.
-- What is approximately your **lead time** (time from a commit to Production), **throughput** (deployments/releases to Production) and **error rate**?
+- What is approximately your **lead time** (time from a commit to Production), **throughput** (frequency of deployments/releases to Production) and **error rate**?
 - Could you tell me which is the whole lifecycle of a **user need**? Could you describe for me any of your main **value streams**? From the discovery of the user need until its satisfaction.
 - How and when is the **priorization** done? Who does it? Based on what?
 - How do you optimize the **business and technical alignment of the teams**?
+- How do you handle **disagreements** on technical approaches?
 - What happens from the moment a developer starts working on something until it is deployed? Could you please describe to me your **delivery pipeline**? What's the full **journey of a commit**?
 - How many teams does a team depend on to get a small change into production?
 - What is the entire process for a **one line change** in code to make it to production? (by [Jeremy Kahne](https://twitter.com/jeremykahne/status/1469416655168196620))
@@ -75,3 +79,5 @@ So... here I share some of the questions that I have asked in the past or I will
 - [The Pragmatic Engineer Test: 12 Questions on Engineering Culture](https://blog.pragmaticengineer.com/pragmatic-engineer-test/)
 - [List of questions to identify a toxic culture during the interview](https://flopezluis.medium.com/list-of-questions-to-identify-a-toxic-culture-during-the-interview-ba751cd0bf13)
   - A [Twitter thread](https://twitter.com/flopezluis/status/1463482536185716738) with some great questions you can ask to identify a toxic culture in an interview, from [Félix López](https://es.linkedin.com/in/flopezluis).
+- [How To - Get Your Next Job 01-08-2025](https://continuous-delivery.co.uk/downloads/How%20To%20-%20Get%20Your%20Next%20Job%2008-01-2025.pdf) by Dave Farley
+- [20 questions to ask your next employer](https://youtu.be/2Afk9KVEgpE), video 18 min by Dave Farley
