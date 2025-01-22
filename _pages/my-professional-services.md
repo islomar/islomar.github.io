@@ -6,6 +6,8 @@ toc_label: "Table of Contents"
 toc_icon: "chalkboard-teacher"
 ---
 
+:calendar: **Last update**: *January 22, 2025*
+
 BIG NEWS! 🎉 After some weeks of self-care, I feel ready to start searching for a new professional challenge preferably as an **employee** (only in exceptional cases as a **contractor**, but I don't feel like freelancing with several companies at the moment) at a **product company** as a preference.
 Being **full-remote** is a MUST (no problem to move for on-sites every quarter or so) and I will say it despite being taboo: aiming for a **"high salary"** right now (in the "North-Europe" range, whatever that means; just keep reading and let's talk about it anyway 😉).
 
