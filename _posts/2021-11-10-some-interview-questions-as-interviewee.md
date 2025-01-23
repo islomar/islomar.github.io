@@ -1,7 +1,7 @@
 ---
 title: "Some interview questions as an interviewee"
 date: 2021-11-10T13:05:34+01:00
-last_modified_at: 2025-01-10T22:01:31+01:00
+last_modified_at: 2025-01-23T10:01:31+01:00
 lang: en
 ref: interview-questions-as-interviewee
 redirect_from:
@@ -81,3 +81,10 @@ So... here I share some of the questions that I have asked in the past or I will
   - A [Twitter thread](https://twitter.com/flopezluis/status/1463482536185716738) with some great questions you can ask to identify a toxic culture in an interview, from [Félix López](https://es.linkedin.com/in/flopezluis).
 - [How To - Get Your Next Job 01-08-2025](https://continuous-delivery.co.uk/downloads/How%20To%20-%20Get%20Your%20Next%20Job%2008-01-2025.pdf) by Dave Farley
 - [20 questions to ask your next employer](https://youtu.be/2Afk9KVEgpE), video 18 min by Dave Farley
+- **Six questions to determine whether a company is product-led** (from the book ["Escaping the build trap"](https://www.oreilly.com/library/view/escaping-the-build/9781491973783/) by Melissa Perri)
+  - Who came up with the last feature or product idea you built?
+  - What was the last product you decided to kill?
+  - When's the last time you talked with your customers?
+  - What is your goal?
+  - What are you currently working on?
+  - What are your product managers like?
