@@ -15,7 +15,7 @@ tags:
 
 > This is the **English version** for [the post I wrote in March 2024](/preguntas-y-respuestas-bilbostack-2024) answering several highly interesting questions related to my talk at the BilboStack conference about **Continuous Deployment** (including a lot of product-mindset, eXtreme Programming, and Lean Product Development values, principles and practices).
 
-> There were really interesting questions related with code freezes, teams in distributed timezones, painful experiences with Git Hooks, async PRs, pairing, parallel changes techniques, technical debt, outside-in TDD, how to deal with deployment coupling between front-back, achieving ISO 27001/SOC2 certifications while practicing continuous deployment, etc.
+> There were questions related with code freezes, teams in distributed timezones, painful experiences with Git Hooks, async PRs, pairing, parallel changes techniques, technical debt, outside-in TDD, how to deal with deployment coupling between front-back, achieving ISO 27001/SOC2 certifications while practicing continuous deployment, etc.
 
 
 # Questions and Answers from My Talk at BilboStack 2024
@@ -30,18 +30,18 @@ Luckily, it seems the explanation was less dramatic: there was some problem with
 ---------------------------
 
 1. **Can you explain how to achieve ISO 27001/SOC2 while working in continuous delivery?**  
-   - **Summary:** Really, no 🤣 But I can share a few tidbits that might help somewhat...  
-   - One thing I mentioned the other day while talking with someone about this topic is that we tend to take too many things for granted. The very first thing we must always do is to UNDERSTAND in depth the needs to be met. I think there is a lot of “broken telephone” at play and we infer that many things are needed that are actually potential solutions (e.g. having a PR) rather than the underlying need to be solved (e.g. that more than one person has reviewed something).  
+   - **Summary:** Not really 🤣 But I can share a few tidbits that might help somewhat...  
+   - One thing I mentioned the other day while talking with someone about this topic is that we tend to take too many things for granted. The very first thing we must always do is to **UNDERSTAND** in depth the needs to be met. I think there is a lot of “broken telephone” at play and we infer that many things are needed that are actually potential solutions (e.g. having a PR) rather than the underlying need to be solved (e.g. that more than one person has reviewed something).  
    - That said: I know that the auditor you get can influence things a lot.  
    - At a much higher level, Clarity published a post about this: ["ISO27001 and SOC2 Type II from Greenfield to Success"](https://medium.com/clarityai-engineering/iso27001-and-soc2-type-ii-from-greenfield-to-success-24ca99decb26)  
    - In my team we actually practiced “Continuous Deployment” and in our case it was enough to follow these requirements:
      * Each commit included the **Jira issue** that originated it – generating an unequivocal trace to the need that gave rise to that code.
      * Since we worked in pairing or ensemble programming by default, every commit included all the people involved by using Git’s **["Co-authored-by" feature](https://docs.github.com/es/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors)**  
-       - To reduce friction, we all had a **[git message template](https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733)** with the rest of our team members, so we didn’t have to keep writing it.
+       - To reduce friction, we all had a shared **[git message template](https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733)** with the rest of our team members, so we didn’t have to keep writing it.
        - As far as I know, and simplifying a lot, one of the things required is **evidence** that someone other than the code’s author has reviewed it. This practice satisfied that need.
-     * If the change to be made was “very trivial” (which is always abstract, but we had a document defining it), it was allowed that there be no reviewer (e.g. a change in documentation). In these cases, it was enough to include in the commit message a certain keyword (in our specific case, `[trivial-small-change]`).
-   - For people working with branches and PRs, the person who validated the PR had to be different from the one who opened it.
-   - If you need more detail, perhaps [Edu Ferro](https://twitter.com/eferro) can tell you more things 🙏
+     * If the change to be made was “very trivial” (which is always abstract, but we had a document defining it), it was allowed that no reviewer existed (e.g. a change in documentation). In these cases, it was enough to include in the commit message a certain keyword (in our specific case, `[trivial-small-change]`).
+   - For people working with branches and PRs/MRs, the person who validated the PR had to be different from the one who opened it.
+   - If you need more detail, perhaps [Edu Ferro](https://www.eferro.net/) can tell you more things 🙏
 
 1. **What do you think of code freezes? Do they make sense in certain cases? For example, a large company with teams distributed across different time zones.**  
    - Questions that come to mind:
@@ -171,7 +171,7 @@ Luckily, it seems the explanation was less dramatic: there was some problem with
     - With proper modularization, perhaps only the tests that give us enough confidence for deployment could be run (only triggering the affected ones, using “contract testing,” only the most critical e2e/functional/acceptance tests, etc.).
     - And finally: it is advisable to have many more fast tests than slow ones.
 
-1. **I have mixed feelings about pre-push and pre-commit hooks, as I’ve seen that sometimes they lead developers to make larger commits than they should in order to avoid running linting, tests, etc. multiple times. I wanted to ask your opinion about that – if you have experienced it and, if so, how did you channel the situation.** [Question received via [Twitter](https://twitter.com/_ebikandi/status/1751521282494026052), thanks Eneko 🙏]  
+1. **I have mixed feelings about pre-push and pre-commit hooks, as I’ve seen that sometimes they lead developers to make larger commits than they should in order to avoid running linting, tests, etc. multiple times. I wanted to ask your opinion about that – if you have experienced it and, if so, how did you channel the situation.** [Question received via Twitter, thanks Eneko 🙏]  
     - First, I’d need to understand why linting, tests, etc. fail multiple times. Is it because there are flaky tests or some type of non-deterministic validation? Or is it simply because developers “make mistakes”?
     - I haven’t encountered the situation you describe, perhaps because there are several aspects on which I always place high priority with Git hooks:
       - They must be **VERY fast**. Otherwise, one will be tempted to skip them or wait until you have many changes to run them.

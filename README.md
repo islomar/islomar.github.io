@@ -63,7 +63,6 @@ It is configured with hot reload.
   - ¿Ya aparece?
 - Pedir feedback de nueva sección
   - Fondo y forma, todo vale. Espanglish. Usado el "toc" auto-generado que ofrece Jekyll. No sé si los topics aporta realmente valor...
-  - Twitter
   - Edu Ferro
   - Marcos
   - Fran
@@ -122,8 +121,6 @@ It is configured with hot reload.
   - Posts with a header video
   - [Posts with an image header](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#headers)
   - Enable breadcrumbs
-  - Twitter Cards:
-    - https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/player-card
   - More examples: https://mmistakes.github.io/minimal-mistakes/tags/
 - Update pagination dependency
   - https://mmistakes.github.io/minimal-mistakes/docs/configuration/#paginate-v2

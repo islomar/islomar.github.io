@@ -32,11 +32,11 @@ Por suerte, parece ser que la explicación era menos dramática: hubo algún pro
 - En mi equipo hacíamos de hecho "Continuous Deployment" y en nuestro caso era suficiente con seguir los siguientes requisitos:
   * Cada commit incluía el **issue de Jira** que lo originaba: se generaba una traza inequívoca con la necesidad de la que surgía ese código.
   * Puesto que trabajábamos en pairing o ensemble por defecto, en cada commit incluíamos a todas las personas involucradas usando el **["Co-authored-by" de Git](https://docs.github.com/es/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors)**      
-        - Para reducir la fricción, todos teníamos un **template del [git message](https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733)** con el resto de compañeras del equipo, no teníamos que estar escribiéndolo conitnuamente.
+        - Para reducir la fricción, todos teníamos un **template del [git message](https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733)** compartido con el resto de compañeras del equipo, no teníamos que estar escribiéndolo conitnuamente.
         - Hasta donde sé, y simplificando mucho, una de las cosas que se requiere es **evidencia** de que una persona diferente a quien escribió el código, lo ha revisado. Esta práctica satisfacía esa necesidad.  
   * Si el cambio a realizar era "muy trivial" (lo cual siempre es abstracto, pero teníamos un documento definiéndolo), se permitía que no hubiera un revisor (e.g. cambio en documentación). En estos casos, era suficiente con incluir en el mensaje del commit cierta palabra clave (en nuestro caso concreto, `[trivial-small-change]`)
 - Para la gente que trabajaba con ramas y PRs, la persona que validaba la PR debía ser diferente a la persona que la había abierto.
-- Si necesitas más detalle, probablemente [Edu Ferro](https://twitter.com/eferro) pueda contarte más cosas 🙏
+- Si necesitas más detalle, probablemente [Edu Ferro](https://www.eferro.net/) pueda contarte más cosas 🙏
 
 1. **¿Qué opinas de los code freeze? ¿Tienen sentido en determinados casos? Por ejemplo, una empresa grande con equipos distribuidos en distintas zonas horarias**
 - Preguntas que me surgen:
@@ -168,7 +168,7 @@ Interesante pregunta 😄 La respuesta: "depende del contexto" (sorry, not sorry
 - Con una correcta modularización, tal vez se podrían lanzar los tests que nos den suficiente confianza para el despliegue (solo disparar los afectados, tirar de "contract testing", sólo los e2e/funcionales/acceptance más críticos, etc.).
 - Y por último: es recomendable tener muchos más tests rápidos que lentos.
 
-1. **Tengo sentimientos encontrados con los hooks de prepush y precommit, ya que he visto que en ocasiones han llevado a  devs hacer commits mas grandes de lo que debian de ser por no pasar los procesos de linting, tests, etc. varias veces. Te queria preguntar tu opinión sobre eso. Si los has vivido o no, o si los has vivido, como habeis llegado a encauzar la situacion.** [Pregunta recibida por [Twitter](https://twitter.com/_ebikandi/status/1751521282494026052), gracias Eneko 🙏]  
+1. **Tengo sentimientos encontrados con los hooks de prepush y precommit, ya que he visto que en ocasiones han llevado a  devs hacer commits mas grandes de lo que debian de ser por no pasar los procesos de linting, tests, etc. varias veces. Te queria preguntar tu opinión sobre eso. Si los has vivido o no, o si los has vivido, como habeis llegado a encauzar la situacion.** [Pregunta recibida por Twitter, gracias Eneko 🙏]  
 - Lo primero: me faltaría entender por qué no pasan los procesos de linting, tests, etc. varias veces. ¿Es porque hay tests flakies o algún tipo de validación no completamente determinista? ¿O es porque los desarrolladores "cometen errores"?
 - No me he encontrado la situación que planteas, pero porque hay varias cuestiones a las que siempre marco mucha prioridad con los Git hooks:
   - Tienen que ser **MUY rápidos**. Si no, dará pereza ejecutarlos o esperarás a tener muchos cambios para hacerlo.

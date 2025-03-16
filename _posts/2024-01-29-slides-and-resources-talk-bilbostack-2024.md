@@ -80,34 +80,34 @@ I've been "lucky" enough to experience several teams and companies where we grew
 
 ## Some recommended people
 - Eduardo Ferro
-  - [https://twitter.com/eferro](https://twitter.com/eferro){:target="_blank"}{:rel="noopener noreferrer"}
+  - [https://bsky.app/profile/eferro.net](https://bsky.app/profile/eferro.net){:target="_blank"}{:rel="noopener noreferrer"}
   - [https://www.eferro.net/](https://www.eferro.net/){:target="_blank"}{:rel="noopener noreferrer"}
 - Jessica Kerr
-  - [https://twitter.com/jessitron](https://twitter.com/jessitron){:target="_blank"}{:rel="noopener noreferrer"}
+  - [https://bsky.app/profile/jessitron.bsky.social](https://bsky.app/profile/jessitron.bsky.social){:target="_blank"}{:rel="noopener noreferrer"}
   - [https://jessitron.com/](https://jessitron.com/){:target="_blank"}{:rel="noopener noreferrer"}
 - Dave Farley
-  - [https://twitter.com/davefarley77](https://twitter.com/davefarley77){:target="_blank"}{:rel="noopener noreferrer"}
+  - [https://bsky.app/profile/davefarley77.bsky.social](https://bsky.app/profile/davefarley77.bsky.social){:target="_blank"}{:rel="noopener noreferrer"}
   - [https://www.youtube.com/c/ContinuousDelivery](https://www.youtube.com/c/ContinuousDelivery){:target="_blank"}{:rel="noopener noreferrer"}
 - Charity Majors
-  - [https://twitter.com/mipsytipsy](https://twitter.com/mipsytipsy){:target="_blank"}{:rel="noopener noreferrer"}
+  - [https://bsky.app/profile/charity.wtf](https://bsky.app/profile/charity.wtf){:target="_blank"}{:rel="noopener noreferrer"}
   - [https://charity.wtf/](https://charity.wtf/){:target="_blank"}{:rel="noopener noreferrer"}
 - Jez Humble
-  - [https://twitter.com/jezhumble](https://twitter.com/jezhumble){:target="_blank"}{:rel="noopener noreferrer"}
+  - [https://bsky.app/profile/jezhumble.net](https://bsky.app/profile/jezhumble.net){:target="_blank"}{:rel="noopener noreferrer"}
   - [https://continuousdelivery.com/](https://continuousdelivery.com/){:target="_blank"}{:rel="noopener noreferrer"}
 - Geepaw Hill
   - [https://mastodon.social/@GeePawHill](https://mastodon.social/@GeePawHill){:target="_blank"}{:rel="noopener noreferrer"}
   - [https://www.geepawhill.org/](https://www.geepawhill.org/){:target="_blank"}{:rel="noopener noreferrer"}
 - Clare Sudbery
-  - [https://twitter.com/ClareSudbery](https://twitter.com/ClareSudbery){:target="_blank"}{:rel="noopener noreferrer"}
+  - [https://bsky.app/profile/claresudbery.bsky.social](https://bsky.app/profile/claresudbery.bsky.social){:target="_blank"}{:rel="noopener noreferrer"}
   - [https://insimpleterms.blog/](https://insimpleterms.blog/){:target="_blank"}{:rel="noopener noreferrer"}
 - Kent Beck
-  - [https://twitter.com/KentBeck](https://twitter.com/KentBeck){:target="_blank"}{:rel="noopener noreferrer"}
+  - [https://bsky.app/profile/kentbeck.com](https://bsky.app/profile/kentbeck.com){:target="_blank"}{:rel="noopener noreferrer"}
   - [https://www.kentbeck.com/](https://www.kentbeck.com/){:target="_blank"}{:rel="noopener noreferrer"}
 - Emily Bache
-  - [https://twitter.com/emilybache](https://twitter.com/emilybache){:target="_blank"}{:rel="noopener noreferrer"}
+  - [https://bsky.app/profile/emilybache.com](https://bsky.app/profile/emilybache.com){:target="_blank"}{:rel="noopener noreferrer"}
   - [https://www.youtube.com/@EmilyBache-tech-coach](https://www.youtube.com/@EmilyBache-tech-coach){:target="_blank"}{:rel="noopener noreferrer"}
 - Martin Fowler
-  - [https://twitter.com/martinfowler](https://twitter.com/martinfowler){:target="_blank"}{:rel="noopener noreferrer"}
+  - [https://bsky.app/profile/martinfowler.com](https://bsky.app/profile/martinfowler.com){:target="_blank"}{:rel="noopener noreferrer"}
   - [https://martinfowler.com/](https://martinfowler.com/){:target="_blank"}{:rel="noopener noreferrer"}
 
 
