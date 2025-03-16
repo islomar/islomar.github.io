@@ -13,14 +13,14 @@ tags:
   - english
 ---
 
-> This is the **English version** for [the post I wrote in March 2024](/preguntas-y-respuestas-bilbostack-2024) answering several highly interesting questions related to Continuous Deployment.
+> This is the **English version** for [the post I wrote in March 2024](/preguntas-y-respuestas-bilbostack-2024) answering several highly interesting questions related to my talk at the BilboStack conference about **Continuous Deployment** (including a lot of product-mindset, eXtreme Programming, and Lean Product Development values, principles and practices).
 
 > There were really interesting questions related with code freezes, teams in distributed timezones, painful experiences with Git Hooks, async PRs, pairing, parallel changes techniques, technical debt, outside-in TDD, how to deal with deployment coupling between front-back, achieving ISO 27001/SOC2 certifications while practicing continuous deployment, etc.
 
 
 # Questions and Answers from My Talk at BilboStack 2024
 
-When at the wonderful [BilboStack](https://bilbostack.com/){:target="_blank"}{:rel="noopener noreferrer"} I finished [my talk on Continuous Deployment](/slides-and-resources-talk-bilbostack-2024) (I’ll never tire of repeating that it was just an excuse to talk about “what really matters”), I was informed that there were no questions 😱  
+When at the wonderful [BilboStack](https://bilbostack.com/){:target="_blank"}{:rel="noopener noreferrer"} I finished [my talk on Continuous Deployment](/slides-and-resources-talk-bilbostack-2024) (I’ll never tire of repeating that it was just an excuse to talk about “what really matters”, which is the ability to deliver value in a continuous and sustainable way, while enjoying the journey), I was informed that there were no questions 😱  
 In my experience, when that happens it means the level of craziness was astronomical and the message didn’t land at all 😅
 
 Luckily, it seems the explanation was less dramatic: there was some problem with the application that collected the questions (was a test missing? 😜). The organizers were kind enough to send them to me _afterwards_, so I’ll try to answer them in this post.
