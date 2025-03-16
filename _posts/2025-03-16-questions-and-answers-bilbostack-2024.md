@@ -15,15 +15,14 @@ tags:
 
 > This is the **English version** for [the post I wrote in March 2024](/preguntas-y-respuestas-bilbostack-2024) answering several highly interesting questions related to my talk at the BilboStack conference about **Continuous Deployment** (including a lot of product-mindset, eXtreme Programming, and Lean Product Development values, principles and practices).
 
-> There were questions related with code freezes, teams in distributed timezones, painful experiences with Git Hooks, async PRs, pairing, parallel changes techniques, technical debt, outside-in TDD, how to deal with deployment coupling between front-back, achieving ISO 27001/SOC2 certifications while practicing continuous deployment, etc.
-
+> There were questions related with code freezes, branching strategies, teams in distributed timezones, painful experiences with Git Hooks, async PRs, pairing, parallel changes techniques, technical debt, outside-in TDD, how to deal with deployment coupling between front-back, achieving ISO 27001/SOC2 certifications while practicing continuous deployment, etc.
 
 # Questions and Answers from My Talk at BilboStack 2024
 
 When at the wonderful [BilboStack](https://bilbostack.com/){:target="_blank"}{:rel="noopener noreferrer"} I finished [my talk on Continuous Deployment](/slides-and-resources-talk-bilbostack-2024) (I’ll never tire of repeating that it was just an excuse to talk about “what really matters”, which is the ability to deliver value in a continuous and sustainable way, while enjoying the journey), I was informed that there were no questions 😱  
-In my experience, when that happens it means the level of craziness was astronomical and the message didn’t land at all 😅
+In my experience, when that happens it means the level of boredom was astronomical and the message didn’t land at all 😅
 
-Luckily, it seems the explanation was less dramatic: there was some problem with the application that collected the questions (was a test missing? 😜). The organizers were kind enough to send them to me _afterwards_, so I’ll try to answer them in this post.
+Luckily, it seems the explanation was less dramatic: there was some problem with the application that collected the questions (was a test missing? 😜). The organizers were kind enough to send them to me afterwards, so I’ll try to answer them in this post.
 
 **Important clarification**: I lack a lot of context in almost every question; I would need to understand many things better before giving a “reasonable” answer. I’ll make this explicit in some responses and infer it in others 🙏
 
@@ -35,11 +34,11 @@ Luckily, it seems the explanation was less dramatic: there was some problem with
    - That said: I know that the auditor you get can influence things a lot.  
    - At a much higher level, Clarity published a post about this: ["ISO27001 and SOC2 Type II from Greenfield to Success"](https://medium.com/clarityai-engineering/iso27001-and-soc2-type-ii-from-greenfield-to-success-24ca99decb26)  
    - In my team we actually practiced “Continuous Deployment” and in our case it was enough to follow these requirements:
-     * Each commit included the **Jira issue** that originated it – generating an unequivocal trace to the need that gave rise to that code.
-     * Since we worked in pairing or ensemble programming by default, every commit included all the people involved by using Git’s **["Co-authored-by" feature](https://docs.github.com/es/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors)**  
+     - Each commit included the **Jira issue** that originated it – generating an unequivocal trace to the need that gave rise to that code.
+     - Since we worked in pairing or ensemble programming by default, every commit included all the people involved by using Git’s **["Co-authored-by" feature](https://docs.github.com/es/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors)**  
        - To reduce friction, we all had a shared **[git message template](https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733)** with the rest of our team members, so we didn’t have to keep writing it.
        - As far as I know, and simplifying a lot, one of the things required is **evidence** that someone other than the code’s author has reviewed it. This practice satisfied that need.
-     * If the change to be made was “very trivial” (which is always abstract, but we had a document defining it), it was allowed that no reviewer existed (e.g. a change in documentation). In these cases, it was enough to include in the commit message a certain keyword (in our specific case, `[trivial-small-change]`).
+     - If the change to be made was “very trivial” (which is always abstract, but we had a document defining it), it was allowed that no reviewer existed (e.g. a change in documentation). In these cases, it was enough to include in the commit message a certain keyword (in our specific case, `[trivial-small-change]`).
    - For people working with branches and PRs/MRs, the person who validated the PR had to be different from the one who opened it.
    - If you need more detail, perhaps [Edu Ferro](https://www.eferro.net/) can tell you more things 🙏
 
@@ -56,9 +55,9 @@ Luckily, it seems the explanation was less dramatic: there was some problem with
 
 1. **Thanks for the talk! In your opinion, what would be a good branching strategy? Currently, having baby-commits and merging into the main branch, we opt for squash and merge, which creates a new commit and loses the trace of the old commits, leading to a commit hell when reviewing PRs. They usually ask us to try to make a single commit per feature and then merge (not fast-forward) and I manage that with git --amend.**  
    - My first answer: “it depends” 😜  
-   - My second answer: the branching strategy that generally allows for fast feedback and a continuous, sustainable value contribution is “Trunk-Based Development” with a single default branch (accompanied, as I mentioned in the talk, by pair/ensemble programming, TDD, a secure, repeatable, and powerful pipeline, micro-commits, etc.).
+   - My second answer: the branching strategy that generally allows for fast feedback and a continuous, sustainable value contribution is “Trunk-Based Development”, better with a single default branch (accompanied, as I mentioned in the talk, by pair/ensemble programming, TDD, a secure, repeatable, and powerful pipeline, micro-commits, etc.).
    - Personally, I prioritize the continuous flow and getting the commit to Production as soon as possible over having an “immaculate” commit history. What is always important is that the commits are descriptive and clearly state the “why” above all (“the what” is implicit in the commit).
-   - In line with what you mentioned, the good folks at [Codely](https://codely.com/) recorded a video a couple of years ago with their opinions on the matter. I think it might interest you if you can’t work with a single branch. I highly recommend it: ["Git Merge vs Rebase vs Squash: Which strategy should we choose?"](https://www.youtube.com/watch?v=HlmZLXMOpEM)
+   - In line with what you mentioned, the good folks at [Codely](https://codely.com/) recorded a video a couple of years ago with their opinions on the matter. I think it might interest you if you can’t work with a single branch. I highly recommend it (it's in Spanish): ["Git Merge vs Rebase vs Squash: Which strategy should we choose?"](https://www.youtube.com/watch?v=HlmZLXMOpEM)
 
 1. **What are the advantages and disadvantages of having tests in a Git hook?**  
    - **Clarification:** Everything you put in Git hooks must be “fast.” What “fast” means depends on the sensitivity of each person or team, but in my experience any execution that exceeds 5 seconds starts to “hurt” (pushes can take a little longer because we run them less frequently, but not much longer). In any case, and in my opinion, it’s better to wait “a little” at the time of commit-push than to face too many “surprises” later (a context switch problem). Also, in my opinion, it is wise to balance what is included in the pre-commit and what in the pre-push (see [examples in the diagrams with real cases from the talk](./2024-01-29-slides-and-resources-talk-bilbostack-2024.md)).
@@ -69,17 +68,17 @@ Luckily, it seems the explanation was less dramatic: there was some problem with
    - Very good question, and unfortunately it is not uncommon for that to happen. One must be very alert about it. I tried to address it in the previous question ☝️🙏
 
 1. **Synchronous validations or asynchronous PR validations?**  
-   - I’m not sure I understand this question, sorry. What do you mean by “validations”? Are we talking about tests? Linters? Or code review?
+   - I’m not sure if I understand this question, sorry. What do you mean by “validations”? Are we talking about tests? Linters? Or code review?
    - In line with what I mentioned in the talk: we must try to get feedback as fast and as frequently as possible for everything. As much as possible, I would prioritize synchronous code reviews; and even better: do as much pairing/ensemble work as possible.
    - I would also recommend taking a look at the branching strategy ["Ship, Show, Ask"](https://martinfowler.com/articles/ship-show-ask.html), which might be interesting as a step toward reducing integration times.
 
 1. **When the “vicious cycle” you showed at the beginning becomes so large, how do you get out of it?**  
-   - Uuufffff, a difficult question (or rather, a difficult answer 😅). The first necessary step is to have a general awareness of the problem and its nature (I would say that this is the hardest part). Making it visible and explicit, with data, always helps (for example, measuring the time from when we make a commit until it reaches Production), putting it in black and white.
+   - Uuufffff, a difficult question (or rather, a difficult answer 😅). The first necessary step is to have a general awareness of the problem and its nature (I would say that this is the hardest part). Making it visible and explicit, with data, always helps (for example, measuring the time from the moment we make a commit until it reaches Production), putting it in black and white.
    - The next important step is to really want to invest time in solving it, to clearly see the benefit that solving it can bring (which again is very difficult if it hasn’t been experienced before).
    - If all of the above is met: take it slowly. First, identify any “quick wins” that may exist (low cost and high benefit). Improve automated testing. Gradually reduce branch/PR times as much as possible. Adopt branching strategies that decrease the time it takes to integrate into the main branch. Increase and improve collaboration (e.g., through pairing). Learn techniques for parallel changes and start using “feature flags.”
 
 1. **How can you showcase the contribution of CI/CD and overcome developers’ fear of deploying things early?**  
-   - In my experience, the best way I’ve seen is to lead by example (which requires experience doing so), while also providing a lot of education about the value it brings to everyone, both business and engineering. I don’t think there are shortcuts or magic formulas... 😕 Of course, that “deploying things early” must be accompanied by a robust safety net; otherwise, the remedy will be worse than the disease, and understandably people won’t want to do it.
+   - In my experience, the best way I’ve seen is to **lead by example** (which requires experience doing so), while also providing a lot of education about the value it brings to everyone, both business and engineering. I don’t think there are shortcuts or magic formulas... 😕 Of course, that “deploying things early” must be accompanied by a robust safety net; otherwise, the remedy will be worse than the disease, and understandably people won’t want to do it.
 
 1. **Do you use pairing strategies like ping-pong? In these cases, wouldn’t the use of Git hooks be annoying?**  
    - In the past, I have done pairing with TDD using ping-pong (I’d say I have done pairing in almost every possible mode 🤣).
