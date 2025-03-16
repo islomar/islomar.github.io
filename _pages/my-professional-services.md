@@ -57,7 +57,7 @@ For further details, you can take a look at [my LinkedIn profile](https://www.li
 
 ### Other stuff that has inspired me a lot at some point of my professional life
 
-Systems thinking, Lean product development, eXtreme Programming, [agile](https://agilemanifesto.org/), Kanban, the Software Crafters community, DevOps culture, Continuous Delivery mindset, Domain-Driven Design, Non-Violent Communication, Real Options, Buddhist meditation, Social and Cultural Anthropology, Psychology, the scientific method and many books etc.
+Systems thinking, Lean product development, eXtreme Programming, [agile](https://agilemanifesto.org/), Kanban, the Software Crafters community, DevOps culture, Continuous Delivery mindset, Domain-Driven Design, Non-Violent Communication, Real Options, Buddhist meditation, Social and Cultural Anthropology, Psychology, the scientific method and more...
 
 ### My readings
 
