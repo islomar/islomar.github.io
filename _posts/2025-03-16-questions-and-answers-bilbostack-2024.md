@@ -1,5 +1,5 @@
 ---
-title: "Questions and Answers from my talk at the BilboStack 2024 conference"
+title: "Questions and answers from my talk at the BilboStack 2024 conference"
 date: 2025-03-16T16:26:27+01:00
 last_modified_at: 2025-03-16T16:26:27+01:00
 lang: en
@@ -13,9 +13,10 @@ tags:
   - english
 ---
 
-> This is the **English version** for [the post I wrote in March 2024](/preguntas-y-respuestas-bilbostack-2024) answering several highly interesting questions related to Continuous Integration. The topics 
+> This is the **English version** for [the post I wrote in March 2024](/preguntas-y-respuestas-bilbostack-2024) answering several highly interesting questions related to Continuous Deployment.
 
-> The post covers various topics, including achieving ISO 27001/SOC2 certifications while practicing continuous delivery, the relevance of code freezes in large, distributed teams, effective branching strategies, the use of Git hooks for testing, synchronous versus asynchronous code validations, and strategies for breaking out of negative development cycles. López emphasizes the importance of understanding underlying needs, fostering team ownership, and maintaining efficient feedback loops to enhance software development practices.
+> There were really interesting questions related with code freezes, teams in distributed timezones, painful experiences with Git Hooks, async PRs, pairing, parallel changes techniques, technical debt, outside-in TDD, how to deal with deployment coupling between front-back, achieving ISO 27001/SOC2 certifications while practicing continuous deployment, etc.
+
 
 # Questions and Answers from My Talk at BilboStack 2024
 
