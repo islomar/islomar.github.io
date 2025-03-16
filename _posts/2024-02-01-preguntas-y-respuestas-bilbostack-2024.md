@@ -15,6 +15,8 @@ tags:
   - spanish
 ---
 
+> Here you can read the post [in English](/questions-and-answers-bilbostack-2024)
+
 Cuando en la pasada y maravillosa [BilboStack](https://bilbostack.com/){:target="_blank"}{:rel="noopener noreferrer"} finalicé [mi charla sobre Continuous Deployment](/slides-and-resources-talk-bilbostack-2024) (no me cansaré de repetir que como excusa para hablar de "lo importante"), me hicieron saber que no había ninguna pregunta 😱
  En mi experiencia, cuando eso pasa, es que el nivel de turra ha sido astronómico y el mensaje no ha llegado de ninguna manera 😅
 

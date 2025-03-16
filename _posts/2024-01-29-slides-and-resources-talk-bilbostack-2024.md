@@ -30,7 +30,7 @@ Last Saturday, 27th January 2024, I finally gave it: ["Valor por encima de códi
 
 Here I would like to share the slides and some of the people and resources included in the talk (and if you spot any link not working properly, please tell me 🙏). 
 
-Also, I have answered [in another post](/preguntas-y-respuestas-bilbostack-2024) all the questions sent during the talk (in Spanish).
+Also, I have answered in another post all the questions sent during the talk; here you have it [in English](/questions-and-answers-bilbostack-2024) and here [in Spanish](/preguntas-y-respuestas-bilbostack-2024).
 
 Oh, and one last thing: I have included 3 extra slides that didn't appear during the talk... if you attended, you can try to spot them! 😜
 
