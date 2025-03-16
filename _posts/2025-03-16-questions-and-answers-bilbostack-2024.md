@@ -87,8 +87,8 @@ Luckily, it seems the explanation was less dramatic: there was some problem with
    - There are people who use [this tool](https://github.com/remotemobprogramming/mob) which might cover certain use cases (personally, I prefer not doing ping-pong and simply rotate by pomodoro, which is enough).
    - On the topic of pairing, this post is really good: [On Pair Programming](https://martinfowler.com/articles/on-pair-programming.html)
 
-1. **Can having too many micro-commits “dirty” the main branch?**  
-    - It depends on what is meant by “dirty.” What is always important is that commits have good messages, clearly describing the “why,” and of course no commit should break the tests.
+1. **Can having too many micro-commits get the main branch "dirty"?**  
+    - It depends on what is meant by "dirty". What is always important is that commits have good messages, clearly describing the “why,” and of course no commit should break the tests.
     - That said, I believe it is more important to take small steps and have continuous feedback and flow than to maintain a supposedly “ideal” commit history.
 
 1. **Generally, it is required that a feature be complete before being pushed and they don’t want to see anything until it’s finished. Would trunk-based development be applicable?**  
