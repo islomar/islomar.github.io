@@ -1,7 +1,7 @@
 ---
 title: "Some interview questions as an interviewee"
 date: 2021-11-10T13:05:34+01:00
-last_modified_at: 2025-01-23T10:01:31+01:00
+last_modified_at: 2025-03-26T10:01:31+01:00
 lang: en
 ref: interview-questions-as-interviewee
 redirect_from:
@@ -88,3 +88,5 @@ So... here I share some of the questions that I have asked in the past or I will
   - What is your goal?
   - What are you currently working on?
   - What are your product managers like?
+- [The Product Engineer Checklist (by epilot)](https://dev.to/epilot/the-product-engineer-checklist-469d)  
+- ["Qué preguntas debes hacer en una entrevista" (Manfred)](https://www.getmanfred.com/blog/que-preguntas-debes-hacer-en-una-entrevista)
