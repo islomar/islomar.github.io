@@ -20,6 +20,10 @@ If you're just interested in public videos, [here](https://www.youtube.com/playl
 
 ## TALKS
 
+### **Thinking about value** (2025)
+- _Where_: Invited to deliver it as internal talk in [Cooltra](https://cooltra.com/en/){:target="_blank"}{:rel="noopener noreferrer"} for the whole company
+- Similar slides (updated), topics and descriptions as [this one](#thinking-about-value-2024)
+
 ### **Thinking about value** (2024)
 - _Where_: Internal talk in [Qatium](https://qatium.app/){:target="_blank"}{:rel="noopener noreferrer"} for the whole company
 - [Slides](https://speakerdeck.com/islomar/thinking-about-value){:target="_blank"}{:rel="noopener noreferrer"}
