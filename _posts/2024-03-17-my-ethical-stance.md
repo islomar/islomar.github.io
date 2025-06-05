@@ -1,7 +1,7 @@
 ---
 title: "My ethical stance"
 date: 2024-03-17T12:35:00+01:00
-last_modified_at: 2024-03-20T21:16:27+01:00
+last_modified_at: 2025-06-05T21:11:27+01:00
 lang: en
 ref: my-ethical-stance
 redirect_from:
@@ -25,13 +25,14 @@ Still, this is a moment when I'm asking myself questions such as:
 
 This is not the first time that I pose myself this kind of questions. I remembered that Edu Ferro (a reference to me in so many ways) has his own ["ethical stance" published here](https://www.eferro.net/p/to-be-happy-and-make-those-around-me.html), so I thought it would be a perfect moment to write down mine. And I want to be so specific as possible; otherwise it would be useless for myself.
 
-For different reasons (i.e. there are higher and lower levels of "criticality" in this list) and with no particular order and whithout this being an exhaustive list, **I prefer not to work in**:
+For different reasons (i.e. there are higher and lower levels of "criticality" in this list) and with no particular order and without this being an exhaustive list, **I prefer not to work in**:
 
 - Fast fashion (and anything directly related)
 - Traditional banks (especially those with proven record of abuses and illegalities)
 - “Buy now, pay later” or any kind of "fast credit" business models
 - Porn industry
 - Military industry
+- Any company directly or indirectly connected with any genocidal state (e.g. Israel)
 - Casinos, gambling and bets ("been there, done that")
 - Any green-washing, or generally speaking, “ethical-washing” activity
 - Crypto businesses and alike
