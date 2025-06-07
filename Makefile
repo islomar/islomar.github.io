@@ -19,6 +19,9 @@ install-without-docker: ## Install blog locally without Docker
 run-without-docker: ## Run blog locally without Docker
 	bundle exec jekyll serve --livereload
 
+run-without-docker-with-drafts: ## Run blog locally without Docker but with drafts
+	bundle exec jekyll serve --livereload --drafts
+
 up: down ## Start locally using Docker
 	$(DOCKER_RUN_BLOG)
 

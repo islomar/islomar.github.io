@@ -55,6 +55,8 @@ It is configured with hot reload.
 ## Other blogs with Minimal Mistakes
 - https://philippe.bourgau.net/
 - https://juan.pallares.me/
+- https://www.cross-validated.com/Personal-website-with-Minimal-Mistakes-Jekyll-Theme-HOWTO-Part-I/
+- https://www.marvinfritz.de/
 
 ## TO DO
 - Arreglar la búsqueda: https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-search
