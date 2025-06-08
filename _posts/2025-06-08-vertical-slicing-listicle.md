@@ -86,7 +86,7 @@ Although the goal of this post is not to explain what vertical slicing is and it
 
 My personal opinion: in order to enable and get its benefits, you need some principles and practices (e.g. from XP and Lean), e.g. parallel changes techniques, continuous delivery/deployment, deferring commitment, simplicity, a design that enables it (e.g. ports and adapters aka "hexagonal architecture" or some patterns from DDD), etc.
 
-## Some techniques
+## Some techniques and heuristics
 
 - [How to split a user story (flowchart)](https://www.humanizingwork.com/wp-content/uploads/2020/10/HW-Story-Splitting-Flowchart.pdf). For example:
   - Workflow steps
