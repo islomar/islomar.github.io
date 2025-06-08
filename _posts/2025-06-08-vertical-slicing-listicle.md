@@ -19,7 +19,7 @@ tags:
 
 Every time I arrive to a new company or team, one of the first things that I get myself doing is talking about **vertical slicing**: why it matters, techniques, workshops, etc. And then, I take a look for the n-th time to the resources I have saved in Notion, Drive, GitHub, or my hard-drive (distributed systems have their drawbacks 🤣), in order to share them (because... well, you know, sharing is caring 😄).
 
-The goal of this post, which I will update whenever I discover more interesting resources, is to have in a single place the main resources that have found valuable related with "vertical slicing". Some people refer to it as **story slicing** or **vertical story slicing**: all sounds great to me. Personally, I prefer thinking of "story slicing" as the generic term, where we can find "tastes" like "vertical slicing" or "horizontal slicing".
+The goal of this post, which I will update whenever I discover more interesting resources, is to have in a single place the main resources that I have found valuable related with "vertical slicing". Some people refer to it as **story slicing** or **vertical story slicing**: all sounds great to me. Personally, I prefer thinking of "story slicing" as the generic term, where we can find "tastes" like "vertical slicing" or "horizontal slicing".
 
 As usual: this post is for my future me, but I decided to share it in case it might be found useful for someone else 🙏
 
@@ -88,7 +88,7 @@ My personal opinion: in order to enable and get its benefits, you need some prin
 
 ## Some techniques
 
-- [How to split a user story](https://www.humanizingwork.com/wp-content/uploads/2020/10/HW-Story-Splitting-Flowchart.pdf). For example:
+- [How to split a user story (flowchart)](https://www.humanizingwork.com/wp-content/uploads/2020/10/HW-Story-Splitting-Flowchart.pdf). For example:
   - Workflow steps
   - Defer performance
   - Simple/complex
@@ -122,7 +122,7 @@ My personal opinion: in order to enable and get its benefits, you need some prin
 
 - [Elephant Carpaccio (by Alistair Cockburn)](https://alistaircockburn.com/Elephant-Carpaccio)
   - [Facilitation guide (by Henrik Kniberg)](https://blog.crisp.se/2013/07/25/henrikkniberg/elephant-carpaccio-facilitation-guide)
-- [Small Safe Steps workshop (parallel changes)](https://www.eferro.net/p/small-safe-steps-3s-workshop.html)
+- [Small Safe Steps workshop (parallel changes)](https://www.eferro.net/p/small-safe-steps-3s-workshop.html) by [Edu Ferro](https://www.eferro.net/)
 - [User Story Slicing: deliver today what can be used tomorrow](https://www.linkedin.com/posts/jkmeadows_free-story-slicing-workshop-activity-7272369317571096576-uNyE/)
   - A 2-hour, online, hands-on workshop facilitated by [Chris Pipito](https://teamingwithsasquatch.com/) & [Kevin Meadows](https://www.linkedin.com/in/jkmeadows/)
   - Amazing one, I was really lucky to be able to attend it some time ago. They offer it among their services, I wouldn't doubt to purchase it (disclaimer: I get no benefits from it, besides spreading happiness 😅)
