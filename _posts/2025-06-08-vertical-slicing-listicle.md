@@ -1,7 +1,7 @@
 ---
 title: "Vertical Slicing Listicle"
-date: 2025-06-07T00:00:00+01:00
-last_modified_at: 2025-06-07T00:00:00+01:00
+date: 2025-06-08T19:41:41+02:00
+last_modified_at: 2025-06-08T19:41:41+02:00
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "chalkboard-teacher"
@@ -17,11 +17,9 @@ tags:
   - vertical-slicing
 ---
 
-## So... what is this post about?
-
 Every time I arrive to a new company or team, one of the first things that I get myself doing is talking about **vertical slicing**: why it matters, techniques, workshops, etc. And then, I take a look for the n-th time to the resources I have saved in Notion, Drive, GitHub, or my hard-drive (distributed systems have their drawbacks 🤣), in order to share them (because... well, you know, sharing is caring 😄).
 
-The goal of this post, which I will update whenever I discover more interesting resources, is to have in a single place the main resources that have found valuable related with "vertical slicing". Some people refer to it as **story slicing**. Personally, I prefer thinking of "story slicing" as the generic term, where we can find "tastes" like "vertical slicing" or "horizontal slicing".
+The goal of this post, which I will update whenever I discover more interesting resources, is to have in a single place the main resources that have found valuable related with "vertical slicing". Some people refer to it as **story slicing** or **vertical story slicing**: all sounds great to me. Personally, I prefer thinking of "story slicing" as the generic term, where we can find "tastes" like "vertical slicing" or "horizontal slicing".
 
 As usual: this post is for my future me, but I decided to share it in case it might be found useful for someone else 🙏
 
@@ -138,7 +136,7 @@ My personal opinion: in order to enable and get its benefits, you need some prin
     - **Exceptions Indicators**: except, unless, however, although, despite, etc.
   - ***"After slicing, can we pick one slice that is small enough to build today for use tomorrow?"***
 
-## Related interesting readings
+## Related interesting resources
 
 - [Developing Software: Postponing Decisions and Working in Small Steps](https://www.eferro.net/2025/01/developing-software-postponing.html) by Edu Ferro (17 min. read)
 - [MMMSS: Many More Much Smaller Steps](https://www.geepawhill.org/series/many-more-much-smaller-steps/), a great series of articles by Geepaw Hil
@@ -148,6 +146,7 @@ My personal opinion: in order to enable and get its benefits, you need some prin
 - [Software economics](https://leanpub.com/software-economics) by Luis Artola (only in Spanish)
 - [Return of the horizontal slice](https://www.industriallogic.com/blog/return-of-the-horizontal-slice/) by Joshua Kerievsky (4 min. read)
 - [User Story Splitting - Vertical Slice vs Horizontal Slice](https://www.visual-paradigm.com/scrum/user-story-splitting-vertical-slice-vs-horizontal-slice/) (7 min. read)
+- [Vertical Story Slicing](https://www.youtube.com/watch?v=ajYN66GCpf8) (video, 53 min.)
 
 ## Further interesting topics, tools, and techniques
 
