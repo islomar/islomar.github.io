@@ -123,10 +123,10 @@ My personal opinion: in order to enable and get its benefits, you need some prin
 - [Elephant Carpaccio (by Alistair Cockburn)](https://alistaircockburn.com/Elephant-Carpaccio)
   - [Facilitation guide (by Henrik Kniberg)](https://blog.crisp.se/2013/07/25/henrikkniberg/elephant-carpaccio-facilitation-guide)
 - [Small Safe Steps workshop (parallel changes)](https://www.eferro.net/p/small-safe-steps-3s-workshop.html)
-- [Story Slicing Workshop](https://www.linkedin.com/posts/jkmeadows_free-story-slicing-workshop-activity-7272369317571096576-uNyE/)
-  - Event facilitated by [Chris Pipito](https://teamingwithsasquatch.com/) & [Kevin Meadows](https://www.linkedin.com/in/jkmeadows/)
+- [User Story Slicing: deliver today what can be used tomorrow](https://www.linkedin.com/posts/jkmeadows_free-story-slicing-workshop-activity-7272369317571096576-uNyE/)
+  - A 2-hour, online, hands-on workshop facilitated by [Chris Pipito](https://teamingwithsasquatch.com/) & [Kevin Meadows](https://www.linkedin.com/in/jkmeadows/)
   - Amazing one, I was really lucky to be able to attend it some time ago. They offer it among their services, I wouldn't doubt to purchase it (disclaimer: I get no benefits from it, besides spreading happiness 😅)
-  - <https://www.tickettailor.com/events/chrispipito/1521015>
+    - <https://www.tickettailor.com/events/chrispipito/1521015>
   - Connector Types Reference:
     - **Coordinating Conjunctions**: and, or, but, yet, nor, etc.
     - **Action-Related Connectors**: manage, handle, support, process, maintain, administer, etc.
