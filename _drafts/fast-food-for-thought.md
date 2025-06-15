@@ -12,7 +12,7 @@ Siento que en los últimos años han proliferado recursos de diversa índole que
 
 inefable disclaimer
 
-Pero como siempre, lo primero e preguntarno el porqué de la cosas](https://www.anagrama-ed.es/libro/narrativas-hispanicas/el-porque-de-las-cosas/9788433909640/NH_154). ¿Para qué lees? ¿Por qué lees? Ya imagino que en parte dependerá de cada libro, de cada momento y aún así es importante tenerlo presente en cada caso. ¿Lees para aprender? (y si seguimo tirando del hilo, a su vez para qué quieres aprender). ¿Lees para relajarte? ¿Para evadirte? ¿Por puro placer? ¿Para pasar el rato?
+Pero como siempre, lo primero e preguntarno [el porqué de la cosas](https://www.anagrama-ed.es/libro/narrativas-hispanicas/el-porque-de-las-cosas/9788433909640/NH_154). ¿Para qué lees? ¿Por qué lees? Ya imagino que en parte dependerá de cada libro, de cada momento y aún así es importante tenerlo presente en cada caso. ¿Lees para aprender? (y si seguimo tirando del hilo, a su vez para qué quieres aprender). ¿Lees para relajarte? ¿Para evadirte? ¿Por puro placer? ¿Para pasar el rato?
 
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr">¿Para qué leer rápido? Eso es un contrasentido. Lee despacio. Goza el proceso,m. Disfrútalo cada minuto así te tome meses terminar un libro.Leer nunca debería ser una competencia de tiempo</p>&mdash; Maria Jose Castaño (@maria_mimia) <a href="https://twitter.com/maria_mimia/status/1606044105250951195?ref_src=twsrc%5Etfw">December 22, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
