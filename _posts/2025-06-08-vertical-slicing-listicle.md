@@ -1,7 +1,7 @@
 ---
 title: "Vertical Slicing Listicle"
 date: 2025-06-08T19:41:41+02:00
-last_modified_at: 2025-06-15T19:21:41+02:00
+last_modified_at: 2025-06-21T09:21:41+02:00
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "chalkboard-teacher"
@@ -140,6 +140,9 @@ My personal opinion: in order to enable and get its benefits, you need some prin
 
 ## Related interesting resources
 
+- [Lean GPT](https://www.eferro.net/2025/06/built-custom-gpt-to-help-teams-ship.html)
+  - Edu Ferro built a Custom GPT to help teams ship smaller, safer, faster. It challenges assumptions, guides toward small safe steps, enables continuous learning and delivery.
+For developers, PMs, designers, architects—anyone building products.
 - [Developing Software: Postponing Decisions and Working in Small Steps](https://www.eferro.net/2025/01/developing-software-postponing.html) by Edu Ferro (17 min. read)
 - [MMMSS: Many More Much Smaller Steps](https://www.geepawhill.org/series/many-more-much-smaller-steps/), a great series of articles by Geepaw Hil
 - [Think About How You Organize Your Work](https://docs.google.com/document/d/1bXAGIueSCZiclhVD_uNph4BzO47EHpkw/edit), by Don Reinertsen (4 min. read)
