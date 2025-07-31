@@ -55,6 +55,14 @@
 - <https://laboratoriodeperiodismo.org/los-falsos-medios-y-los-nuevos-contornos-de-la-desinformacion/>
   - <https://laboratoriodeperiodismo.org/la-asociacion-de-periodistas-de-caceres-reclama-un-codigo-etico-para-el-uso-de-la-inteligencia-artificial-en-los-medios/>
 - <https://elpais.com/tecnologia/2025-07-09/unesco-alerta-sobre-el-auge-de-la-ia-se-dispara-la-demanda-de-agua-energia-y-minerales-criticos.html>
+- [La huella hídrica de la IA: cuánta agua consumen los centros de datos y cuál es su impacto en el ecosistema](https://www.newtral.es/agua-centros-datos-ia/20250423)
+- [Data centre water consumption (Nature)](https://www.peacefulpeculiar.org/uploads/1/5/0/3/150368424/s41545-021-00101-w.pdf)
+- [La inteligencia no tan artificial: los trabajadores detrás de la IA](https://voxeurop.eu/es/inteligencia-artificial-trabajadores-humanos/)
+- Inteligencia artificial y copyright. Del dilema de Thaler a la doctrina "the right to read is the right to mine"
+- [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜](https://dl.acm.org/doi/10.1145/3442188.3445922)
+- [The Hidden Cost of AI: Extractive AI Is Bad for Business (CSET)](https://nationalinterest.org/blog/techland/the-hidden-cost-of-ai-extractive-ai-is-bad-for-business)
+- [AI speeding is eating the US economy](https://bsky.app/profile/ljkawa.bsky.social/post/3lv6syezecc2v)
+  - [The AI spending boom is eating the US economy](https://sherwood.news/markets/the-ai-spending-boom-is-eating-the-us-economy/)
 
 ### Environmental impact
 
