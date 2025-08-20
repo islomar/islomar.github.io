@@ -63,6 +63,20 @@
 - [The Hidden Cost of AI: Extractive AI Is Bad for Business (CSET)](https://nationalinterest.org/blog/techland/the-hidden-cost-of-ai-extractive-ai-is-bad-for-business)
 - [AI speeding is eating the US economy](https://bsky.app/profile/ljkawa.bsky.social/post/3lv6syezecc2v)
   - [The AI spending boom is eating the US economy](https://sherwood.news/markets/the-ai-spending-boom-is-eating-the-us-economy/)
+- [The Ethics of Generative AI](https://johanneslink.net/downloads/TheEthicsOfGenerativeAI.pdf)
+- [Why I am leaving big tech...](https://bhaskar-mitra.github.io/posts/2025/07/16/why-i-am-leaving-big-tech/)
+  - Finally mentions to the Israeli genocide in Gaza.
+- [AI as politic of class exploitation](https://bhaskar-mitra.github.io/posts/2025/07/31/ai-as-politic-of-class-exploitation/)
+- [¿Lunar o cáncer? El algoritmo que se equivoca en uno de cada tres melanomas y obvia a los pacientes con la piel oscura](https://civio.es/sanidad/2025/06/26/inteligencia-artificial-algoritmos-sanidad-sesgos-discriminacion/)
+- [Meta’s AI rules have let bots hold ‘sensual’ chats with kids, offer false medical info](https://www.reuters.com/investigates/special-report/meta-ai-chatbot-guidelines/)
+- [Meta avala que sus IAs tengan conversaciones románticas con niños](https://www.estrategiadeproducto.com/p/meta-avala-que-sus-ias-tengan-conversaciones-romanticas-con-ninos)
+- [Aligning AI With Shared Human Values](https://github.com/hendrycks/ethics)
+  - Paper: https://arxiv.org/pdf/2008.02275
+- [INTIMA: A Benchmark for Human-AI Companionship Behavior](https://arxiv.org/abs/2508.09998)
+- [The Need for Urgency: Embedding Ethical Reasoning in AI Systems](https://www.linkedin.com/events/theneedforurgency-embeddingethi7353849322376986624/)
+  - https://www.theguardian.com/technology/2025/jul/09/grok-ai-praised-hitler-antisemitism-x-ntwnfb
+  - https://protecciondata.es/grok-se-declara-mecha-hitler/
+- [La ideología de la Inteligencia Artificial](https://www.elsaltodiario.com/inteligencia-artificial/ideologia-inteligencia-artificial)
 
 ### Environmental impact
 
