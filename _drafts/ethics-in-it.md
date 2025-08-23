@@ -54,9 +54,6 @@
     - _ability to provide industry innovation-friendly tools, such as the Code of Practice, without compromising on health, safety, and fundamental rights._
 - <https://laboratoriodeperiodismo.org/los-falsos-medios-y-los-nuevos-contornos-de-la-desinformacion/>
   - <https://laboratoriodeperiodismo.org/la-asociacion-de-periodistas-de-caceres-reclama-un-codigo-etico-para-el-uso-de-la-inteligencia-artificial-en-los-medios/>
-- <https://elpais.com/tecnologia/2025-07-09/unesco-alerta-sobre-el-auge-de-la-ia-se-dispara-la-demanda-de-agua-energia-y-minerales-criticos.html>
-- [La huella hídrica de la IA: cuánta agua consumen los centros de datos y cuál es su impacto en el ecosistema](https://www.newtral.es/agua-centros-datos-ia/20250423)
-- [Data centre water consumption (Nature)](https://www.peacefulpeculiar.org/uploads/1/5/0/3/150368424/s41545-021-00101-w.pdf)
 - [La inteligencia no tan artificial: los trabajadores detrás de la IA](https://voxeurop.eu/es/inteligencia-artificial-trabajadores-humanos/)
 - Inteligencia artificial y copyright. Del dilema de Thaler a la doctrina "the right to read is the right to mine"
 - [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜](https://dl.acm.org/doi/10.1145/3442188.3445922)
@@ -77,9 +74,15 @@
   - https://www.theguardian.com/technology/2025/jul/09/grok-ai-praised-hitler-antisemitism-x-ntwnfb
   - https://protecciondata.es/grok-se-declara-mecha-hitler/
 - [La ideología de la Inteligencia Artificial](https://www.elsaltodiario.com/inteligencia-artificial/ideologia-inteligencia-artificial)
+- [Los mitos de la inteligencia artificial (Bonilista)](https://mailchi.mp/bonillaware/mitos-ia?e=ccaab223ba)
+- [John Cutler opinion about AI situation](https://bsky.app/profile/jesusgallent.com/post/3lwxvunsvec2i)
+- [Romeu Mora's bluit](https://bsky.app/profile/malk-zameth.bsky.social/post/3lpjecap63c2i)
 
 ### Environmental impact
 
+- [La huella hídrica de la IA: cuánta agua consumen los centros de datos y cuál es su impacto en el ecosistema](https://www.newtral.es/agua-centros-datos-ia/20250423)
+- [Data centre water consumption (Nature)](https://www.peacefulpeculiar.org/uploads/1/5/0/3/150368424/s41545-021-00101-w.pdf)
+- <https://elpais.com/tecnologia/2025-07-09/unesco-alerta-sobre-el-auge-de-la-ia-se-dispara-la-demanda-de-agua-energia-y-minerales-criticos.html>
 - [Explained: Generative AI’s environmental impact (MIT News)](https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117)
 - [The Climate and Sustainability Implications of Generative AI](https://mit-genai.pubpub.org/pub/8ulgrckc/release/2)
 - [Unesco alerta sobre el auge de la IA: se dispara la demanda de agua, energía y minerales críticos](https://elpais.com/tecnologia/2025-07-09/unesco-alerta-sobre-el-auge-de-la-ia-se-dispara-la-demanda-de-agua-energia-y-minerales-criticos.html?ssm=BK_CM)
