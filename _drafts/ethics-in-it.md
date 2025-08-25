@@ -77,6 +77,9 @@
 - [Los mitos de la inteligencia artificial (Bonilista)](https://mailchi.mp/bonillaware/mitos-ia?e=ccaab223ba)
 - [John Cutler opinion about AI situation](https://bsky.app/profile/jesusgallent.com/post/3lwxvunsvec2i)
 - [Romeu Mora's bluit](https://bsky.app/profile/malk-zameth.bsky.social/post/3lpjecap63c2i)
+- [We need a new ethics for a world of AI agents](https://www.nature.com/articles/d41586-025-02454-5)
+- [El uso de ChatGPT como psicólogo crece, pero tiene sus riesgos: refuerza el egocentrismo y las ideas paranoides](https://elpais.com/tecnologia/2025-08-25/el-uso-de-chatgpt-como-psicologo-crece-pero-tiene-sus-riesgos-refuerza-el-egocentrismo-y-las-ideas-paranoides.html)
+
 
 ### Environmental impact
 
@@ -86,6 +89,8 @@
 - [Explained: Generative AI’s environmental impact (MIT News)](https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117)
 - [The Climate and Sustainability Implications of Generative AI](https://mit-genai.pubpub.org/pub/8ulgrckc/release/2)
 - [Unesco alerta sobre el auge de la IA: se dispara la demanda de agua, energía y minerales críticos](https://elpais.com/tecnologia/2025-07-09/unesco-alerta-sobre-el-auge-de-la-ia-se-dispara-la-demanda-de-agua-energia-y-minerales-criticos.html?ssm=BK_CM)
+- [Big Tech’s A.I. Data Centers Are Driving Up](https://www.nytimes.com/2025/08/14/business/energy-environment/ai-data-centers-electricity-costs.html)
+
 
 ## Sources
 

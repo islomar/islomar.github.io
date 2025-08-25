@@ -1,7 +1,7 @@
 ---
 title: "Some interview questions as an interviewee"
 date: 2021-11-10T13:05:34+01:00
-last_modified_at: 2025-03-26T10:01:31+01:00
+last_modified_at: 2025-08-25T10:01:31+01:00
 lang: en
 ref: interview-questions-as-interviewee
 redirect_from:
@@ -19,6 +19,16 @@ Some people enjoyed this part especially, so I thought it might be a good idea t
 The goal of these questions is to help clarifying my **expectations** and to generate the clearest and broadest possible idea about the company, the business, the culture, the role, the day-to-day work, etc. To better grab the "lights" and the "darkness". Another outcome is to **reduce the probability of a misalignment and big surprises** during the first weeks of work 😊
 
 And always remember that **an interview is (or should be) a 2-ways conversation**, a 2-ways discovering process.
+
+Besides having many general questions, some of them depend on each specific role and company. Here some things that I do to get so much information as possible for getting some specific questions:
+
+- Carefully reading the job advertisement.
+- Carefully reading their engineering blog or publications (in case they have them).
+- Reading their information in LinkedIn.
+- Look for news related with the company.
+- Look for them in [Crunchbase](https://www.crunchbase.com/)
+- Look for them in [Glassdoor](https://www.glassdoor.com/index.htm)
+- Contact through LinkedIn with any acquittance you might have there, in the present or past, in order to ask them about their opinion (always with respect and maximum sensibility).
 
 So... here I share some of the questions that I have asked in the past or I will ask in the future to my interviewers; I would recommend you to select only a few and prioritize them according to the time that you have available, and taking into account the different stages during the recruitment process.
 
