@@ -24,6 +24,7 @@ Besides having many general questions, some of them depend on each specific role
 
 - Carefully reading the job advertisement.
 - Carefully reading their engineering blog or publications (in case they have them).
+- Reading the "Careers" or "About us" from their website, any page with information about their culture, etc.
 - Reading their information in LinkedIn.
 - Look for news related with the company.
 - Look for them in [Crunchbase](https://www.crunchbase.com/)
