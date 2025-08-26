@@ -79,6 +79,7 @@
 - [Romeu Mora's bluit](https://bsky.app/profile/malk-zameth.bsky.social/post/3lpjecap63c2i)
 - [We need a new ethics for a world of AI agents](https://www.nature.com/articles/d41586-025-02454-5)
 - [El uso de ChatGPT como psicólogo crece, pero tiene sus riesgos: refuerza el egocentrismo y las ideas paranoides](https://elpais.com/tecnologia/2025-08-25/el-uso-de-chatgpt-como-psicologo-crece-pero-tiene-sus-riesgos-refuerza-el-egocentrismo-y-las-ideas-paranoides.html)
+- [AI is mass-delusion event](https://www.theatlantic.com/technology/archive/2025/08/ai-mass-delusion-event/683909/)
 
 
 ### Environmental impact
