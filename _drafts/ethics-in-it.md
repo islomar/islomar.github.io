@@ -80,6 +80,15 @@
 - [We need a new ethics for a world of AI agents](https://www.nature.com/articles/d41586-025-02454-5)
 - [El uso de ChatGPT como psicólogo crece, pero tiene sus riesgos: refuerza el egocentrismo y las ideas paranoides](https://elpais.com/tecnologia/2025-08-25/el-uso-de-chatgpt-como-psicologo-crece-pero-tiene-sus-riesgos-refuerza-el-egocentrismo-y-las-ideas-paranoides.html)
 - [AI is mass-delusion event](https://www.theatlantic.com/technology/archive/2025/08/ai-mass-delusion-event/683909/)
+- [¿Puede ser la IA responsable legal de la muerte del adolescente que se enamoró de un avatar?](https://elpais.com/tecnologia/2025-05-31/puede-ser-la-ia-responsable-legal-de-la-muerte-del-adolescente-que-se-enamoro-de-un-avatar.html)
+- [Katarzyna Basinska, investigadora: “Será normal que a mucha gente le apetezca chatear con sus seres queridos muertos”](https://elpais.com/tecnologia/2025-08-26/katarzyna-basinska-investigadora-sera-normal-que-a-mucha-gente-le-apetezca-chatear-con-sus-seres-queridos-muertos.html)
+- [Griefbots, Deadbots, Postmortem Avatars: on Responsible Applications of Generative AI in the Digital Afterlife Industry](https://link.springer.com/article/10.1007/s13347-024-00744-w)
+- [The Raine v OpenAI Case: Engineering Addiction by Design](https://centerforhumanetechnology.substack.com/p/the-raine-v-openai-case-engineering?r=3u726t)
+- [Where Are the Moral Guardrails on Artificial Intelligence? | Opinion](https://www.newsweek.com/where-are-moral-guardrails-artificial-intelligence-opinion-2117164)
+- [Planor: AI trainer](https://www.planor.app/)
+  - [Instagram](https://www.instagram.com/laraplanor) with unrealistic messages creating expactations related with "her" unreal body
+- [I Am An AI Hater](https://anthonymoser.github.io/writing/ai/haterdom/2025/08/26/i-am-an-ai-hater.html)
+- ["Experience with LLM", by Ron Jeffries](https://ronjeffries.com/articles/-w025/y/w/)
 
 
 ### Environmental impact
