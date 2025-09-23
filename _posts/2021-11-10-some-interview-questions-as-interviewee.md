@@ -1,7 +1,7 @@
 ---
 title: "Some interview questions as an interviewee"
 date: 2021-11-10T13:05:34+01:00
-last_modified_at: 2025-08-25T10:01:31+01:00
+last_modified_at: 2025-09-23T10:01:31+01:00
 lang: en
 ref: interview-questions-as-interviewee
 redirect_from:
@@ -46,9 +46,11 @@ So... here I share some of the questions that I have asked in the past or I will
 - Are there explicit actions in place to take care about **Diversity, Equity and Inclusion (DE&I)**? E.g. do you have numbers about gender diversity? About age diversity? What about diversity in leadership and management positions (C-level included)?
 - What opportunities exist for **mentorship**?
 - What do you **enjoy** the most from working there?
-- Tell me something that you don't like here. What room for improvement exists? What would you like to be different, why and how?
+- Tell me something that you don't like here. What room for **improvement** exists? What would you like to be different, why and how?
 - What are the current main **challenges** for the company? (product and technical challenges)
+- What are the main **challenges in the team** that I would join? What are the current main pains?
 - Why would you **fire me**?
+- **Why are you hiring** for this specific position? Is it a new team? Is it a backfill? In case it is a backfill, why, what happened?
 - **Psychological safety** is extremely important to me, so please be honest with me: are there verbally aggressive people, especially in positions with power?
 - Is there **micromanagement** from any position with power (e.g CTO/VP/Head/Managers)? How do they intervene in team's decisions if they don't agree?
 - What would be my **boundaries**? What wouldn't I be allowed to do or to step into?
@@ -68,6 +70,10 @@ So... here I share some of the questions that I have asked in the past or I will
 - Tell me about your **observability** practices. How do you find out that there is a problem? How do you dig deeper to solve it?
 - What happens when an incident in Production is detected?
 - Tell me about your main **technical principles and practices**.
+- Is it needed to do **on-call** outside of working hours? (from my timezone perspective)
+  - How often?
+  - How many production incidents do you have while on-call per week?
+  - Is it paid extra?
 - What is approximately your **lead time** (time from a commit to Production), **throughput** (frequency of deployments/releases to Production) and **error rate**?
 - Could you tell me which is the whole lifecycle of a **user need**? Could you describe for me any of your main **value streams**? From the discovery of the user need until its satisfaction.
 - How and when is the **priorization** done? Who does it? Based on what?
