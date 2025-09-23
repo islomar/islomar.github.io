@@ -89,7 +89,9 @@
   - [Instagram](https://www.instagram.com/laraplanor) with unrealistic messages creating expactations related with "her" unreal body
 - [I Am An AI Hater](https://anthonymoser.github.io/writing/ai/haterdom/2025/08/26/i-am-an-ai-hater.html)
 - ["Experience with LLM", by Ron Jeffries](https://ronjeffries.com/articles/-w025/y/w/)
-
+- [Así que quieres usar ChatGPT en el aula, ¿eh? Algunas reflexiones de un docente universitario](https://fernandoblancopsy.com/2025/06/09/asi-que-quieres-usar-chatgpt-en-el-aula-eh-algunas-reflexiones-de-un-docente-universitario/)
+  - https://bsky.app/profile/fernandoblancopsy.com/post/3lyx3slj2sc2i
+- [Science journalists find ChatGPT is bad at summarizing scientific papers](https://arstechnica.com/ai/2025/09/science-journalists-find-chatgpt-is-bad-at-summarizing-scientific-papers/)
 
 ### Environmental impact
 
