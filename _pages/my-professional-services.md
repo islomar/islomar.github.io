@@ -6,9 +6,11 @@ toc_label: "Table of Contents"
 toc_icon: "chalkboard-teacher"
 ---
 
-:calendar: **Last update**: *January 22, 2025*
+:calendar: **Last update**: *September 29, 2025*
 
-BIG NEWS! 🎉 After some weeks of self-care, I feel ready to start searching for a new professional challenge preferably as an **employee** (only in exceptional cases as a **contractor**, but I don't feel like freelancing with several companies at the moment) at a **product company** as a preference.
+Disclaimer: Although some of my recent roles were short, each one was a deliberate choice to learn, contribute, and seek alignment. I’m now looking for a LONGER-TERM partnership with a company where I can grow and contribute sustainably.
+
+BIG NEWS! 🎉 I'm reactivating my search for a new professional challenge preferably as an **employee** (only in exceptional cases as a **contractor**, but I don't feel like freelancing with several companies at the moment) at a **product company** as a preference (again: exceptions happen).
 Being **full-remote** is a MUST (no problem to move for on-sites every quarter or so) and I will say it despite being taboo: aiming for a **"high salary"** right now (in the "North-Europe" range, whatever that means; just keep reading and let's talk about it anyway 😉).
 
 **Doing what?** Basically, I can help your organisation and teams in the continuous and sustainable delivery of value for your users/customers/business through **software and product development**, with a diverse set of values, principles and practices (both social and technical, mostly grown around Lean Product/Software Development, eXtreme Programming, DevOps culture, NVC, etc.), lowering the pain at the same time. We would do it together (I don't want to feel alone, I want peers). Let's grow **TOGETHER**. Here are some **challenges I can help address**:

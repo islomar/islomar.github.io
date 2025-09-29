@@ -92,6 +92,7 @@
 - [Así que quieres usar ChatGPT en el aula, ¿eh? Algunas reflexiones de un docente universitario](https://fernandoblancopsy.com/2025/06/09/asi-que-quieres-usar-chatgpt-en-el-aula-eh-algunas-reflexiones-de-un-docente-universitario/)
   - https://bsky.app/profile/fernandoblancopsy.com/post/3lyx3slj2sc2i
 - [Science journalists find ChatGPT is bad at summarizing scientific papers](https://arstechnica.com/ai/2025/09/science-journalists-find-chatgpt-is-bad-at-summarizing-scientific-papers/)
+- [Disembodied creativity in generative AI: prima facie challenges and limitations of prompting in creative practice (paper)](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1651354/full)
 
 ### Environmental impact
 
