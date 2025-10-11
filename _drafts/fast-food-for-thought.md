@@ -17,4 +17,6 @@ Pero como siempre, lo primero e preguntarno [el porqué de la cosas](https://www
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr">¿Para qué leer rápido? Eso es un contrasentido. Lee despacio. Goza el proceso,m. Disfrútalo cada minuto así te tome meses terminar un libro.Leer nunca debería ser una competencia de tiempo</p>&mdash; Maria Jose Castaño (@maria_mimia) <a href="https://twitter.com/maria_mimia/status/1606044105250951195?ref_src=twsrc%5Etfw">December 22, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+https://honosbyomixam.substack.com/p/honos-273-leer-pero-leer-despacio
+
 https://www.notion.so/islomar/Blog-461b07495fb643eba61b35fe4152331a#e3499a561ff54df6bbf78c6d5ee3d93f

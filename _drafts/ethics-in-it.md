@@ -94,6 +94,7 @@
 - [Science journalists find ChatGPT is bad at summarizing scientific papers](https://arstechnica.com/ai/2025/09/science-journalists-find-chatgpt-is-bad-at-summarizing-scientific-papers/)
 - [Disembodied creativity in generative AI: prima facie challenges and limitations of prompting in creative practice (paper)](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1651354/full)
 - [A teen contemplating suicide turned a chatbot. Is it liable for her death? ](https://www.washingtonpost.com/technology/2025/09/16/character-ai-suicide-lawsuit-new-juliana/)(Washington Post)
+- [Ya casi nadie duda de que hay una burbuja en la inteligencia artificial: la pregunta es cuándo explotará](https://www.eldiario.es/tecnologia/nadie-duda-hay-burbuja-inteligencia-artificial-pregunta-explotara_1_12650967.html)
 
 ### Environmental impact
 
