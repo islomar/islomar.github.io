@@ -19,7 +19,7 @@ tags:
 
 # Questions and Answers from My Talk at BilboStack 2024
 
-When at the wonderful [BilboStack](https://bilbostack.com/){:target="_blank"}{:rel="noopener noreferrer"} I finished [my talk on Continuous Deployment](/slides-and-resources-talk-bilbostack-2024) (I’ll never tire of repeating that it was just an excuse to talk about “what really matters”, which is the ability to deliver value in a continuous and sustainable way, while enjoying the journey), I was informed that there were no questions 😱  
+When at the wonderful [BilboStack](https://bilbostack.com/){:target="_blank"}{:rel="noopener noreferrer"} I finished [my talk on Continuous Deployment](/slides-and-resources-talk-bilbostack-2024) (I’ll never get tired of repeating that it was just an excuse to talk about “what really matters”, which is the ability to deliver value in a continuous and sustainable way, while enjoying the journey), I was informed that there were no questions 😱  
 In my experience, when that happens it means the level of boredom was astronomical and the message didn’t land at all 😅
 
 Luckily, it seems the explanation was less dramatic: there was some problem with the application that collected the questions (was a test missing? 😜). The organizers were kind enough to send them to me afterwards, so I’ll try to answer them in this post.
