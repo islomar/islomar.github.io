@@ -119,6 +119,8 @@ My personal opinion: in order to enable and get its benefits, you need some prin
     - Extract basic utility
     - When all else fails, slice the hamburger
       - User story mapping
+- [Slicing Functionality: Alternate Paths](https://xp123.com/slicing-functionality-alternate-paths/)
+
 
 ## Workshops
 
@@ -152,6 +154,7 @@ For developers, PMs, designers, architects—anyone building products.
 - [Return of the horizontal slice](https://www.industriallogic.com/blog/return-of-the-horizontal-slice/) by Joshua Kerievsky (4 min. read)
 - [User Story Splitting - Vertical Slice vs Horizontal Slice](https://www.visual-paradigm.com/scrum/user-story-splitting-vertical-slice-vs-horizontal-slice/) (7 min. read)
 - [Vertical Story Slicing](https://www.youtube.com/watch?v=ajYN66GCpf8) (video, 53 min.)
+- [Agile Delivery - Lean Coffee - Slicing (in Spanish)](https://www.youtube.com/watch?v=R_JQGXmrkyY) (1 hour 35 min, video)
 
 ## Further interesting topics, tools, and techniques
 
