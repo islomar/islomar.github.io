@@ -96,6 +96,8 @@
 - [A teen contemplating suicide turned a chatbot. Is it liable for her death? ](https://www.washingtonpost.com/technology/2025/09/16/character-ai-suicide-lawsuit-new-juliana/)(Washington Post)
 - [Ya casi nadie duda de que hay una burbuja en la inteligencia artificial: la pregunta es cuándo explotará](https://www.eldiario.es/tecnologia/nadie-duda-hay-burbuja-inteligencia-artificial-pregunta-explotara_1_12650967.html)
 - [The False Promise of “AI for Social Good”](https://www.project-syndicate.org/magazine/ai-for-social-good-false-promise-of-technosolutionism-by-abeba-birhane-2025-09)
+- [A statement from Dario Amodei on Anthropic's commitment to American AI leadership](https://www.anthropic.com/news/statement-dario-amodei-american-ai-leadership)
+  - https://www.404media.co/anthropic-promises-trump-admin-its-ai-is-not-woke/
 
 
 ### Environmental impact
