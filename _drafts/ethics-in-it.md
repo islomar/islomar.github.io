@@ -98,7 +98,9 @@
 - [The False Promise of “AI for Social Good”](https://www.project-syndicate.org/magazine/ai-for-social-good-false-promise-of-technosolutionism-by-abeba-birhane-2025-09)
 - [A statement from Dario Amodei on Anthropic's commitment to American AI leadership](https://www.anthropic.com/news/statement-dario-amodei-american-ai-leadership)
   - https://www.404media.co/anthropic-promises-trump-admin-its-ai-is-not-woke/
-
+- [Questions about "AI" (Ron Jeffries)](https://ronjeffries.com/articles/-w025/x/r/)
+- [OpenAI Says Hundreds of Thousands of ChatGPT Users May Show Signs of Manic or Psychotic Crisis Every Week](https://www.wired.com/story/chatgpt-psychosis-and-self-harm-update/) (mental health)
+  - [Strengthening ChatGPT’s responses in sensitive conversations](https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations/)
 
 ### Environmental impact
 
