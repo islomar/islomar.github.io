@@ -20,6 +20,18 @@ If you're just interested in public videos, [here](https://www.youtube.com/playl
 
 ## TALKS
 
+### **How a real-life software/product engineering team works** (2025)
+- _Where_: Internal talk for students at [Zakey](https://zakey.team/){:target="_blank"}{:rel="noopener noreferrer"}, an amazing initiaive to support Palestinian tech graduates
+- [Slides](https://speakerdeck.com/islomar/product-engineering-team-works){:target="_blank"}{:rel="noopener noreferrer"}
+- _Topics_: SDLC (Software Development Life Cycle), Product management, software development, cross-functional teams, iterative development
+- _Description_: I was honoured to be invited to talk to a group of fresh graduates, most of them with few or no professional experience at all, so my goal was to have a high-level introduction to the overall end-to-end process of software development (mostly focused on a product). Some of the topics covered (all of them hypersimplified) were:
+  - Software development process from a 10.000 foot view (big picture)
+  - How a team decides what to work on: things like OKR, KPI, priorization, product management, etc. (in a very basic and superficial way)
+  - How the team got organized and our ownership end to end, our day by day
+  - Everything that happened from the moment we made a change in the code until that change arrived to the hands of our users
+  - A little bit of my vision about software development and the profession
+  - Some resources to further learn or deepen into some of the topics mentioned
+
 ### **Thinking about value** (2025)
 - _Where_: Invited to deliver it as internal talk in [Cooltra](https://cooltra.com/en/){:target="_blank"}{:rel="noopener noreferrer"} for the whole company
 - Similar slides (updated), topics and descriptions as [this one](#thinking-about-value-2024)
