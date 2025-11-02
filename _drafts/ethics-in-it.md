@@ -101,6 +101,9 @@
 - [Questions about "AI" (Ron Jeffries)](https://ronjeffries.com/articles/-w025/x/r/)
 - [OpenAI Says Hundreds of Thousands of ChatGPT Users May Show Signs of Manic or Psychotic Crisis Every Week](https://www.wired.com/story/chatgpt-psychosis-and-self-harm-update/) (mental health)
   - [Strengthening ChatGPT’s responses in sensitive conversations](https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations/)
+- [Cuando la IA te lleva a la muerte: cómo prevenir el suicidio sin caer en las garras del algoritmo](https://hipertextual.com/ciencia/prevenir-suicidio-sin-ia/)
+- [We are lecturers in Trinity College Dublin. We see it as our responsibility to resist AI](https://www.irishtimes.com/opinion/2025/09/04/opinion-we-are-lecturers-in-trinity-college-we-see-it-as-our-responsibility-to-resist-ai/)
+
 
 ### Environmental impact
 
