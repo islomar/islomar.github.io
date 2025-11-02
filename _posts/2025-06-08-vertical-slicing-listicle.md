@@ -106,8 +106,8 @@ My personal opinion: in order to enable and get its benefits, you need some prin
   - I was lucky enough to attend in CraftConf 2016 his great "Specification by example" workshop (finally delivered by his partner)
   - [Hamburger technique to Split User Stories from Development team perspective](https://ancaonuta.medium.com/hamburger-method-to-split-user-stories-from-dev-team-perspective-d17aba58be02)
 - [Effective story slicing](https://www.slideshare.net/slideshow/effective-story-slicing/31078074) by [Neil Killick](https://www.neilkillick.com/)
-- [Slice, slice, baby!](https://agilecheatsheets.org/slice-slice-baby)
-  - Based on a free workshop led by Chris Pipito and Kevin Meadows in December 2024, mentioned later
+- [Slice, slice, baby!](https://somebetterways.substack.com/p/some-better-ways-for-user-story-slicing)
+  - By [Rafael Sobrá](https://www.linkedin.com/in/rafael-sh), based on a free workshop led by Chris Pipito and Kevin Meadows in December 2024, mentioned later
 - [50 quick ideas to improve your user stories](https://www.goodreads.com/book/show/21411450-fifty-quick-ideas-to-improve-your-user-stories) by [Gojko Adzic](https://gojko.net/)
   - A highly recommended book with tones of great techniques and heuristics for getting better in vertical slicing.
   - Some examples mentioned:
