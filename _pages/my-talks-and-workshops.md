@@ -20,6 +20,13 @@ If you're just interested in public videos, [here](https://www.youtube.com/playl
 
 ## TALKS
 
+### **Value over Code: the power of Continuous Deployment** (2025)
+
+- _Where_: Internal talk as a guest speaker for [Kongsberg Discovery](https://www.kongsberg.com/discovery/){:target="_blank"}{:rel="noopener noreferrer"}
+- [Slides](https://speakerdeck.com/islomar/value-over-code-the-power-of-continuous-deployment-kongsberg){:target="_blank"}{:rel="noopener noreferrer"}
+- _Topics_: continuous-integration, continuous-deployment, flow-efficiency, feedback-loops, friction, lean-software-development, trunk-based-development, XP, TDD, pair-programming, high-efficient-teams, product-development, engineering-culture
+
+
 ### **How a real-life software/product engineering team works** (2025)
 - _Where_: Internal talk for students at [Zakey](https://zakey.team/){:target="_blank"}{:rel="noopener noreferrer"}, an amazing initiative to support Palestinian tech graduates
 - [Slides](https://speakerdeck.com/islomar/product-engineering-team-works){:target="_blank"}{:rel="noopener noreferrer"}
