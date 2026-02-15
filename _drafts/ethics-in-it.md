@@ -103,7 +103,7 @@
   - [Strengthening ChatGPT’s responses in sensitive conversations](https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations/)
 - [Cuando la IA te lleva a la muerte: cómo prevenir el suicidio sin caer en las garras del algoritmo](https://hipertextual.com/ciencia/prevenir-suicidio-sin-ia/)
 - [We are lecturers in Trinity College Dublin. We see it as our responsibility to resist AI](https://www.irishtimes.com/opinion/2025/09/04/opinion-we-are-lecturers-in-trinity-college-we-see-it-as-our-responsibility-to-resist-ai/)
-
+- [Pluralistic: The Reverse-Centaur’s Guide to Criticizing AI (05 Dec 2025)](https://pluralistic.net/2025/12/05/pop-that-bubble/)
 
 ### Environmental impact
 
