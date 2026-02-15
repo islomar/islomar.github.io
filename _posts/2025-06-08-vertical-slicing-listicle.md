@@ -1,7 +1,7 @@
 ---
 title: "Vertical Slicing Listicle"
 date: 2025-06-08T19:41:41+02:00
-last_modified_at: 2025-06-21T09:21:41+02:00
+last_modified_at: 2026-02-15T18:21:41+02:00
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "chalkboard-teacher"
@@ -142,9 +142,6 @@ My personal opinion: in order to enable and get its benefits, you need some prin
 
 ## Related interesting resources
 
-- [Lean GPT](https://www.eferro.net/2025/06/built-custom-gpt-to-help-teams-ship.html)
-  - Edu Ferro built a Custom GPT to help teams ship smaller, safer, faster. It challenges assumptions, guides toward small safe steps, enables continuous learning and delivery.
-  - For developers, PMs, designers, architects—anyone building products.
 - [Intelligent vertical slicing and feature decomposition for Claude Code using the Hamburger Method and radical vertical slicing techniques](https://github.com/abrahamvallez/bokata-slicer-cc)
 - [Developing Software: Postponing Decisions and Working in Small Steps](https://www.eferro.net/2025/01/developing-software-postponing.html) by Edu Ferro (17 min. read)
 - [MMMSS: Many More Much Smaller Steps](https://www.geepawhill.org/series/many-more-much-smaller-steps/), a great series of articles by Geepaw Hil
@@ -156,6 +153,17 @@ My personal opinion: in order to enable and get its benefits, you need some prin
 - [User Story Splitting - Vertical Slice vs Horizontal Slice](https://www.visual-paradigm.com/scrum/user-story-splitting-vertical-slice-vs-horizontal-slice/) (7 min. read)
 - [Vertical Story Slicing](https://www.youtube.com/watch?v=ajYN66GCpf8) (video, 53 min.)
 - [Agile Delivery - Lean Coffee - Slicing (in Spanish)](https://www.youtube.com/watch?v=R_JQGXmrkyY) (1 hour 35 min, video)
+
+### LLMs
+
+- [Lean GPT](https://www.eferro.net/2025/06/built-custom-gpt-to-help-teams-ship.html)
+  - Edu Ferro built a Custom GPT to help teams ship smaller, safer, faster. It challenges assumptions, guides toward small safe steps, enables continuous learning and delivery.
+  - For developers, PMs, designers, architects—anyone building products.
+  - [Lean Discovery](https://chatgpt.com/g/g-693d314e7f888191ac8efcafafcb60ff-eferro-lean-discovery)
+  - [Lean Delivery](https://chatgpt.com/g/g-693c4a50a404819184a8dc938be0cfbe-eferro-lean-delivery)
+- [Bokata: Vertical Slicing & Task Decomposition Prompt Framework](https://github.com/abrahamvallez/bokata-skills), by Abraham Vállez
+  - Bokata is a prompt engineering framework designed to guide Large Language Models (LLMs) in decomposing complex software requirements into incremental, high-value, and actionable development plans.
+  - Using techniques like Vertical Slicing and User Story Mapping, Bokata transforms vague ideas or large PRDs into a structured "Walking Skeleton" and a prioritized backlog of functional increments.
 
 ## Further interesting topics, tools, and techniques
 
