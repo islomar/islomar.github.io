@@ -24,7 +24,7 @@ If you're just interested in public videos, you can find them in [this YouTube p
 
 ### **What 26 Years in Tech Taught Me About Career Growth** (2026)
 
-- _Where_: Internal talk for students at [Zakey](https://zakey.team/){:target="_blank"}{:rel="noopener noreferrer"}, an initiative that supports Palestinian tech graduates
+- _Where_: Internal talk for students at [Zakey](https://zakey.team/){:target="_blank"}{:rel="noopener noreferrer"}, an amazing initiative to support Palestinian tech graduates
 - [Event announcement](https://www.linkedin.com/feed/update/urn:li:activity:7509141717502267392/){:target="_blank"}{:rel="noopener noreferrer"}
 - [Slides](https://speakerdeck.com/islomar/what-26-years-in-tech-taught-me-about-career-growth){:target="_blank"}{:rel="noopener noreferrer"}
 - _Description_: I had the honour of speaking as a guest to a group of fresh graduates, sharing my experience across different roles and work environments.
@@ -37,7 +37,7 @@ If you're just interested in public videos, you can find them in [this YouTube p
 
 ### **How a real-life software/product engineering team works** (2025)
 
-- _Where_: Internal talk for students at [Zakey](https://zakey.team/){:target="_blank"}{:rel="noopener noreferrer"}, an initiative that supports Palestinian tech graduates
+- _Where_: Internal talk for students at [Zakey](https://zakey.team/){:target="_blank"}{:rel="noopener noreferrer"}, an amazing initiative to support Palestinian tech graduates
 - [Slides](https://speakerdeck.com/islomar/product-engineering-team-works){:target="_blank"}{:rel="noopener noreferrer"}
 - _Topics_: SDLC (Software Development Life Cycle), Product management, software development, cross-functional teams, iterative development
 - _Description_: I had the honour of speaking as a guest to a group of fresh graduates, most of them with little or no professional experience, so my goal was to give a high-level introduction to the end-to-end process of software development, focused on product development. Some of the topics covered (simplified) were:
