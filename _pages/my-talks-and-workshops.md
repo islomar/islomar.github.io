@@ -20,12 +20,17 @@ If you're just interested in public videos, [here](https://www.youtube.com/playl
 
 ## TALKS
 
+### **What 26 Years in Tech Taught Me About Career Growth** (2026)
+- _Where_: Internal talk for students at [Zakey](https://zakey.team/){:target="_blank"}{:rel="noopener noreferrer"}, an amazing initiative to support Palestinian tech graduates
+- [Event announcement](https://www.linkedin.com/feed/update/urn:li:activity:7509141717502267392/){:target="_blank"}{:rel="noopener noreferrer"}
+- [Slides](https://speakerdeck.com/islomar/what-26-years-in-tech-taught-me-about-career-growth){:target="_blank"}{:rel="noopener noreferrer"}
+- _Description_: I was honoured to be invited as a guest speaker to talk to a group of fresh graduates, sharing my experience across different roles and work environments.
+
 ### **Value over Code: the power of Continuous Deployment** (2025)
 
 - _Where_: Internal talk as a guest speaker for [Kongsberg Discovery](https://www.kongsberg.com/discovery/){:target="_blank"}{:rel="noopener noreferrer"}
 - [Slides](https://speakerdeck.com/islomar/value-over-code-the-power-of-continuous-deployment-kongsberg){:target="_blank"}{:rel="noopener noreferrer"}
 - _Topics_: continuous-integration, continuous-deployment, flow-efficiency, feedback-loops, friction, lean-software-development, trunk-based-development, XP, TDD, pair-programming, high-efficient-teams, product-development, engineering-culture
-
 
 ### **How a real-life software/product engineering team works** (2025)
 - _Where_: Internal talk for students at [Zakey](https://zakey.team/){:target="_blank"}{:rel="noopener noreferrer"}, an amazing initiative to support Palestinian tech graduates
