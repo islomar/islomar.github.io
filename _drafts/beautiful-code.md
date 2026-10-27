@@ -1,7 +1,5 @@
 I don't think it means what you think it means.
 
-https://twitter.com/flopezluis/status/1608610453365870592
-
 Vaya por delante que yo no suelo usar ese adjetivo ni ningún otro similar para decribir el tipo de código ue, como norma general, considero que aporta valor.
 
 Para mí, código "bonito" ess sinónimo, entre otras cosas, de:

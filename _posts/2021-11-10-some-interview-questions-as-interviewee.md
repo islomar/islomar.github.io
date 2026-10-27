@@ -81,7 +81,7 @@ So... here I share some of the questions that I have asked in the past or I will
 - How do you handle **disagreements** on technical approaches?
 - What happens from the moment a developer starts working on something until it is deployed? Could you please describe to me your **delivery pipeline**? What's the full **journey of a commit**?
 - How many teams does a team depend on to get a small change into production?
-- What is the entire process for a **one line change** in code to make it to production? (by [Jeremy Kahne](https://twitter.com/jeremykahne/status/1469416655168196620))
+- What is the entire process for a **one line change** in code to make it to production? (by [Jeremy Kahne](https://web.archive.org/web/20211210213620/https://twitter.com/jeremykahne/status/1469416655168196620))
 - Do you decouple **"Release"** from "Deployment"?
 - What is a **typical day** of a team? (from the very start to the very end)
 - Do you support **open source** in any way?
