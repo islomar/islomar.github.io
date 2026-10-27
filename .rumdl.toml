@@ -1,0 +1,4 @@
+# Jekyll site: prose paragraphs stay on one line, and pages use inline HTML (e.g. centred images).
+# MD041 is copied from the global config, which this file replaces.
+[global]
+disable = ["MD013", "MD033", "MD041"]

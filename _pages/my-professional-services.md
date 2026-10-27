@@ -6,12 +6,13 @@ toc_label: "Table of Contents"
 toc_icon: "chalkboard-teacher"
 ---
 
-:calendar: **Last update**: *September 29, 2025*
+<!-- DOCTOC SKIP -->
 
-Disclaimer: Although some of my recent roles were short, each one was a deliberate choice to learn, contribute, and seek alignment. I’m now looking for a LONGER-TERM partnership with a company where I can grow and contribute sustainably.
+:calendar: **Last update**: *October 27, 2026*
 
-BIG NEWS! 🎉 I'm reactivating my search for a new professional challenge preferably as an **employee** (only in exceptional cases as a **contractor**, but I don't feel like freelancing with several companies at the moment) at a **product company** as a preference (again: exceptions happen).
+BIG NEWS! 🎉 I'm looking for a new professional challenge again, preferably as an **employee** (only in exceptional cases as a **contractor**, but I don't feel like freelancing with several companies at the moment) at a **product company** as a preference (again: exceptions happen).
 Being **full-remote** is a MUST (no problem to move for on-sites every quarter or so) and I will say it despite being taboo: aiming for a **"high salary"** right now (in the "North-Europe" range, whatever that means; just keep reading and let's talk about it anyway 😉).
+I'm looking for a **LONG-TERM partnership** with a company where I can grow and contribute sustainably.
 
 **Doing what?** Basically, I can help your organisation and teams in the continuous and sustainable delivery of value for your users/customers/business through **software and product development**, with a diverse set of values, principles and practices (both social and technical, mostly grown around Lean Product/Software Development, eXtreme Programming, DevOps culture, NVC, etc.), lowering the pain at the same time. We would do it together (I don't want to feel alone, I want peers). Let's grow **TOGETHER**. Here are some **challenges I can help address**:
 
@@ -63,15 +64,15 @@ Systems thinking, Lean product development, eXtreme Programming, [agile](https:/
 
 ### My readings
 
-[Here](https://www.goodreads.com/islomar) you can take a look at some of the "many" books that I have read (or currently reading). There, you can see all my bookshelves and take a look at whatever you feel an interest in (e.g. product development, teams, software development, etc.)
+[On Goodreads](https://www.goodreads.com/islomar) you can take a look at some of the "many" books that I have read (or currently reading). There, you can see all my bookshelves and take a look at whatever you feel an interest in (e.g. product development, teams, software development, etc.)
 I love reading and I think it's one of the main ways to open your mind and learn new things (other ways of achieving it are "hands-on" activities, **deliberate learning** and keeping good and curious people around you).
 
-## You might be interested to hire me if...
+## You might be interested to hire me if
 
 - It's taking longer and longer for you to **deliver value to your users**. Or just longer than you need or would like to. I can help you to move to a delivery of value several times per day.
 - It's getting too painful to **change/understand your codebase** and to **take it to Production**: your legacy code is eating you and you have too many manual steps!
   - I can help you introduce Infrastructure as Code; during my time as a Platform Engineer I dealt a lot with Terraform, Docker, AWS, etc. (I'm not an "expert" though)
-  - Your commits _should_ experience a smooth and automated flow to Production.
+  - Your commits *should* experience a smooth and automated flow to Production.
 - Your **issues in Production** are taking "too much time" from thinking and experimenting what to solve and how to solve it. And even worse: they are damaging your users trust! (and probably your developers morale).
 - Your **feedback cycles** are too slow. For example, your lead time from commit to production usually takes days instead of minutes. That is to say you learn very slowly... I would encourage fast feedback cycles through practices like TDD, pair/ensemble programming, trunk-based development, feature flags, robust delivery pipelines and many other things. We would go there in baby steps 😊
 - You don't see how you could improve your **technical skills** to better serve the users/business (and for having a better life).
@@ -90,7 +91,7 @@ I love reading and I think it's one of the main ways to open your mind and learn
     <img src="../assets/images/TCR_workshop_crafters_Stockholm.png" alt="During a workshop about TCR (Test&&Commit||Revert) at the Stockholm Crafters in 2019" title="During a workshop about TCR (Test&&Commit||Revert) at the Stockholm Crafters in 2019" />
 </p>
 
-## Please, don't hire me if...
+## Please, don't hire me if
 
 - Don’t hire me if you deliberately lie or hide important information to your users, customers, employees, providers or any other stakeholder. Also if you want to create or reinforce any kind of addiction in people or you're consciously hurting human or animal lives. **Ethics** are extremely important to me (at the same time I'm human, so I'm full of cognitive dissonances and incoherences). Here you can read about [my ethical stance](/my-ethical-stance).
 - You don't accept [a professional NO](https://www.thoughtfulleader.com/push-back-for-leaders/).
@@ -102,8 +103,8 @@ I love reading and I think it's one of the main ways to open your mind and learn
 - **Command and control** is the main way you take decisions (even if they are coloured with fancy names).
 
 ## Some questions that I will probably ask you
-Because of the general interest, I have moved this section to an independent [post](../blog/some-interview-questions-as-interviewee/).
 
+Because of the general interest, I have moved this section to an independent [post](/some-interview-questions-as-interviewee/).
 
 ## Final words
 
