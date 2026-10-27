@@ -24,10 +24,10 @@ If you're just interested in public videos, you can find them in [this YouTube p
 
 ### **What 26 Years in Tech Taught Me About Career Growth** (2026)
 
-- _Where_: Internal talk for students at [Zakey](https://zakey.team/){:target="_blank"}{:rel="noopener noreferrer"}, an amazing initiative to support Palestinian tech graduates
+- _Where_: Internal talk for students at [Zakey](https://zakey.team/){:target="_blank"}{:rel="noopener noreferrer"}, an initiative that supports Palestinian tech graduates
 - [Event announcement](https://www.linkedin.com/feed/update/urn:li:activity:7509141717502267392/){:target="_blank"}{:rel="noopener noreferrer"}
 - [Slides](https://speakerdeck.com/islomar/what-26-years-in-tech-taught-me-about-career-growth){:target="_blank"}{:rel="noopener noreferrer"}
-- _Description_: I was honoured to be invited as a guest speaker to talk to a group of fresh graduates, sharing my experience across different roles and work environments.
+- _Description_: I had the honour of speaking as a guest to a group of fresh graduates, sharing my experience across different roles and work environments.
 
 ### **Value over Code: the power of Continuous Deployment** (2025)
 
@@ -37,12 +37,12 @@ If you're just interested in public videos, you can find them in [this YouTube p
 
 ### **How a real-life software/product engineering team works** (2025)
 
-- _Where_: Internal talk for students at [Zakey](https://zakey.team/){:target="_blank"}{:rel="noopener noreferrer"}, an amazing initiative to support Palestinian tech graduates
+- _Where_: Internal talk for students at [Zakey](https://zakey.team/){:target="_blank"}{:rel="noopener noreferrer"}, an initiative that supports Palestinian tech graduates
 - [Slides](https://speakerdeck.com/islomar/product-engineering-team-works){:target="_blank"}{:rel="noopener noreferrer"}
 - _Topics_: SDLC (Software Development Life Cycle), Product management, software development, cross-functional teams, iterative development
-- _Description_: I was honoured to be invited as a guest speaker to talk to a group of fresh graduates, most of them with few or no professional experience at all, so my goal was to have a high-level introduction to the overall end-to-end process of software development (mostly focused on a product). Some of the topics covered (all of them hypersimplified) were:
+- _Description_: I had the honour of speaking as a guest to a group of fresh graduates, most of them with little or no professional experience, so my goal was to give a high-level introduction to the end-to-end process of software development, focused on product development. Some of the topics covered (simplified) were:
   - Software development process from a 10.000 foot view (big picture)
-  - How a team decides what to work on: things like OKR, KPI, priorization, product management, etc. (in a very basic and superficial way)
+  - How a team decides what to work on: things like OKR, KPI, prioritization, product management, etc. (in a basic and superficial way)
   - How the team got organized and our ownership end to end, our day by day
   - Everything that happened from the moment we made a change in the code until that change arrived to the hands of our users
   - A little bit of my vision about software development and the profession
@@ -86,7 +86,7 @@ If you're just interested in public videos, you can find them in [this YouTube p
 
 - _Where_: Universidad Rey Juan Carlos de Madrid
   - [Master CloudApps](https://www.codeurjc.es/mastercloudapps/){:target="_blank"}{:rel="noopener noreferrer"}
-- _Topics_: Product developepment, Trunk-Based Development, Continuous Delivery, Continuous Deployment, Lean, eXtreme Programming, product management
+- _Topics_: Product development, Trunk-Based Development, Continuous Delivery, Continuous Deployment, Lean, eXtreme Programming, product management
 
 ### **Pushing to master (Trunk-Based Development 101)** (2022)
 
@@ -229,7 +229,7 @@ If you're just interested in public videos, you can find them in [this YouTube p
 
 - _Where_: [Adalab](https://adalab.es/){:target="_blank"}{:rel="noopener noreferrer"}
 - [Resources: examples and code](https://github.com/islomar/adalab-intro-testing-tdd){:target="_blank"}{:rel="noopener noreferrer"}
-- _Description_: I shared a talk and workshop in order to introduce the students to the automated testing in software development, specially the TDD practice.
+- _Description_: I shared a talk and workshop to introduce the students to automated testing in software development, especially the TDD practice.
 - _Topics_: testing, TDD, eXtreme Programming
 
 ### **Introduction to TDD** (2016)
