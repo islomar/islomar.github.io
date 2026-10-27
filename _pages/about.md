@@ -1,7 +1,34 @@
 ---
 permalink: /about/
-title: "Sobre mí"
+title: "About me"
 ---
+
+<!-- DOCTOC SKIP -->
+
+*(Versión en español [más abajo](#sobre-mi).)*
+
+Who knows anymore... 😄
+
+Born and raised in Alicante ("alicantino, borracho y fino", as the local saying goes). I grew up there until I was 18, and after that... well, after that I have been around quite a bit: physically, emotionally and professionally speaking.
+
+I have lived (I count as "living" spending more than six months in a place) in Spain, France, Germany and Sweden. Although nowadays I think that everything related to travelling or "living abroad" is overrated, I do believe it can help us understand the world a bit better, and therefore ourselves.
+
+I'm interested in almost everything and I'm passionate about lots of different things, among them understanding as well as possible **why we do what we do**.
+Hence my path as a semi-professional dabbler: I started as a [telecommunications engineer](https://www.etsit.upv.es/), moved to [SAP](https://www.sap.com/) consulting, worked as a civil servant for almost 7 years, then in *startups*, at ["a cool company"](https://www.spotify.com/), did an [Executive MBA](https://www.esic.edu/master-y-postgrado/mba/executive-mba) ("I'm very sorry, I made a mistake, it won't happen again"), spent a few years studying Social and Cultural Anthropology, tried screenwriting, started Psychology... and I took, and keep taking, a few more detours 😊
+
+Professionally, these days I consider myself a "digital product developer" in a rather broad sense: as a [specialized generalist](http://businessmodelalchemist.com/blog/2006/08/specialized-generalist-or-t-shaped.html) (or [generalized specialist](https://fs.blog/2017/11/generalized-specialist/)), I like to have a holistic (take a shot!) and *end-to-end* view of the whole product development context. That includes software development, product management, the company/team culture (i.e. "the people"), their *value stream*, their internal organisation, etc. I believe that only by approaching the system as a whole, whatever kind of system it is, can we achieve real long-term improvements.
+
+I discovered the [*agile* movement](https://agilemanifesto.org/) in 2008, but when I later discovered [eXtreme Programming](http://www.extremeprogramming.org/) and the software crafters movement, I fell in love with this profession for good. Discovering [Lean Software Development](https://en.wikipedia.org/wiki/Lean_software_development) was the icing on the cake.
+
+With [Buddhist](https://kopanmonastery.com/) and [polyamorous](https://en.wikipedia.org/wiki/Polyamory) leanings, in my free time (what is the rest of it, "slave time"?), among many other things I like devouring "good literature", ["good cinema"](https://www.filmaffinity.com/es/userratings.php?user_id=8045037) and sharing/exchanging the few silly things I know or think.
+
+So in this blog I plan to write about... who knows what. It will depend on what I feel like at each moment, but it will probably end up being a potpourri of topics. I will try to use good categories and tags so that everyone can filter what interests them more or less 😉
+
+If anything in all this rambling especially resonates with you, [write to me](mailto:islomar@gmail.com) and let's have a chat one day!! 🙏
+
+---
+
+## Sobre mí {#sobre-mi}
 
 Yo qué sé ya... 😄
 
