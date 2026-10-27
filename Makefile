@@ -1,9 +1,8 @@
-.PHONY: help install-without-docker up up-with-drafts down time
+.PHONY: help install-without-docker build up up-with-drafts down shell time
 
 DOCKER_IMAGE_NAME := blog-islomar
-## https://pages.github.com/versions/
-JEKYLL_VERSION := 3 
-DOCKER_RUN_BLOG := docker run --name "$(DOCKER_IMAGE_NAME)" --volume="$(PWD):/srv/jekyll" -p 4000:4000 -p 35729:35729 -it jekyll/jekyll:$(JEKYLL_VERSION) jekyll serve --watch --livereload --verbose
+JEKYLL_SERVE := bundle exec jekyll serve --host 0.0.0.0 --livereload --force_polling
+DOCKER_RUN_BLOG := docker run --rm --name "$(DOCKER_IMAGE_NAME)" --user "$$(id -u):$$(id -g)" --env HOME=/tmp --volume="$(PWD):/srv/jekyll" -p 4000:4000 -p 35729:35729 -it $(DOCKER_IMAGE_NAME)
 
 default: help
 
@@ -22,17 +21,20 @@ run-without-docker: ## Run blog locally without Docker
 run-without-docker-with-drafts: ## Run blog locally without Docker but with drafts
 	bundle exec jekyll serve --livereload --drafts
 
-up: down ## Start locally using Docker
-	$(DOCKER_RUN_BLOG)
+build: ## Build the Docker image with the blog dependencies
+	docker build -t $(DOCKER_IMAGE_NAME) .
 
-up-with-drafts: down ## Start locally using Docker including drafts
-	$(DOCKER_RUN_BLOG) --drafts
+up: down build ## Start locally using Docker
+	$(DOCKER_RUN_BLOG) $(JEKYLL_SERVE)
+
+up-with-drafts: down build ## Start locally using Docker including drafts
+	$(DOCKER_RUN_BLOG) $(JEKYLL_SERVE) --drafts
 
 down: ## Stop and remove local Docker blog
-	docker rm -f $(DOCKER_IMAGE_NAME)
+	docker rm -f $(DOCKER_IMAGE_NAME) 2>/dev/null || true
 
 shell: ## Open a shell in the Docker container
-	docker run -it jekyll/jekyll:$(JEKYLL_VERSION) sh	
+	$(DOCKER_RUN_BLOG) bash
 
 time: ## Get the timestamp to be added to each post header
 	date --iso-8601=seconds
