@@ -1,7 +1,7 @@
 ---
 title: "My ethical stance"
 date: 2024-03-17T12:35:00+01:00
-last_modified_at: 2025-06-05T21:11:27+01:00
+last_modified_at: 2026-10-27T12:00:00+01:00
 lang: en
 ref: my-ethical-stance
 redirect_from:
@@ -12,13 +12,16 @@ tags:
   - english
 ---
 
+<!-- DOCTOC SKIP -->
+
 _**IMPORTANT DISCLAIMER:** I'm writing this post as a **personal reminder**, not to tell anyone what they should do, convince anybody of anything, impart moral lessons or grant any kind of "licenses". Life is hard and I have enough on my plate with setting my own moral compass_ 🙏
 
 ------------------
 
-I'm currently in a "relaxed" search of new professional challenges. By "relaxed" I mean that I have not openly published it and I'm not intensively searching: for the moment, I just knocked a couple of doors (from people/companies I feel a high level of alignment) and entered a few processes with people who directly approached me (I'm such a privileged person and I feel SO LUCKY 😍).
+I'm currently looking for a new professional challenge, and this time actively and openly (you can find the details in [my professional services](/my-professional-services/)). I first wrote this post in March 2024, during a much more "relaxed" search, and I keep updating it.
 
-Still, this is a moment when I'm asking myself questions such as:
+A job search is always a moment when I ask myself questions such as:
+
 - What kind of industries do I feel specially motivated to join?
 - What kind of industries or business models or organizational behaviour I don't want to join?
 - What are my "ethical red lines"? How big is the "grey area" to me?
@@ -42,7 +45,6 @@ For different reasons (i.e. there are higher and lower levels of "criticality" i
 - Highly polluting activities
 - Anything where there is no full transparency about the business model and how they earn money
 - Any activity without "full honesty": lying, cheating, hiding relevant information or “tricking” their users, providers, employees, etc.
-
 
 And I write these words being fully conscious about my own incoherences: with the current complexity of the world and society, I don't think that it's possible to live on it being "fully coherent". Sometimes I would even say that it isn't "healthy". Long life to the [cognitive dissonances](https://en.wikipedia.org/wiki/Cognitive_dissonance)! 😆
 
