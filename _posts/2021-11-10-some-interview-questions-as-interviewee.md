@@ -13,6 +13,8 @@ tags:
   - interviews
 ---
 
+<!-- DOCTOC SKIP -->
+
 This post is the extraction of a section at my page [My professional services](../../my-professional-services).
 Some people enjoyed this part especially, so I thought it might be a good idea to extract it as an independent post that I might update from time to time.
 
