@@ -22,7 +22,7 @@ See the [Google privacy policy](https://policies.google.com/privacy).
 
 If you reject the cookies or ignore the banner, Google Analytics does not load. If you withdraw your consent later, the site deletes these cookies from your browser.
 
-**Disqus**, a third-party service, provides the comments on posts. It loads only if you click "Load comments", and only for that page. Your IP address then goes to Disqus and to other services it uses, including VigLink (affiliate links) and Google Fonts. For its cookies and tracking, see the [Disqus privacy policy](https://disqus.com/privacy-policy/).
+**Disqus**, a third-party service, provides the comments on posts. It loads only if you click "Load comments", and only for that page. Your IP address then goes to Disqus and to Google Fonts, and Disqus can show an ad above the comments. For its cookies and tracking, see the [Disqus privacy policy](https://disqus.com/privacy-policy/).
 
 ## What does not need your consent
 
