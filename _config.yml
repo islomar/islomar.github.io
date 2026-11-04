@@ -140,7 +140,7 @@ comments:
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "UA-171012598-1"
+    tracking_id: "G-6N4V44FDYV"
     anonymize_ip: true # default
 
 category_archive:
