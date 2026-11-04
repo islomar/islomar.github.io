@@ -22,13 +22,34 @@ tags:
   - systems-thinking
 ---
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents** *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Slides](#slides)
+- [Recommended books](#recommended-books)
+- [Real life examples of Continuous Deployment pipelines](#real-life-examples-of-continuous-deployment-pipelines)
+- [Some recommended people](#some-recommended-people)
+- [Other resources](#other-resources)
+  - [General](#general)
+  - [Continuous Integration, Delivery and Deployment](#continuous-integration-delivery-and-deployment)
+  - [Lean and Flow](#lean-and-flow)
+  - [Parallel changes](#parallel-changes)
+  - [Workshops about parallel changes](#workshops-about-parallel-changes)
+  - [Canary releases and Blue-green deployment](#canary-releases-and-blue-green-deployment)
+  - [Trunk-Based Development](#trunk-based-development)
+  - [Branching, Pull requests and blocking code reviews](#branching-pull-requests-and-blocking-code-reviews)
+  - [(Vertical) Slicing](#vertical-slicing)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Some months ago, the organization of the amazing conference [BilboStack](https://bilbostack.com/){:target="_blank"}{:rel="noopener noreferrer"} made the mistake of inviting me to talk to the 2024 edition 😆
 
 I decided to talk about **Continuous Deployment**... as a Trojan horse in order to talk about many other topics related with software and product development (probably too many indeed! 😅)
 
 Last Saturday, 27th January 2024, I finally gave it: ["Valor por encima de código: el poder del Despliegue Continuo"](https://2024.bilbostack.com/isidro-lopez){:target="_blank"}{:rel="noopener noreferrer"}, which might be translated to English as "Value over Code: the power of Continuous Deployment".
 
-Here I would like to share the slides and some of the people and resources included in the talk (and if you spot any link not working properly, please tell me 🙏). 
+Here I would like to share the slides and some of the people and resources included in the talk (and if you spot any link not working properly, please tell me 🙏).
 
 Also, I have answered in another post all the questions sent during the talk; here you have it [in English](/questions-and-answers-bilbostack-2024) and here [in Spanish](/preguntas-y-respuestas-bilbostack-2024).
 
@@ -36,21 +57,13 @@ Oh, and one last thing: I have included 3 extra slides that didn't appear during
 
 [Spanish] Si quienes asististeis a la charla me pudierais dar feedback (de mejora y positivo, cuanto más concreto mejor), os agradecería ENORMEMENTE si pudierais invertir 2 minutos (de reloj) en rellenar [este formulario](https://forms.gle/4omyq7PWoVbkWEJr5) ¡¡GRACIAS!! 🙏🙏🙏
 
-
 ## Slides
+
 - [In Speaker Deck](https://speakerdeck.com/islomar/valor-por-encima-de-codigo-el-poder-del-despliegue-continuo){:target="_blank"}{:rel="noopener noreferrer"}
 - [In Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vQjRyNPunwWLBRP-gEEVnMMVLq0373KDyT1IpqJXwato2jtTRtdjqecHNtQrJBiVzZ4j-WAc6J5py6c/pub?start=false&loop=false&delayms=3000){:target="_blank"}{:rel="noopener noreferrer"}
 
-<style>
-.responsive-wrap iframe{ max-width: 100%;}
-</style>
-<div class="responsive-wrap">
-<!-- this is the embed code provided by Google -->
-    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQjRyNPunwWLBRP-gEEVnMMVLq0373KDyT1IpqJXwato2jtTRtdjqecHNtQrJBiVzZ4j-WAc6J5py6c/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-<!-- Google embed ends -->
-</div>
-
 ## Recommended books
+
 - ["This is Lean"](https://thisislean.com/){:target="_blank"}{:rel="noopener noreferrer"}, by Niklas Modig & Pär Åhlström
 - ["Fifty quick ideas to improve your User Stories"](https://fiftyquickideas.com/fifty-quick-ideas-to-improve-your-user-stories/){:target="_blank"}{:rel="noopener noreferrer"}, by Gojko Adzic & David Evans
 - ["Continuous Delivery"](https://continuousdelivery.com/){:target="_blank"}{:rel="noopener noreferrer"}, by Jez Humble and David Farley
@@ -65,8 +78,8 @@ Oh, and one last thing: I have included 3 extra slides that didn't appear during
 - ["Technical Agile Coaching with the Samman method"](https://sammancoaching.org/){:target="_blank"}{:rel="noopener noreferrer"}, by Emily Bache
 - ["Agile Technical practices distilled"](https://leanpub.com/agiletechnicalpracticesdistilled){:target="_blank"}{:rel="noopener noreferrer"}, by Pedro M. Santos, Marco Consolaro & Alessandro Di Gioia
 
-
 ## Real life examples of Continuous Deployment pipelines
+
 I've been "lucky" enough to experience several teams and companies where we grew Continuous Delivery and Continuous Deployment pipelines. Here I would like to share two specific examples:
 
 <p align="center">
@@ -77,8 +90,8 @@ I've been "lucky" enough to experience several teams and companies where we grew
     <img src="/assets/images/Continuous_Deployment_pipeline_within_Clarity_AI.png" alt="Diagram with a Continuous Deployment pipeline" title="Continuous Deployment pipeline within Clarity AI" />
 </p>
 
-
 ## Some recommended people
+
 - Eduardo Ferro
   - [https://bsky.app/profile/eferro.net](https://bsky.app/profile/eferro.net){:target="_blank"}{:rel="noopener noreferrer"}
   - [https://www.eferro.net/](https://www.eferro.net/){:target="_blank"}{:rel="noopener noreferrer"}
@@ -110,9 +123,10 @@ I've been "lucky" enough to experience several teams and companies where we grew
   - [https://bsky.app/profile/martinfowler.com](https://bsky.app/profile/martinfowler.com){:target="_blank"}{:rel="noopener noreferrer"}
   - [https://martinfowler.com/](https://martinfowler.com/){:target="_blank"}{:rel="noopener noreferrer"}
 
-
 ## Other resources
+
 ### General
+
 - <https://wiki.c2.com/?SoftwareAsLiability>
 - [What is Value? by Jez Humble](https://www.youtube.com/watch?v=ESOaDiv3lXA) (video)
 - [Estimar es timar: Example Mapping](https://medium.com/coding-stones/estimar-es-timar-example-mapping-e9dbad471ced)
@@ -120,6 +134,7 @@ I've been "lucky" enough to experience several teams and companies where we grew
 - <https://twitter.com/tottinge/status/1748277312200540523>
 
 ### Continuous Integration, Delivery and Deployment
+
 - [A major revision of Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html) (by Martin Fowler)
 - [Continuous Integration: That’s Not What They Meant • Clare Sudbery • YOW! 2023](https://www.youtube.com/watch?v=97qyNQz7fxY) (video)
 - [Minimum Viable Continuous Delivery](https://minimumcd.org)
@@ -134,6 +149,7 @@ I've been "lucky" enough to experience several teams and companies where we grew
 - <https://martinfowler.com/bliki/FrequencyReducesDifficulty.html>
 
 ### Lean and Flow
+
 - <https://abrahamvallez.medium.com/one-piece-flow-7d5ade46d203>
 - <https://jessitron.com/2021/01/18/when-costs-are-nonlinear-keep-it-small>
 - <https://www.geepawhill.org/2021/05/18/big-batch-releases>
@@ -148,16 +164,18 @@ I've been "lucky" enough to experience several teams and companies where we grew
 - [Feature toggles (aka “feature flags”)](https://martinfowler.com/articles/feature-toggles.html)
 - [Branch by abstraction](https://martinfowler.com/bliki/BranchByAbstraction.html)
 - [Strangler Fig pattern](https://paulhammant.com/2013/07/14/legacy-application-strangulation-case-studies/)
-    - [Strangler Fig Application](https://martinfowler.com/bliki/StranglerFigApplication.html)
-    - [Refactoring Legacy Code with the Strangler Fig Pattern](https://shopify.engineering/refactoring-legacy-code-strangler-fig-pattern)
+  - [Strangler Fig Application](https://martinfowler.com/bliki/StranglerFigApplication.html)
+  - [Refactoring Legacy Code with the Strangler Fig Pattern](https://shopify.engineering/refactoring-legacy-code-strangler-fig-pattern)
 - [Anti-Corruption Layer](https://docs.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer)
 - [The Limited Red Society](https://www.infoq.com/presentations/The-Limited-Red-Society/)
 
 ### Workshops about parallel changes
+
 - [Small Safe Steps 3s workshop - Agile (slides)](https://www.eferro.net/p/small-safe-steps-3s-workshop.html), by Eduardo Ferro
 - <https://paucls.wordpress.com/2020/02/26/ci-cd-non-breaking-changes-exercise>
 
 ### Canary releases and Blue-green deployment
+
 - <https://martinfowler.com/bliki/CanaryRelease.html>
 - <https://martinfowler.com/bliki/BlueGreenDeployment.html>
 - <https://www.redhat.com/en/topics/devops/what-is-blue-green-deployment>
@@ -165,24 +183,27 @@ I've been "lucky" enough to experience several teams and companies where we grew
 - <https://aws.amazon.com/es/blogs/compute/bluegreen-deployments-with-amazon-ecs>
 
 ### Trunk-Based Development
+
 - [Lightning talk: “Pusheando a master, que es gerundio”](https://youtu.be/MXDJba472jE?t=1522) (video, in Spanish)
 - [Why I prefer trunk-based development](https://trishagee.com/2023/05/29/why-i-prefer-trunk-based-development/) (Trisha Gee)
 - [Perceived Barriers to Trunk-Based Development](https://www.davefarley.net/?p=269) (Dave Farley)
 - [Neil Crawdford - Trunk based development, continuous deployment and why you should adopt them](https://www.youtube.com/watch?v=aNgWjSAjjtg) (video)
 - [Of Death and Dying: A Journey to Trunk Based Development](https://www.youtube.com/watch?v=qJhmqIv6SJk) (video)
 - [What is Trunk-Based Development?](https://learning.oreilly.com/library/view/what-is-trunk-based/9781098146658/) (Clare Sudbery)
-- <https://nelis.boucke.be/post/trunk-based-development> 
+- <https://nelis.boucke.be/post/trunk-based-development>
 
 ### Branching, Pull requests and blocking code reviews
+
 - [How to stop branching](https://elimydlarz.com/2021/08/09/how-to-stop-branching/)
 - <https://thinkinglabs.io/articles/2022/05/30/on-the-evilness-of-feature-branching-the-problems.html>
 - [Async Code Reviews Are Killing Your Company's Throughput](https://www.youtube.com/watch?v=LVr-SMLrfgg) (video)
 - <https://martinfowler.com/articles/branching-patterns.html>
 - Other experiences:
-    - <https://twitter.com/jlangr/status/1487135760012627973>
-    - <https://twitter.com/aahoogendoorn/status/1531709454701453312>
+  - <https://twitter.com/jlangr/status/1487135760012627973>
+  - <https://twitter.com/aahoogendoorn/status/1531709454701453312>
 
 ### (Vertical) Slicing
+
 - [Agile Delivery - Lean Coffee - Slicing](https://www.youtube.com/watch?v=R_JQGXmrkyY) (video, in Spanish)
 - <https://gojko.net/2012/01/23/splitting-user-stories-the-hamburger-method>
 - <https://xp123.com/articles/slicing-functionality-alternate-paths>

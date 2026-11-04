@@ -133,15 +133,14 @@ defaults:
       author_profile: true
 
 comments:
-  provider: "disqus"
+  provider: "custom" # Disqus behind a button: _includes/comments-providers/custom.html
   disqus:
     shortname: "https-islomar-es"
 
 analytics:
-  provider: "google-gtag"
+  provider: "custom" # Consent banner and GA4: _includes/analytics-providers/custom.html
   google:
     tracking_id: "G-6N4V44FDYV"
-    anonymize_ip: true # default
 
 category_archive:
   type: liquid

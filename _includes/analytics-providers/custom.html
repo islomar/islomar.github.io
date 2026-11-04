@@ -1,0 +1,98 @@
+<!-- Cookie consent. Google Analytics loads only after the visitor accepts. -->
+<style>
+  .cookie-banner { position: fixed; z-index: 1000; right: 1rem; bottom: 1rem; left: 1rem; max-width: 34rem; margin-left: auto; padding: 1rem; color: #313436; font-size: 0.9rem; background: #fff; border: 1px solid #bdc1c4; border-radius: 4px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); }
+  .cookie-banner[hidden] { display: none; }
+  .cookie-banner p { margin: 0 0 0.75rem; font-size: inherit; }
+  .cookie-banner__actions { display: flex; gap: 0.5rem; }
+  .cookie-banner__actions button { flex: 1; margin: 0; padding: 0.5rem 1rem; color: #fff; font: inherit; font-weight: bold; background: #313436; border: 0; border-radius: 4px; cursor: pointer; }
+  .cookie-banner__actions button:hover { background: #000; }
+</style>
+<div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Cookie choice" hidden>
+  <p><strong>Cookies.</strong> With your consent, I use third-party Google Analytics cookies to measure visits: how many, from where and to which pages. You can change your choice at any time under “Cookie settings” in the footer. <a href="{{ '/cookies/' | relative_url }}">Cookie policy</a>.</p>
+  <p id="cookie-banner-status" hidden></p>
+  <div class="cookie-banner__actions">
+    <button type="button" data-cookie-choice="rejected">Reject</button>
+    <button type="button" data-cookie-choice="accepted">Accept</button>
+  </div>
+</div>
+<script>
+  (function () {
+    var MEASUREMENT_ID = {{ site.analytics.google.tracking_id | jsonify }};
+    var STORAGE_KEY = 'cookie-consent';
+    var MAX_AGE_MS = 365 * 24 * 60 * 60 * 1000;
+    var banner = document.getElementById('cookie-banner');
+    var status = document.getElementById('cookie-banner-status');
+    var analyticsLoaded = false;
+
+    function readChoice() {
+      try {
+        var stored = JSON.parse(localStorage.getItem(STORAGE_KEY));
+        if (stored && Date.now() - stored.date < MAX_AGE_MS) return stored.choice;
+      } catch (e) {}
+      return null;
+    }
+
+    function saveChoice(choice) {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify({ choice: choice, date: Date.now() }));
+      } catch (e) {}
+    }
+
+    function loadAnalytics() {
+      if (analyticsLoaded) return;
+      analyticsLoaded = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', MEASUREMENT_ID);
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=' + MEASUREMENT_ID;
+      document.head.appendChild(script);
+    }
+
+    function deleteAnalyticsCookies() {
+      var host = location.hostname;
+      var domains = ['', 'domain=' + host + ';', 'domain=.' + host.replace(/^www\./, '') + ';'];
+      document.cookie.split(';').forEach(function (cookie) {
+        var name = cookie.split('=')[0].trim();
+        if (name.indexOf('_ga') !== 0) return;
+        domains.forEach(function (domain) {
+          document.cookie = name + '=; path=/; ' + domain + ' expires=Thu, 01 Jan 1970 00:00:00 GMT';
+        });
+      });
+    }
+
+    function openBanner(moveFocus) {
+      var choice = readChoice();
+      status.hidden = !choice;
+      status.textContent = choice ? 'Your current choice: ' + choice + '.' : '';
+      banner.hidden = false;
+      if (moveFocus) banner.querySelector('button').focus();
+    }
+
+    banner.addEventListener('click', function (event) {
+      var choice = event.target.getAttribute('data-cookie-choice');
+      if (!choice) return;
+      saveChoice(choice);
+      banner.hidden = true;
+      if (choice === 'accepted') {
+        loadAnalytics();
+      } else {
+        deleteAnalyticsCookies();
+        if (analyticsLoaded) location.reload();
+      }
+    });
+
+    document.addEventListener('click', function (event) {
+      var trigger = event.target.closest && event.target.closest('[data-cookie-settings]');
+      if (!trigger) return;
+      event.preventDefault();
+      openBanner(true);
+    });
+
+    var choice = readChoice();
+    if (choice === 'accepted') loadAnalytics();
+    else if (choice !== 'rejected') openBanner(false);
+  })();
+</script>

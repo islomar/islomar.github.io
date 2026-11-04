@@ -1,0 +1,21 @@
+<!-- Disqus loads only when the visitor asks for the comments. -->
+<h4 class="page__comments-title">{{ comments_label }}</h4>
+<div id="disqus-notice">
+  <p>Comments are provided by Disqus, a third-party service. If you load them, your IP address goes to Disqus and to other services it uses, including VigLink and Google Fonts. <a href="{{ '/cookies/' | relative_url }}">Cookie policy</a>.</p>
+  <button type="button" class="btn btn--primary" id="disqus-load">Load comments</button>
+</div>
+<section id="disqus_thread"></section>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script>
+  var disqus_config = function () {
+    this.page.url = {{ page.url | absolute_url | jsonify }};
+    this.page.identifier = {{ page.id | jsonify }};
+  };
+  document.getElementById('disqus-load').addEventListener('click', function () {
+    var script = document.createElement('script');
+    script.src = 'https://{{ site.comments.disqus.shortname }}.disqus.com/embed.js';
+    script.setAttribute('data-timestamp', +new Date());
+    document.head.appendChild(script);
+    document.getElementById('disqus-notice').hidden = true;
+  });
+</script>
