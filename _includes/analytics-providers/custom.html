@@ -79,6 +79,8 @@
       if (choice === 'accepted') {
         loadAnalytics();
       } else {
+        // GA rewrites its session cookie as the page unloads, so stop it before deleting.
+        if (analyticsLoaded) window['ga-disable-' + MEASUREMENT_ID] = true;
         deleteAnalyticsCookies();
         if (analyticsLoaded) location.reload();
       }
@@ -92,7 +94,11 @@
     });
 
     var choice = readChoice();
-    if (choice === 'accepted') loadAnalytics();
-    else if (choice !== 'rejected') openBanner(false);
+    if (choice === 'accepted') {
+      loadAnalytics();
+    } else {
+      deleteAnalyticsCookies();
+      if (choice !== 'rejected') openBanner(false);
+    }
   })();
 </script>
