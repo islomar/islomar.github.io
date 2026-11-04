@@ -22,27 +22,6 @@ tags:
   - systems-thinking
 ---
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents** *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [Slides](#slides)
-- [Recommended books](#recommended-books)
-- [Real life examples of Continuous Deployment pipelines](#real-life-examples-of-continuous-deployment-pipelines)
-- [Some recommended people](#some-recommended-people)
-- [Other resources](#other-resources)
-  - [General](#general)
-  - [Continuous Integration, Delivery and Deployment](#continuous-integration-delivery-and-deployment)
-  - [Lean and Flow](#lean-and-flow)
-  - [Parallel changes](#parallel-changes)
-  - [Workshops about parallel changes](#workshops-about-parallel-changes)
-  - [Canary releases and Blue-green deployment](#canary-releases-and-blue-green-deployment)
-  - [Trunk-Based Development](#trunk-based-development)
-  - [Branching, Pull requests and blocking code reviews](#branching-pull-requests-and-blocking-code-reviews)
-  - [(Vertical) Slicing](#vertical-slicing)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 Some months ago, the organization of the amazing conference [BilboStack](https://bilbostack.com/){:target="_blank"}{:rel="noopener noreferrer"} made the mistake of inviting me to talk to the 2024 edition 😆
 
 I decided to talk about **Continuous Deployment**... as a Trojan horse in order to talk about many other topics related with software and product development (probably too many indeed! 😅)
@@ -209,3 +188,5 @@ I've been "lucky" enough to experience several teams and companies where we grew
 - <https://xp123.com/articles/slicing-functionality-alternate-paths>
 - [How to split a user story?](https://www.humanizingwork.com/wp-content/uploads/2020/10/HW-Story-Splitting-Flowchart.pdf) (PDF flowchart)
 - [Elephant Carpaccio facilitation guide](https://docs.google.com/document/d/1TCuuu-8Mm14oxsOnlk8DqfZAA1cvtYu9WGv67Yj_sSk/pub)
+
+<!-- DOCTOC SKIP -->

@@ -3,17 +3,6 @@ permalink: /cookies/
 title: "Cookie policy"
 ---
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents** *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [What needs your consent](#what-needs-your-consent)
-- [What does not need your consent](#what-does-not-need-your-consent)
-- [Other services that receive your IP address](#other-services-that-receive-your-ip-address)
-- [Your rights](#your-rights)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 **Last update**: *November 4, 2026*
 
 This site is run by Isidro López. Contact: [islomar@gmail.com](mailto:islomar@gmail.com).
@@ -51,3 +40,5 @@ Browsers request some files from other servers. These requests do not depend on 
 ## Your rights
 
 The legal basis for Google Analytics and Disqus is your consent. You can withdraw it at any time with the link at the top of this page or in the site footer. You can also ask me for access to, correction of or deletion of your data, and you can complain to the [Spanish Data Protection Agency](https://www.aepd.es/).
+
+<!-- DOCTOC SKIP -->
