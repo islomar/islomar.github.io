@@ -12,8 +12,6 @@ tags:
   - english
 ---
 
-<!-- DOCTOC SKIP -->
-
 _**IMPORTANT DISCLAIMER:** I'm writing this post as a **personal reminder**, not to tell anyone what they should do, convince anybody of anything, impart moral lessons or grant any kind of "licenses". Life is hard and I have enough on my plate with setting my own moral compass_ 🙏
 
 ------------------
@@ -51,3 +49,5 @@ And I write these words being fully conscious about my own incoherences: with th
 Despite my efforts to minimize it, I'm acutely aware of being part of a global community that continuously exploits other regions and people. Shame on me. Shame on us.
 
 Regarding some topics, my views have evolved in the past, and I hope they will continue to do so in the future. Still, I'm not always in peace with that, which I think is good 🙏
+
+<!-- DOCTOC SKIP -->

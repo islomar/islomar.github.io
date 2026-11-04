@@ -13,9 +13,7 @@ tags:
   - interviews
 ---
 
-<!-- DOCTOC SKIP -->
-
-This post is the extraction of a section at my page [My professional services](../../my-professional-services).
+This post is the extraction of a section at my page [My professional services](/my-professional-services/).
 Some people enjoyed this part especially, so I thought it might be a good idea to extract it as an independent post that I might update from time to time.
 
 The goal of these questions is to help clarifying my **expectations** and to generate the clearest and broadest possible idea about the company, the business, the culture, the role, the day-to-day work, etc. To better grab the "lights" and the "darkness". Another outcome is to **reduce the probability of a misalignment and big surprises** during the first weeks of work 😊
@@ -109,3 +107,5 @@ So... here I share some of the questions that I have asked in the past or I will
   - What are your product managers like?
 - [The Product Engineer Checklist (by epilot)](https://dev.to/epilot/the-product-engineer-checklist-469d)  
 - ["Qué preguntas debes hacer en una entrevista" (Manfred)](https://www.getmanfred.com/blog/que-preguntas-debes-hacer-en-una-entrevista)
+
+<!-- DOCTOC SKIP -->
