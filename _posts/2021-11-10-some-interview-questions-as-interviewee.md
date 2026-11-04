@@ -1,5 +1,6 @@
 ---
 title: "Some interview questions as an interviewee"
+excerpt: "Questions I ask companies when I'm the candidate, about their business, culture and day-to-day work. An interview should be a two-way conversation."
 date: 2021-11-10T13:05:34+01:00
 last_modified_at: 2025-09-23T10:01:31+01:00
 lang: en
