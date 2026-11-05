@@ -26,7 +26,15 @@ See the [Google privacy policy](https://policies.google.com/privacy).
 
 If you reject the cookies or ignore the banner, Google Analytics does not load. If you withdraw your consent later, the site deletes these cookies from your browser.
 
-**Disqus**, a third-party service, provides the comments on posts. It loads only if you click "Load comments", and only for that page. Your IP address then goes to Disqus and to Google Fonts, and Disqus can show an ad above the comments. For its cookies and tracking, see the [Disqus privacy policy](https://disqus.com/privacy-policy/).
+**FastComments**, a third-party service, provides the comments on posts. It loads only if you click "Load comments", and only for that page. Your IP address then goes to FastComments, and it sets this cookie:
+
+| Cookie | Purpose | Duration |
+|---|---|---|
+| `fastcomments-eu.sid` | Identifies your commenting session | 30 days |
+
+The site cannot delete this cookie for you, because it belongs to FastComments. You can delete it in your browser settings.
+
+If you post a comment, FastComments stores the name you give and your comment, and both become public once the comment is approved. You do not need to give an email address. FastComments stores this data in the European Union. Its operator, WinrickLabs LLC, is a US company and can access the data remotely from the United States. See the [FastComments privacy policy](https://fastcomments.com/privacy-policy).
 
 ## What does not need your consent
 
@@ -43,6 +51,6 @@ Browsers request some files from other servers. These requests do not depend on 
 
 ## Your rights
 
-The legal basis for Google Analytics and Disqus is your consent. You can withdraw it at any time with the link at the top of this page or in the site footer. You can also ask me for access to, correction of or deletion of your data, and you can complain to the [Spanish Data Protection Agency](https://www.aepd.es/).
+The legal basis for Google Analytics and FastComments is your consent. You can withdraw it at any time with the link at the top of this page or in the site footer. You can also ask me for access to, correction of or deletion of your data, and you can complain to the [Spanish Data Protection Agency](https://www.aepd.es/).
 
 <!-- DOCTOC SKIP -->

@@ -137,9 +137,9 @@ defaults:
       author_profile: true
 
 comments:
-  provider: "custom" # Disqus behind a button: _includes/comments-providers/custom.html
-  disqus:
-    shortname: "https-islomar-es"
+  provider: "custom" # FastComments behind a button: _includes/comments-providers/custom.html
+  fastcomments:
+    tenant_id: "eu-AYlShMyzdG"
 
 analytics:
   provider: "custom" # Consent banner and GA4: _includes/analytics-providers/custom.html

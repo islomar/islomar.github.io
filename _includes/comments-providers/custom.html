@@ -1,21 +1,28 @@
-<!-- Disqus loads only when the visitor asks for the comments. -->
+<!-- FastComments loads only when the visitor asks for the comments. -->
 <h4 class="page__comments-title">{{ comments_label }}</h4>
-<div id="disqus-notice">
-  <p>Comments are provided by Disqus, a third-party service. If you load them, your IP address goes to Disqus and to Google Fonts, and Disqus can show an ad above the comments. <a href="{{ '/cookies/' | relative_url }}">Cookie policy</a>.</p>
-  <button type="button" class="btn btn--primary" id="disqus-load">Load comments</button>
+<div id="comments-notice">
+  <p>Comments are provided by FastComments, a third-party service. If you load them, your IP address goes to FastComments and it sets a cookie for 30 days. <a href="{{ '/cookies/' | relative_url }}">Cookie policy</a>.</p>
+  <button type="button" class="btn btn--primary" id="comments-load">Load comments</button>
 </div>
-<section id="disqus_thread"></section>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<div id="fastcomments-widget"></div>
+<p>You can also reply by <a href="mailto:{{ site.email }}?subject={{ page.title | url_encode | replace: '+', '%20' }}">email</a>.</p>
+<noscript>Please enable JavaScript to load the comments.</noscript>
 <script>
-  var disqus_config = function () {
-    this.page.url = {{ page.url | absolute_url | jsonify }};
-    this.page.identifier = {{ page.id | jsonify }};
-  };
-  document.getElementById('disqus-load').addEventListener('click', function () {
+  document.getElementById('comments-load').addEventListener('click', function () {
+    var notice = document.getElementById('comments-notice');
     var script = document.createElement('script');
-    script.src = 'https://{{ site.comments.disqus.shortname }}.disqus.com/embed.js';
-    script.setAttribute('data-timestamp', +new Date());
+    script.src = 'https://cdn-eu.fastcomments.com/js/embed-v2.min.js';
+    script.onload = function () {
+      window.FastCommentsUI(document.getElementById('fastcomments-widget'), {
+        tenantId: {{ site.comments.fastcomments.tenant_id | jsonify }},
+        region: 'eu',
+        urlId: {{ page.slug | jsonify }},
+        url: {{ page.url | absolute_url | jsonify }},
+        disableUnverifiedLabel: true
+      });
+    };
+    script.onerror = function () { notice.hidden = false; };
     document.head.appendChild(script);
-    document.getElementById('disqus-notice').hidden = true;
+    notice.hidden = true;
   });
 </script>

@@ -19,14 +19,24 @@ The leading underscore in this file's name keeps Jekyll from publishing it on th
 - [ ] **Evaluate replacing Mailchimp with another email platform**
   - Compare how platforms such as MailerLite and ConvertKit handle the postal address required in email footers.
   - Also compare RSS-to-email support, free plan limits, and moving existing subscribers.
-- [ ] **Find out why older blog posts show no Disqus reactions**
-  - Reactions are enabled for the site. Only the two newest posts show the widget. Low priority.
-- [ ] **Evaluate replacing Disqus on the blog**
-  - The free plan requires an ad above the comments, and the ad-free plans start at about $18 a month. The blog has had no real comments.
-  - Compare giscus, Utterances and removing comments. Then remove the ad sentence from the comments notice and the cookie policy, and reconsider the "Load comments" button.
+- [ ] **Confirm the FastComments email alert arrives**
+  - A test comment went to the approval queue on 2026-11-05 at 18:30 CET. Admin notifications are an hourly digest, so the email should arrive by about 19:30 CET.
+  - Then delete that comment from the `claude-test-delete-me` thread.
+- [ ] **Decide whether to keep FastComments after the trial**
+  - The 30-day trial started on 2026-11-05. Add `islomar.es` under My Domains before it ends, because domains stop being added automatically after the trial.
+  - Check the first Flex invoice against the estimate of about $1 a month, and set a spend cap.
+  - Review after 12 months. Remove the widget if it has collected no real comments.
+- [ ] **Delete the Disqus site**
+  - Do this once FastComments works on the live site.
+- [ ] Implement something similar to the "Subscribe for more!" section shown at the end of this page: <https://kevquirk.com/adding-comments-to-my-jekyll-site/>
 
 ## Done
 
+- [x] **Replace Disqus on the blog**. 2026-11-05.
+  - FastComments Flex on its EU region replaces Disqus, behind the same "Load comments" button. giscus was rejected because commenters need a GitHub account.
+  - Guests comment with a name only, and first comments need approval. An email reply link sits under the button.
+- [x] **Find out why older blog posts show no Disqus reactions**. 2026-11-05.
+  - Closed as obsolete, because Disqus is gone.
 - [x] **Find out why Disqus sent no email about a comment**. 2026-11-05.
   - A guest test comment produced an email within minutes. The earlier test came from the admin's own account, which produced none.
   - Guest comments stay pending until a moderator approves them.
