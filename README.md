@@ -82,18 +82,9 @@ It is configured with hot reload.
 
 ## TO DO
 
-- Arreglar la búsqueda: <https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-search>
 - Last modified at:
   - <https://github.com/gjtorikian/jekyll-last-modified-at>
   - ¿Ya aparece?
-- Pedir feedback de nueva sección
-  - Fondo y forma, todo vale. Espanglish. Usado el "toc" auto-generado que ofrece Jekyll. No sé si los topics aporta realmente valor...
-  - Edu Ferro
-  - Marcos
-  - Fran
-  - Jordi
-  - Borja
-  - Rubén
 - Tags vs Categories
   - <https://jekyllrb.com/docs/posts/>
   - mirar Juan Pallares cómo lo usa
@@ -150,3 +141,5 @@ It is configured with hot reload.
 - Update pagination dependency
   - <https://mmistakes.github.io/minimal-mistakes/docs/configuration/#paginate-v2>
   - <https://github.com/sverrirs/jekyll-paginate-v2>
+- Evaluate migrating to Astro
+  - <https://juan.pallares.me/en/blog/2025-11-14-now-its-really-easy-to-have-a-blog/>
