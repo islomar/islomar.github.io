@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents** *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+## Contents
 
 - [My personal blog](#my-personal-blog)
   - [How to run the blog locally](#how-to-run-the-blog-locally)
@@ -40,12 +40,15 @@ It is configured with hot reload.
 ### Without Docker
 
 - **Prerequisites**
-  - `sudo apt-get install ruby ruby-dev`
-  - `sudo gem install bundler`
-  - You need to have installed the dependencies in your machine, run `make deps`.
+  - Install Ruby 3.3, the version in the `Dockerfile`: `sudo apt-get install ruby3.3 ruby3.3-dev`
+  - Set `GEM_HOME=~/gems` and put `~/gems/bin` first on your `PATH`.
+  - Install Bundler 2.3.26, the version in `Gemfile.lock`, without sudo: `gem3.3 install bundler -v 2.3.26`
+  - Install the dependencies: `make deps`
 - Then, to start the Jekyll server locally:
   1. `make run-without-docker` or `make run-without-docker-with-drafts`
   2. [Open in a browser](http://127.0.0.1:4000/)
+- **If a system Ruby upgrade breaks `bundle`**
+  - The launchers in `~/gems/bin` name a specific Ruby. Repeat the Bundler install with the new Ruby, then run `bundle pristine`.
 
 ## Other configuration
 
