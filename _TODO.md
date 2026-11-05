@@ -9,19 +9,21 @@ The leading underscore in this file's name keeps Jekyll from publishing it on th
 
 ## Open
 
-- [ ] **Confirm the cookie banner with real Google Analytics on islomar.es**
-  - In a private window, click Accept and confirm the visit appears in the GA Realtime report.
-  - Click Reject under "Cookie settings" and confirm `_ga` and `_ga_6N4V44FDYV` are gone. Automated tests passed with GA data requests blocked (commit `16766a8`).
-- [ ] **Review the blog cookie policy**
-  - The 2-year cookie durations match Google's "Cookie usage on websites" page (checked 2026-11-05).
-  - Check "Google Ireland Limited". The Google pages read so far do not say which entity contracts for this property.
-  - Add how long Google keeps the data, from the GA retention setting.
+- [ ] **Decide on the GA "Google products & services" data sharing setting**
+  - The setting is on in GA Account details. It shares the blog's GA data with Google for its own purposes, and the cookie policy does not say so.
+  - Turn it off, or describe it in `_pages/cookies.md`.
 - [ ] **Reconsider vanilla-cookieconsent for the blog banner**
   - Trigger: a second cookie category is added, or an accessibility check finds problems with the banner.
   - Rerun the consent withdrawal test against the real GA script before switching.
 
 ## Done
 
+- [x] **Review the blog cookie policy**. 2026-11-05.
+  - Google's page confirms the 2-year durations, and the policy now gives the browser limits. The Spanish GA terms name Google Ireland Limited, and the GA account's country is Spain.
+  - Added the retention setting: 2 months for event data, 14 months for user data, reset on new activity.
+- [x] **Confirm the cookie banner with real Google Analytics on islomar.es**. 2026-11-05.
+  - Accept: a visit from a private window appeared in the GA Realtime report. Automated visits got a 204 from GA but did not appear there.
+  - Reject: `_ga` and `_ga_6N4V44FDYV` are deleted, and no GA script or request follows on later pages.
 - [x] **Fix the meta description of the blog draft `_drafts/wall-of-kudos.md`**. 2026-11-05.
   - Added an `excerpt:` and moved `<!-- DOCTOC SKIP -->` to the end of the file. A local build shows the description.
 - [x] **Stop publishing repository files on the site**. 2026-11-05.
