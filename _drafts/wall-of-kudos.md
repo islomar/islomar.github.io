@@ -3,6 +3,7 @@ title: "My wall of kudos: a tool for impostor syndrome moments"
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "chalkboard-teacher"
+excerpt: "A deck of things people have told me about my work, what goes in it, and how I use it when impostor syndrome hits."
 lang: en
 ref: wall-of-kudos
 categories:
@@ -13,8 +14,6 @@ tags:
   - feedback
   - mental-health
 ---
-
-<!-- DOCTOC SKIP -->
 
 <!-- TODO: open with a concrete moment. When did impostor syndrome hit you last? A new job, a talk, a review? One or two sentences. -->
 
@@ -95,3 +94,5 @@ It takes ten minutes. The next time impostor syndrome shows up, you will have ev
 - Decide whether to show one anonymized screenshot of the deck.
 - Add `date:` to the front matter and move the file to _posts/.
 -->
+
+<!-- DOCTOC SKIP -->
