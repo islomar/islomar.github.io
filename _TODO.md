@@ -19,6 +19,10 @@ The leading underscore in this file's name keeps Jekyll from publishing it on th
 - [ ] **Evaluate replacing Mailchimp with another email platform**
   - Compare how platforms such as MailerLite and ConvertKit handle the postal address required in email footers.
   - Also compare RSS-to-email support, free plan limits, and moving existing subscribers.
+- [ ] **Find out why older blog posts show no Disqus reactions**
+  - Reactions are enabled for the site. Only the two newest posts show the widget. Low priority.
+- [ ] **Find out why Disqus sent no email about a comment**
+  - A test comment posted on 2026-11-05 from the admin account produced no email. Check the Disqus email settings, and test with a comment from another account.
 
 ## Done
 
