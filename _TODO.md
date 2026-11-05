@@ -21,11 +21,12 @@ The leading underscore in this file's name keeps Jekyll from publishing it on th
   - Also compare RSS-to-email support, free plan limits, and moving existing subscribers.
 - [ ] **Find out why older blog posts show no Disqus reactions**
   - Reactions are enabled for the site. Only the two newest posts show the widget. Low priority.
-- [ ] **Find out why Disqus sent no email about a comment**
-  - A test comment posted on 2026-11-05 from the admin account produced no email. Check the Disqus email settings, and test with a comment from another account.
 
 ## Done
 
+- [x] **Find out why Disqus sent no email about a comment**. 2026-11-05.
+  - A guest test comment produced an email within minutes. The earlier test came from the admin's own account, which produced none.
+  - Guest comments stay pending until a moderator approves them.
 - [x] **Make email subscriptions work**. 2026-11-05.
   - Signup works, new subscriber notifications are on, and the RSS campaign is running. The subscribe form label is in English (commit `4d6f223`).
 - [x] **Turn off GA data sharing with Google**. 2026-11-05.
