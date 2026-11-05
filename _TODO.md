@@ -9,15 +9,14 @@ The leading underscore in this file's name keeps Jekyll from publishing it on th
 
 ## Open
 
-- [ ] **Decide on the GA "Google products & services" data sharing setting**
-  - The setting is on in GA Account details. It shares the blog's GA data with Google for its own purposes, and the cookie policy does not say so.
-  - Turn it off, or describe it in `_pages/cookies.md`.
 - [ ] **Reconsider vanilla-cookieconsent for the blog banner**
   - Trigger: a second cookie category is added, or an accessibility check finds problems with the banner.
   - Rerun the consent withdrawal test against the real GA script before switching.
 
 ## Done
 
+- [x] **Turn off GA data sharing with Google**. 2026-11-05.
+  - All data sharing options in GA Account details are off, so the cookie policy needs no change.
 - [x] **Review the blog cookie policy**. 2026-11-05.
   - Google's page confirms the 2-year durations, and the policy now gives the browser limits. The Spanish GA terms name Google Ireland Limited, and the GA account's country is Spain.
   - Added the retention setting: 2 months for event data, 14 months for user data, reset on new activity.
