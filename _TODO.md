@@ -21,6 +21,9 @@ The leading underscore in this file's name keeps Jekyll from publishing it on th
   - Also compare RSS-to-email support, free plan limits, and moving existing subscribers.
 - [ ] **Find out why older blog posts show no Disqus reactions**
   - Reactions are enabled for the site. Only the two newest posts show the widget. Low priority.
+- [ ] **Evaluate replacing Disqus on the blog**
+  - The free plan requires an ad above the comments, and the ad-free plans start at about $18 a month. The blog has had no real comments.
+  - Compare giscus, Utterances and removing comments. Then remove the ad sentence from the comments notice and the cookie policy, and reconsider the "Load comments" button.
 
 ## Done
 
