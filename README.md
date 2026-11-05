@@ -1,20 +1,19 @@
+# My personal blog
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Contents
 
-- [My personal blog](#my-personal-blog)
-  - [How to run the blog locally](#how-to-run-the-blog-locally)
-    - [With Docker](#with-docker)
-    - [Without Docker](#without-docker)
-  - [Other configuration](#other-configuration)
-  - [Icons and demo images](#icons-and-demo-images)
-  - [References](#references)
-  - [Other blogs with Minimal Mistakes](#other-blogs-with-minimal-mistakes)
-  - [TO DO](#to-do)
+- [How to run the blog locally](#how-to-run-the-blog-locally)
+  - [With Docker](#with-docker)
+  - [Without Docker](#without-docker)
+- [Other configuration](#other-configuration)
+- [Icons and demo images](#icons-and-demo-images)
+- [References](#references)
+- [Other blogs with Minimal Mistakes](#other-blogs-with-minimal-mistakes)
+- [TO DO](#to-do)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# My personal blog
 
 - The blog is reachable under:
   - <https://islomar.es>
@@ -25,7 +24,7 @@
 - Theme: minimal-mistakes.
   - <https://mmistakes.github.io/minimal-mistakes/>
   - <https://github.com/mmistakes/minimal-mistakes>
-- There are some URL redirects in place: <https://islomar.es/redirects.json>  
+- There are some URL redirects in place: <https://islomar.es/redirects.json>
   - <https://github.com/jekyll/jekyll-redirect-from>
 
 ## How to run the blog locally
@@ -34,21 +33,25 @@ It is configured with hot reload.
 
 ### With Docker
 
-1. Run `make up` or `make up-with-drafts`. The first run builds the `blog-islomar` image, which takes a few minutes.
+1. Run `make up` or `make up-with-drafts`.
+   The first run builds the `blog-islomar` image, which takes a few minutes.
 2. [Open in a browser](http://127.0.0.1:4000/)
 
 ### Without Docker
 
 - **Prerequisites**
-  - Install Ruby 3.3, the version in the `Dockerfile`: `sudo apt-get install ruby3.3 ruby3.3-dev`
+  - Install Ruby 3.3, the version in the `Dockerfile`:
+    `sudo apt-get install ruby3.3 ruby3.3-dev`
   - Set `GEM_HOME=~/gems` and put `~/gems/bin` first on your `PATH`.
-  - Install Bundler 2.3.26, the version in `Gemfile.lock`, without sudo: `gem3.3 install bundler -v 2.3.26`
+  - Install Bundler 2.3.26, the version in `Gemfile.lock`, without sudo:
+    `gem3.3 install bundler -v 2.3.26`
   - Install the dependencies: `make deps`
 - Then, to start the Jekyll server locally:
   1. `make run-without-docker` or `make run-without-docker-with-drafts`
   2. [Open in a browser](http://127.0.0.1:4000/)
 - **If a system Ruby upgrade breaks `bundle`**
-  - The launchers in `~/gems/bin` name a specific Ruby. Repeat the Bundler install with the new Ruby, then run `bundle pristine`.
+  - The launchers in `~/gems/bin` name a specific Ruby.
+    Repeat the Bundler install with the new Ruby, then run `bundle pristine`.
 
 ## Other configuration
 
@@ -126,7 +129,8 @@ It is configured with hot reload.
 - Differentiate tags and categories:
   - <https://www.bloggingbasics101.com/what-is-the-difference-between-blog-categories-and-blog-tags/>
   - <https://www.elegantthemes.com/blog/tips-tricks/best-practices-for-using-categories-and-tags-in-wordpress>
-  - Categories: "Product and software development", "Personal reflections", "Social sciences", etc.
+  - Categories: "Product and software development", "Personal reflections",
+    "Social sciences", etc.
   - tags: sofware-development, testing, tdd, meditation, english...
 - Google Optimize:
   - <https://www.cross-validated.com/How-to-install-Google-Optimize/>
