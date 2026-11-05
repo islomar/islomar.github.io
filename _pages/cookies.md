@@ -3,7 +3,7 @@ permalink: /cookies/
 title: "Cookie policy"
 ---
 
-**Last update**: *November 4, 2026*
+**Last update**: *November 5, 2026*
 
 This site is run by Isidro López. Contact: [islomar@gmail.com](mailto:islomar@gmail.com).
 
@@ -17,6 +17,10 @@ This site is run by Isidro López. Contact: [islomar@gmail.com](mailto:islomar@g
 |---|---|---|
 | `_ga` | Distinguishes visitors | 2 years |
 | `_ga_<ID>` | Keeps session state | 2 years |
+
+Browsers can shorten these durations. If you do not visit again, Chrome keeps these cookies for at most 400 days and Safari for 7 days.
+
+Google keeps event data for 2 months and data linked to a visitor identifier for 14 months. The 14 months restart each time you visit. These periods do not apply to most standard reports, which use aggregated data.
 
 See the [Google privacy policy](https://policies.google.com/privacy).
 
