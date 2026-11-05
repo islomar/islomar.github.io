@@ -19,9 +19,6 @@ The leading underscore in this file's name keeps Jekyll from publishing it on th
 - [ ] **Evaluate replacing Mailchimp with another email platform**
   - Compare how platforms such as MailerLite and ConvertKit handle the postal address required in email footers.
   - Also compare RSS-to-email support, free plan limits, and moving existing subscribers.
-- [ ] **Confirm the FastComments email alert arrives**
-  - A test comment went to the approval queue on 2026-11-05 at 18:30 CET. Admin notifications are an hourly digest, so the email should arrive by about 19:30 CET.
-  - Then delete that comment from the `claude-test-delete-me` thread.
 - [ ] **Decide whether to keep FastComments after the trial**
   - The 30-day trial started on 2026-11-05. Add `islomar.es` under My Domains before it ends, because domains stop being added automatically after the trial.
   - Check the first Flex invoice against the estimate of about $1 a month, and set a spend cap.
@@ -32,6 +29,8 @@ The leading underscore in this file's name keeps Jekyll from publishing it on th
 
 ## Done
 
+- [x] **Confirm the FastComments email alert arrives**. 2026-11-05.
+  - The digest email for a test comment arrived within the hour. Admin notifications are an hourly digest.
 - [x] **Replace Disqus on the blog**. 2026-11-05.
   - FastComments Flex on its EU region replaces Disqus, behind the same "Load comments" button. giscus was rejected because commenters need a GitHub account.
   - Guests comment with a name only, and first comments need approval. An email reply link sits under the button.

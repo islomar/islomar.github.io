@@ -47,6 +47,8 @@ exclude:
   - Makefile
   - Dockerfile
   - install-blog-locally.sh
+  - research_notes
+  - reports
   - Gemfile
   - Gemfile.lock
   - node_modules
