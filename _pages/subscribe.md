@@ -19,7 +19,7 @@ You have several options for easily subscribing to this blog:
     <form action="https://islomar.us21.list-manage.com/subscribe/post?u=498bbe56908bb42e275e4e641&amp;id=d939f21f34&amp;f_id=00c0fbe6f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
         <div id="mc_embed_signup_scroll"><h2>Don't miss my next post, get it in your inbox! (No spam, ever. Promised. 🤞)</h2>
             <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-            <div class="mc-field-group"><label for="mce-EMAIL">Dirección de correo electrónico <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""><span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span></div>
+            <div class="mc-field-group"><label for="mce-EMAIL">Email address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""><span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span></div>
         <div id="mce-responses" class="clear foot">
             <div class="response" id="mce-error-response" style="display: none;"></div>
             <div class="response" id="mce-success-response" style="display: none;"></div>
@@ -46,9 +46,11 @@ For the next options, you will need the feed URL (you can find it in the footer 
 
 ### Subscribe with an external service
 
-There are lots of free services out there which let you receive updates on a web or blog in you inbox, for example [Blogtrottr](https://blogtrottr.com/)
+Many free services send updates from a blog to your inbox, for example [Blogtrottr](https://blogtrottr.com/)
 
 ### Subscribe with Zapier (Do It Yourself option)
 
-- Follow the instructions described [here](https://zapier.com/apps/email/integrations/rss/1441/send-new-rss-feed-entries-via-email)
-- Or you can use the Zap that I have already created for this. [Here](https://zapier.com/shared/9703d8065f7c85ad5b25629662759f1ca6776376) you have it!
+- Follow [the Zapier instructions for sending RSS entries by email](https://zapier.com/apps/email/integrations/rss/1441/send-new-rss-feed-entries-via-email).
+- Or use [the Zap I already created for this](https://zapier.com/shared/9703d8065f7c85ad5b25629662759f1ca6776376).
+
+<!-- DOCTOC SKIP -->
