@@ -8,6 +8,8 @@ toc_label: "Table of Contents"
 toc_icon: "chalkboard-teacher"
 lang: en
 ref: call-me-maybe-claude
+header:
+  og_image: /assets/images/call-me-maybe-claude.png
 categories:
   - blog
 tags:
