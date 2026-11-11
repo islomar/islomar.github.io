@@ -36,7 +36,7 @@ The problem was that Claude had no way to call me.
 When I work with an agent, there are three moments where I need to know something happened:
 
 1. **Claude finished and you didn't notice.** You lose minutes, and you lose the context of what you asked.
-2. **Claude can't continue.** A permission prompt sits there while you think the agent is still working. The agent waits for you to approve a tool call or make a decision.
+2. **Claude is blocked.** A permission prompt sits there while you think the agent is still working. The agent waits for you to approve a tool call or make a decision.
 3. **Claude is waiting and you forgot.** It finished a while ago and your reply is still pending. No rush, but a reminder helps.
 
 In the words of [Carly Rae Jepsen](https://www.youtube.com/watch?v=fWNaR-rxAic): *"You gave me nothin' at all, but still, you're in my way"* 🎶
