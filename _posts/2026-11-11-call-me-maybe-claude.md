@@ -29,7 +29,7 @@ Sometimes I watched the terminal like a pot of water.
 Sometimes I switched to Slack/Discord, to the browser, or to a second Claude session.
 Then I forgot about the first one 🤷 (damn [prospective memory](https://en.wikipedia.org/wiki/Prospective_memory)! 🤦)
 
-Twenty minutes later I came back and found Claude sitting there, waiting for me to approve a `git status`.
+Twenty minutes later I came back and found Claude sitting there, waiting for me to approve a `git push`.
 Or it had finished 19 minutes ago, and I had lost the thread of what I asked.
 
 The problem was never Claude being slow.
