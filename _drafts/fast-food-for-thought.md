@@ -1,10 +1,14 @@
 ---
 title: "(Fast) food for thought"
-date: 2023-011-01T13:05:34+01:00
+date: 2023-01-01T13:05:34+01:00
 last_modified_at: 2023-01-01T16:57:31+01:00
 categories:
   - blog
 ---
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 Disclaimer: "Deja a los chavalotes, Pablo, déjalos que caminen como ellos camelen. Si los chavales camelan darle un poquito a la lejía o camelan pegarle un poquito a la mandanga, pues déjalos". ["La mandanga"](https://www.youtube.com/watch?v=WosrUnjb2UQ)
 
@@ -16,7 +20,6 @@ Pero como siempre, lo primero e preguntarno [el porqué de la cosas](https://www
 
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr">¿Para qué leer rápido? Eso es un contrasentido. Lee despacio. Goza el proceso,m. Disfrútalo cada minuto así te tome meses terminar un libro.Leer nunca debería ser una competencia de tiempo</p>&mdash; Maria Jose Castaño (@maria_mimia) <a href="https://twitter.com/maria_mimia/status/1606044105250951195?ref_src=twsrc%5Etfw">December 22, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<https://honosbyomixam.substack.com/p/honos-273-leer-pero-leer-despacio>
 
-https://honosbyomixam.substack.com/p/honos-273-leer-pero-leer-despacio
-
-https://www.notion.so/islomar/Blog-461b07495fb643eba61b35fe4152331a#e3499a561ff54df6bbf78c6d5ee3d93f
+<https://www.notion.so/islomar/Blog-461b07495fb643eba61b35fe4152331a#e3499a561ff54df6bbf78c6d5ee3d93f>
