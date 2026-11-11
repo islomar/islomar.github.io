@@ -2,7 +2,7 @@
 title: "Call Me Maybe, Claude 🤙🤙"
 excerpt: "Claude Code can tell you when it's done, blocked or waiting for you. Two events, three sounds, no more staring at the terminal."
 date: 2026-11-11T20:30:00+01:00
-last_modified_at: 2026-11-11T20:30:00+01:00
+last_modified_at: 2026-11-11T21:10:00+01:00
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "chalkboard-teacher"
@@ -15,7 +15,7 @@ categories:
 tags:
   - english
   - ai
-  - claude
+  - claude-code
   - devex
 ---
 
@@ -32,22 +32,21 @@ Then I forgot about the first one 🤷 (damn [prospective memory](https://en.wik
 Twenty minutes later I came back and found Claude sitting there, waiting for me to approve a `git push`.
 Or it had finished 19 minutes ago, and I had lost the thread of what I asked.
 
-The problem was never Claude being slow.
-The problem was that Claude had no way to call me.
+Claude wasn't slow at all: it just had no way to call me 😅
 
 When I work with an agent, there are three moments where I need to know something happened:
 
-1. **Claude finished and you didn't notice.** You lose minutes, and you lose the context of what you asked.
-2. **Claude is blocked.** A permission prompt sits there while you think the agent is still working. The agent waits for you to approve a tool call or make a decision.
-3. **Claude is waiting and you forgot.** It finished a while ago and your reply is still pending. No rush, but a reminder helps.
+1. **Claude finished and I didn't notice.** I lose minutes, and I lose the context of what I asked.
+2. **Claude is blocked.** A permission prompt sits there while I think the agent is still working. The agent waits for me to approve a tool call or make a decision.
+3. **Claude is waiting and I forgot.** It finished a while ago and my reply is still pending. No rush, but a reminder helps.
 
 In the words of [Carly Rae Jepsen](https://www.youtube.com/watch?v=fWNaR-rxAic): *"You gave me nothin' at all, but still, you're in my way"* 🎶
 
 ## The solution: hooks
 
 Claude Code has a built-in notification for when it finishes or waits for your permission.
-It sends a desktop notification in iTerm2, Ghostty and Kitty.
-In other terminals it does nothing, unless you set [`preferredNotifChannel`](https://code.claude.com/docs/en/terminal-config) to `"terminal_bell"`.
+It sends a desktop notification in Ghostty and Kitty, and in iTerm2 once you turn on iTerm2's alert settings.
+Apple Terminal gets at most a silent bell, and other terminals get nothing, unless you set [`preferredNotifChannel`](https://code.claude.com/docs/en/terminal-config) to `"terminal_bell"`.
 Either way, you get one signal for everything.
 I wanted a different sound for each moment, in any terminal.
 Hooks give me that, and they run alongside the built-in notification instead of replacing it.
@@ -58,13 +57,14 @@ Two events cover the three problems above. The `matcher` splits `Notification` b
 | Event and matcher | When it fires | What I want |
 | --- | --- | --- |
 | `Stop` | Claude finishes its response | "I'm done" 🔔 |
-| `Notification`, `permission_prompt`, `elicitation_dialog` or `elicitation_url_dialog` | Claude has waited about 6 seconds for your approval, a form or a URL | "I'm blocked" 🚨 |
+| `Notification`, `permission_prompt`, `elicitation_dialog` or `elicitation_url_dialog` | Claude needs your approval, a form or a URL, and you haven't responded for about 6 seconds | "I'm blocked" 🚨 |
 | `Notification`, `idle_prompt` | Claude finished about 60 seconds ago and you haven't typed since | "I'm waiting for you" 🎐 |
 
 ## Get the sounds
 
 I use three free sounds from [Mixkit](https://mixkit.co/free-sound-effects/notification/).
 They work on Linux and macOS.
+I haven't tried Windows or WSL, so this post doesn't cover them.
 
 | Moment                | Mixkit name             | Length | Direct download                                                       |
 | --------------------- | ----------------------- | ------ | --------------------------------------------------------------------- |
@@ -86,7 +86,7 @@ paplay ~/.claude/sounds/on-agent-complete-positive-notification.wav  # on macOS:
 *In practice, I keep the files in a private repository.
 My dotfiles install script downloads them from Mixkit when a new machine is missing them, so every machine I set up gets the same sounds.*
 
-## My setup on Ubuntu
+## My setup
 
 Add this to `~/.claude/settings.json`.
 If the file already exists, merge the `hooks` key into it instead of replacing the file:
@@ -168,6 +168,7 @@ The [macOS license](https://www.apple.com/legal/sla/) does not allow copying the
 ## Going further
 
 - **Desktop notifications.** For when you mute your audio. In iTerm2, Ghostty and Kitty, Claude Code already sends them (see `preferredNotifChannel` above). In other terminals, add `notify-send "Claude Code" "Needs your attention"` (Linux) or `osascript -e 'display notification "Needs your attention" with title "Claude Code"'` (macOS) next to the sound.
+- **SSH and containers.** `paplay` and `afplay` play the sound on the machine where Claude Code runs, so over SSH or inside a dev container you hear nothing. Over SSH, outside tmux, the [docs](https://code.claude.com/docs/en/terminal-config) suggest setting `preferredNotifChannel` to your local terminal (`"iterm2"`, `"kitty"` or `"ghostty"`), so the desktop notification reaches your machine.
 - **Fewer sounds.** Drop the `idle_prompt` entry if one reminder per finished turn is enough for you.
 - **Subagents.** `SubagentStop` fires when a subagent finishes. I don't use it: one sound per main turn is enough noise.
 
@@ -182,7 +183,6 @@ Claude calls me. No "maybe" needed 🤙
 
 ## References
 
-- [OGQhris/claude-code-notifcations](https://github.com/OGQhris/claude-code-notifcations): where I found my first two sounds
 - [Claude Code hooks reference](https://code.claude.com/docs/en/hooks)
 - [How To Make Claude Notify You When It's Done (Audio Script)](https://www.youtube.com/watch?v=mC1QCJn42MI)
 - [Stop Babysitting: Let Claude Notify You When It Needs Input](https://medium.com/@anmolsahu2k/stop-babysitting-let-claude-notify-you-when-it-needs-input-0f21d7d1dee6)
