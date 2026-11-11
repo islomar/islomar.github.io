@@ -36,7 +36,7 @@ The problem was that Claude had no way to call me.
 When I work with an agent, there are three moments where I need to know something happened:
 
 1. **Claude finished and you didn't notice.** You lose minutes, and you lose the context of what you asked.
-2. **Claude is blocked.** A permission prompt sits there while you think the agent is still working. The agent waits for you to approve a tool call or make a decision.
+2. **Claude can't continue.** A permission prompt sits there while you think the agent is still working. The agent waits for you to approve a tool call or make a decision.
 3. **Claude is waiting and you forgot.** It finished a while ago and your reply is still pending. No rush, but a reminder helps.
 
 In the words of [Carly Rae Jepsen](https://www.youtube.com/watch?v=fWNaR-rxAic): *"You gave me nothin' at all, but still, you're in my way"* 🎶
@@ -46,7 +46,7 @@ In the words of [Carly Rae Jepsen](https://www.youtube.com/watch?v=fWNaR-rxAic):
 Claude Code has a built-in notification for when it finishes or waits for your permission.
 It sends a desktop notification in iTerm2, Ghostty and Kitty.
 In other terminals it does nothing, unless you set [`preferredNotifChannel`](https://code.claude.com/docs/en/terminal-config) to `"terminal_bell"`.
-Either way, it is one signal for everything.
+Either way, you get one signal for everything.
 I wanted a different sound for each moment, in any terminal.
 Hooks give me that, and they run alongside the built-in notification instead of replacing it.
 
@@ -165,13 +165,13 @@ The [macOS license](https://www.apple.com/legal/sla/) does not allow copying the
 
 ## Going further
 
-- **Desktop notifications.** For when your audio is muted. In iTerm2, Ghostty and Kitty, Claude Code already sends them (see `preferredNotifChannel` above). In other terminals, add `notify-send "Claude Code" "Needs your attention"` (Linux) or `osascript -e 'display notification "Needs your attention" with title "Claude Code"'` (macOS) next to the sound.
+- **Desktop notifications.** For when you mute your audio. In iTerm2, Ghostty and Kitty, Claude Code already sends them (see `preferredNotifChannel` above). In other terminals, add `notify-send "Claude Code" "Needs your attention"` (Linux) or `osascript -e 'display notification "Needs your attention" with title "Claude Code"'` (macOS) next to the sound.
 - **Fewer sounds.** Drop the `idle_prompt` entry if one reminder per finished turn is enough for you.
 - **Subagents.** `SubagentStop` fires when a subagent finishes. I don't use it: one sound per main turn is enough noise.
 
 ## Was it worth it?
 
-Yes. Around 10 minutes of setup (or ask Claude! 😝), and I stopped babysitting the terminal: I run several sessions in parallel and none of them gets stuck in silence.
+Yes. Around 10 minutes of setup (or ask Claude! 😝), and I stopped babysitting the terminal: I run sessions in parallel and none of them gets stuck in silence.
 
 And another change surprised me: I approve fewer things on autopilot.
 When the "blocked" sound plays, I know Claude is asking for something specific, so I read what it asks.
