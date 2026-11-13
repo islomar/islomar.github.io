@@ -69,7 +69,9 @@ If you're just interested in public videos, you can find them in [this YouTube p
 
 ### **Connascence 101** (2023)
 
+- [Slides](https://speakerdeck.com/islomar/connascence-101){:target="_blank"}{:rel="noopener noreferrer"}
 - _Where_: Internal talk in [Clarity AI](https://clarity.ai/){:target="_blank"}{:rel="noopener noreferrer"} for the whole Engineering
+- _Topics_: software design, coupling, cohesion, connascence, software development
 
 ### **Approval testing 101** (2023)
 
