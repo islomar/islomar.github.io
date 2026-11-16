@@ -45,6 +45,7 @@ include:
 # to override the default setting.
 exclude:
   - README.md
+  - TODO.md
   - Makefile
   - Dockerfile
   - install-blog-locally.sh
