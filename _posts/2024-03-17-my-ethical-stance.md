@@ -31,7 +31,7 @@ For different reasons (i.e. there are higher and lower levels of "criticality" i
 
 - Fast fashion (and anything directly related)
 - Traditional banks (especially those with proven record of abuses and illegalities)
-- “Buy now, pay later” or any kind of "fast credit" business models
+- Any kind of "fast credit" business models
 - Porn industry
 - Military industry
 - Any company directly or indirectly connected with any genocidal state (e.g. Israel)
