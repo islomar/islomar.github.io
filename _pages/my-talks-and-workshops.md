@@ -22,6 +22,12 @@ If you're just interested in public videos, you can find them in [this YouTube p
 
 ## TALKS
 
+### **Dependabot hints and tricks** (2026)
+
+- [Slides](https://speakerdeck.com/islomar/dependabot-hints-and-tricks){:target="_blank"}{:rel="noopener noreferrer"}
+- _Topics_: Dependabot, dependency-management, software-supply-chain-security, provenance, attestations, reproducible-builds, continuous-integration
+- _Description_: Practical tips for making Dependabot more effective, reducing dependency-update noise, and improving software supply-chain security: schedules, PR limits, grouping, cooldown periods, package provenance, reproducible installs in CI, and turning failed updates into regression tests.
+
 ### **What 26 Years in Tech Taught Me About Career Growth** (2026)
 
 - _Where_: Internal talk for students at [Zakey](https://zakey.team/){:target="_blank"}{:rel="noopener noreferrer"}, an initiative to support Palestinian tech graduates
